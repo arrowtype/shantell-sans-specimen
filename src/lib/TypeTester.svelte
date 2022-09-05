@@ -1,9 +1,6 @@
 <script>
     import TypeTesterText from '$lib/TypeTesterText.svelte'
     import Slider from '$lib/Slider.svelte'
-    import OptionsToggle from '$lib/OptionsToggle.svelte';
-    import Options from '$lib/Options.svelte';
-
 
     // basic font sizing & layout
     export let initialSizeVmin = '15';
@@ -130,36 +127,36 @@
             <div class="slider-box">
                 <label for="sizeSlider">Font Size</label>
                 <input type="number" bind:value={sizePx} min={sizePxMin} max={sizePxMax} step="1" on:input={updateFontVmin} on:change={updateFontVmin}>
-                <Slider id="sizeSlider" label="size" bind:value={sizePx} type="range" min={sizePxMin} max={sizePxMax} step="1" on:input={updateFontPx} on:change={updateFontPx} />
+                <Slider id="sizeSlider" label="size" bind:value={sizePx} type="range" min={sizePxMin} max={sizePxMax} step={1} on:input={updateFontPx} on:change={updateFontPx} />
             </div>
 
             <div class="slider-box">
                 <label for="wghtSlider">Weight</label>
                 <input type="number" bind:value={wght} min={wghtMin} max={wghtMax} step="1" />
-                <Slider id="wghtSlider"  label="wght" bind:value={wght} type="range" min={wghtMin} max={wghtMax} step="1" />
+                <Slider id="wghtSlider"  label="wght" bind:value={wght} type="range" min={wghtMin} max={wghtMax} step={1} />
             </div>
             <div class="slider-box">
                 <label for="wghtSlider">Italic</label>
                 <input type="number" bind:value={ital} min={italMin} max={italMax} step="0.01" />
-                <Slider id="italSlider"  label="ital" bind:value={ital} type="range" min={italMin} max={italMax} step="0.01" />
+                <Slider id="italSlider"  label="ital" bind:value={ital} type="range" min={italMin} max={italMax} step={0.01} />
             </div>
 
             <div class="slider-box">
                 <label for="irglSlider">Irregularity</label>
                 <input type="number" bind:value={irgl} min={irglMin} max={irglMax} step="1" />
-                <Slider id="irglSlider"  label="irgl" bind:value={irgl} type="range" min={irglMin} max={irglMax} step="1" />
+                <Slider id="irglSlider"  label="irgl" bind:value={irgl} type="range" min={irglMin} max={irglMax} step={1} />
             </div>
 
             <div class="slider-box">
                 <label for="bnceSlider">Bounce</label>
                 <input type="number" bind:value={bnce} min={bnceMin} max={bnceMax} step="1" />
-                <Slider id="bnceSlider"  label="bnce" bind:value={bnce} type="range" min={bnceMin} max={bnceMax} step="1" />
+                <Slider id="bnceSlider"  label="bnce" bind:value={bnce} type="range" min={bnceMin} max={bnceMax} step={1} />
             </div>
 
             <div class="slider-box">
                 <label for="trakSlider">Tracking</label>
                 <input type="number" bind:value={trak} min={trakMin} max={trakMax} step="1" />
-                <Slider id="trakSlider"  label="trak" bind:value={trak} type="range" min={trakMin} max={trakMax} step="1" />
+                <Slider id="trakSlider"  label="trak" bind:value={trak} type="range" min={trakMin} max={trakMax} step={1} />
             </div>
 
             <!-- {#if windowWidth > 1100}
@@ -190,15 +187,6 @@
         grid-template-rows: 1fr min-content;
         align-content: center;
         padding: 0.5rem 0.5rem 1rem 0.5rem;
-    }
-    .try-me {
-        display: block;
-        font-size: 5rem;
-        padding: 2rem 0;
-        width: 100%;
-        font-weight: bold;
-        text-align: center;
-        /* animation: slowShinyText 4s linear infinite; */
     }
 
     #control-container {

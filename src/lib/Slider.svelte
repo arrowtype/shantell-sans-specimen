@@ -169,7 +169,7 @@
   }
 
   input[type="range"]::-ms-track {
-    width: calc(100%- var(--thumbTouchHeight));
+    width: calc(100% - var(--thumbTouchHeight));
     margin-left: calc(var(--thumbTouchHeight) / 2);
     height: var(--trackHeight);
     cursor: pointer;
