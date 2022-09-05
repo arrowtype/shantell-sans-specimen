@@ -10,6 +10,8 @@ This version was started with SvelteKit and [`create-svelte`](https://github.com
 
 ## Development
 
+Make sure you are using Node `v16.17.0` or above.
+
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash

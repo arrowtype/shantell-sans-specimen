@@ -1,8 +1,8 @@
 <script>
-    import TypeTesterText from './TypeTesterText.svelte'
-    import Slider from './Slider.svelte'
-    import OptionsToggle from './OptionsToggle.svelte';
-    import Options from './Options.svelte';
+    import TypeTesterText from '$lib/TypeTesterText.svelte'
+    import Slider from '$lib/Slider.svelte'
+    import OptionsToggle from '$lib/OptionsToggle.svelte';
+    import Options from '$lib/Options.svelte';
 
 
     // basic font sizing & layout

@@ -4,7 +4,6 @@
 	import Definitions from '$lib/Definitions.svelte'
 	import CharSet from '$lib/CharSet.svelte'
 	import Footer from '$lib/Footer.svelte'
-	import Process from '$lib/Process.svelte'
 
 	let m = { x: 0, y: 0 };
 
@@ -127,7 +126,8 @@
 					<span id="playText" style="--animationState: {animationState};">Play</span>
 				{/if}
 			</button>
-            <a href="process">Design Process</a>
+            <div class="spacer"></div>
+            <a class="button" href="process">Design Process</a>
 			<a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};"><span class="hide-sm">Get it </span>on Google Fonts&nbsp;↗</a>
 			<!-- <a id="cta" href="https://github.com/arrowtype/shantell-sans/releases" style="--animationState: {animationState};">Download <span class="hide-sm">from GitHub</span>&nbsp;↗</a> -->
 	</header>
@@ -137,7 +137,6 @@
 	</div>
 
 	<About animationState={animationState} />
-	<Process />
 	<TypeTester />
 	<Definitions animationState={animationState} />
 	<CharSet {animationState} />
@@ -153,6 +152,7 @@
 
 	#wall {
 		cursor: crosshair;
+        min-height: 80vh;
 	}
 	/* hide "click here" hint by default, for touch screens */
 	.mouse {
@@ -169,10 +169,9 @@
 		}
 	}
 
-
 	header {
 		display: grid;
-		grid-template-columns: auto auto 1fr auto; 
+		grid-template-columns: auto auto 1fr auto auto; 
 		justify-content: start;
 		gap: 0.25rem;
 		position: fixed;
@@ -236,6 +235,7 @@
 	}
 
 	header button, 
+	header .button, 
 	header h1,
 	#cta {
 		border: none;
@@ -254,6 +254,7 @@
 	}
 	
 
+	header .button:hover, 
 	header button:hover, 
 	#cta:hover {
 		border: var(--text) solid 2px;
@@ -280,7 +281,8 @@
 	}
 	
 
-	#cta {
+	header .button,
+    #cta {
 		font-size: 0.825;
 		font-weight: 550;
 		/* background: none; */

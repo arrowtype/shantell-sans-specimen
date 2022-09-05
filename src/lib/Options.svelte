@@ -1,7 +1,7 @@
 <script>
     import { createEventDispatcher } from 'svelte';
 
-    import LightModeToggle from './LightModeToggle.svelte';
+    import LightModeToggle from '$lib/LightModeToggle.svelte';
 
     let showFeatures = false;
     let toggleOrientation = 0;
