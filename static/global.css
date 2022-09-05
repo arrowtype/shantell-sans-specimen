@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'ShantellSans';
+	font-weight: 1 1000;
+	font-style: normal italic;
+	src: url('fonts/ShantellSans[BNCE,IRGL,TRAK,ital,wght].woff2')  format('woff2');
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+:root {
+	--background: white;
+	--text: black;
+	--altBg: black;
+	--altText: white;
+	--gray: rgb(87, 87, 87);
+	--modalBg: hsl(240, 0%, 90%);
+	--trackBg: hsl(230, 0%, 90%);
+	--accent: black;
+	--animationState: running;
+	/* --uiAccent: rgb(44, 44, 255); */
+	--uiAccent: hsl(228, 100%, 65%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: black;
+		--text: white;
+		--gray: hsl(240, 0%, 70%);
+		--modalBg: hsl(240, 0%, 10%);
+		--altBg: hsl(230, 0%, 7.5%);
+		--altText: white;
+		--trackBg: hsl(230, 0%, 15%);
+		--accent: white;
+		/* --uiAccent: hsl(228, 100%, 65%); */
+		--uiAccent: hsl(300, 35%, 75%);
+	}
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: 'ShantellSans', serif;
+	background-color: var(--background);
+	
+}
+
+body {
+	color: var(--text);
+	margin: 0;
+	box-sizing: border-box;
+}
+
+button {
+	font-family: 'ShantellSans', serif;
+	text-transform: uppercase;
+	/* letter-spacing: 0.05em; */
+}
+
+.phrase {
+	font-size: 5vmax;
+	letter-spacing: 0.05em;
+	font-feature-settings: 'calt' 1;
+	font-weight: 700;
+	font-variation-settings: "wght" 800, "BNCE" -50, "IRGL" 0;
+	text-transform: uppercase;
+	animation: fadeIn 0.375s ease forwards 1, wobble 2s 0.375s ease-in-out alternate 20 var(--animationState), fadeOut 5s 2s forwards var(--animationState);
+	/* prevent click on word from disrupting placement */
+	pointer-events: none;
+	/* animation-play-state: inherit; */
+}
+
+@media (prefers-reduced-motion) {
+	.phrase {
+		animation: fadeIn 0.375s ease forwards 1;
+	}
+}
+
+
+*::selection {
+	background: var(--uiAccent);
+}
+
+a {
+	transition: 0.25s color;
+}
+
+a:hover {
+	color: var(--uiAccent);
+}
+
+.phrase::selection {
+	background: hsla(240, 0%, 10%,0);
+  }
+  
+h2 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+@keyframes fadeIn {
+	0% {
+		font-variation-settings: "wght" 300, "BNCE" 0, "IRGL" 0;
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		font-variation-settings: "wght" 800, "BNCE" -100, "IRGL" 0;
+	}
+}
+
+@keyframes wobble {
+	0% {
+		font-variation-settings: "wght" 800, "BNCE" -100, "IRGL" 0;
+	}
+	100% {
+		font-variation-settings: "wght" 650, "BNCE" 100, "IRGL" 50;
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+		/* transform: translateY(0); */
+	}
+	100% {
+		opacity: 0;
+		/* transform: translateY(-100vw); */ /* this won’t work without changes to the javascript, as that is already adding transform */
+	}
+}
+
+@keyframes slowShinyText {
+	from {
+		font-variation-settings: "BNCE" -50;
+	}
+	to {
+		font-variation-settings: "BNCE" 50;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.hide-sm {
+		display: none;
+	}
+}
