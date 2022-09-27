@@ -2,17 +2,6 @@
 
     // import { setContext } from 'svelte';
 
-	export let animationState = "running";
-
-	// Toggle Animations
-
-
-	function toggleAnimations() {
-		animationState === "running" ? animationState = "paused" : animationState = "running";
-		console.log("animationState", animationState)
-
-        setContext('animationState', animationState);
-	}
 
     // setContext('animationState', animationState);
 
@@ -20,34 +9,25 @@
 
 
 <header>
-    <h1 style="--animationState: {animationState};"><a href="/">Shantell Sans</a></h1>
-    <button class="playPauseToggle {animationState}"  on:click={toggleAnimations}>
-        {#if animationState === "running"}
-            <span id="pauseIcon">⏸</span>
-            <span id="pauseText">Pause</span>
-        {:else}
-            <span id="playIcon">▶</span>
-            <span id="playText" style="--animationState: {animationState};">Play</span>
-        {/if}
-    </button>
+    <a href="/" class="button">Shantell Sans</a>
     <div class="spacer"></div>
     <a class="button" href="process">Design Process</a>
-    <a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};"><span class="hide-sm">Get it </span>on Google Fonts&nbsp;↗</a>
-    <!-- <a id="cta" href="https://github.com/arrowtype/shantell-sans/releases" style="--animationState: {animationState};">Download <span class="hide-sm">from GitHub</span>&nbsp;↗</a> -->
+    <a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it </span>on Google Fonts&nbsp;↗</a>
+    <!-- <a id="cta" href="https://github.com/arrowtype/shantell-sans/releases" >Download <span class="hide-sm">from GitHub</span>&nbsp;↗</a> -->
 </header>
   
-<slot animationState={animationState} style="--animationState: {animationState};"></slot>
+<slot></slot>
 
 <style>
     header {
 		display: grid;
-		grid-template-columns: auto auto 1fr auto auto; 
+		grid-template-columns: auto 1fr auto auto; 
 		justify-content: start;
 		gap: 0.25rem;
 		position: fixed;
 		width: 100%;
 		padding: 1rem;
-		pointer-events: none;
+		/* pointer-events: none; */
 		z-index: 999;
 	}
 
@@ -57,48 +37,7 @@
 		}
 	}
 
-	.playPauseToggle {
-		pointer-events: auto;
-		cursor: pointer;
-		font-size: 1rem;
-		display: flex;
-		justify-content: start;
-		gap: 0.25rem;
-		width: 2.4em;
-		overflow-x: hidden;
-		transition: 0.25s width;
-	}
-	/* .playPauseToggle:hover {
-		width: 6.4em;
-	} */
-	.playPauseToggle.paused:hover {
-		width: 5.5em;
-	}
-	.playPauseToggle.running:hover {
-		width: 6.4em;
-	}
-
-	.playPauseToggle #pauseText,
-	.playPauseToggle #playText {
-		opacity: 0%;
-		transition: 0.25s opacity;
-		padding-left: 0.25rem;
-	}
-	.playPauseToggle:hover #pauseText,
-	.playPauseToggle:hover #playText {
-		opacity: 100%;
-		transform: scaleX(100%);
-		width: auto;
-	}
-
-	@media (max-width: 500px) {
-		.playPauseToggle:hover {
-			width: 2.4em !important;
-		}
-		#pauseText, #playText {
-			display: none;
-		}
-	}
+	
 
 	#cta {
 		justify-self: end;
