@@ -150,6 +150,10 @@ a:hover {
 	color: var(--uiAccent);
 }
 
+header a:hover {
+	color: currentColor;
+}
+
 .phrase::selection {
 	background: hsla(240, 0%, 10%, 0);
 }
