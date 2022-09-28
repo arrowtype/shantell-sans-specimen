@@ -1,8 +1,10 @@
+<script>
+    import ProcessArticle from '$lib/ProcessArticle.md'
+</script>
+
 <article>
 
-# Here are words.
-
-More to come!
+<ProcessArticle />
 
 </article>
 

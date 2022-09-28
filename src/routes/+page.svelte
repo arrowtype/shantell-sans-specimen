@@ -7,12 +7,6 @@
 
 	import { animationState } from '../stores.js'
 
-	// import { getContext } from 'svelte';
-
-	// let animationState = getContext('animationState');
-
-	// import animationState from 'layout.svelte';
-
 	let m = { x: 0, y: 0 };
 
 	let wall;
