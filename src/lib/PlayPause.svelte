@@ -24,6 +24,7 @@
         font-size: 1.4em;
         line-height: 1rem;
         position: relative;
-        top: .125em;
+        top: .1em;
+        font-weight: 800;
     }
 </style>
