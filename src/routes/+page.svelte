@@ -5,6 +5,8 @@
 	import CharSet from '$lib/CharSet.svelte'
 	import Footer from '$lib/Footer.svelte'
 
+	import { animationState } from '../stores.js'
+
 	// import { getContext } from 'svelte';
 
 	// let animationState = getContext('animationState');
@@ -94,19 +96,6 @@
 		}
 	}
 
-	export let animationState = "running";
-
-	// Toggle Animations
-
-
-	function toggleAnimations() {
-		animationState === "running" ? animationState = "paused" : animationState = "running";
-		console.log("animationState", animationState)
-
-		setContext('animationState', animationState);
-	}
-
-
 </script>
 
 <svelte:head>
@@ -114,27 +103,18 @@
 	<meta name="description" content="A font for artist Shantell Martin" />
 </svelte:head>
 
-<button id="playPauseToggle" class="playPauseToggle {animationState}" on:click={toggleAnimations}>
-	{#if animationState === "running"}
-		<span id="pauseIcon">⏸</span>
-		<span id="pauseText">Pause</span>
-	{:else}
-		<span id="playIcon">▶</span>
-		<span id="playText" style="--animationState: {animationState};">Play</span>
-	{/if}
-</button>
 
-<main let:animationState={animationState} style="--animationState: {animationState};">
+<main style="--animationState: {$animationState};">
 
-	<div id="wall" on:click={poetryWallClick} bind:this={wall}  style="--animationState: {animationState};">
-		<span class="hint mouse" style="--animationState: {animationState};">Click anywhere</span>
-		<span class="hint touch" style="--animationState: {animationState};">Tap anywhere</span>
+	<div id="wall" on:click={poetryWallClick} bind:this={wall}  style="--animationState: {$animationState};">
+		<span class="hint mouse" style="--animationState: {$animationState};">Click anywhere</span>
+		<span class="hint touch" style="--animationState: {$animationState};">Tap anywhere</span>
 	</div>
 
-	<About animationState={animationState} />
+	<About animationState={$animationState} />
 	<TypeTester />
-	<Definitions animationState={animationState} />
-	<CharSet {animationState} />
+	<Definitions animationState={$animationState} />
+	<CharSet {$animationState} />
 
 	<Footer />
 </main>

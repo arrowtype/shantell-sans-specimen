@@ -1,5 +1,7 @@
 <script>
 
+	import PlayPause from "$lib/PlayPause.svelte";
+
     // import { setContext } from 'svelte';
 
 
@@ -10,6 +12,7 @@
 
 <header>
     <a href="/" class="button">Shantell Sans</a>
+	<PlayPause />
     <div class="spacer"></div>
     <a class="button" href="process">Design Process</a>
     <a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it </span>on Google Fonts&nbsp;↗</a>
@@ -21,7 +24,7 @@
 <style>
     header {
 		display: grid;
-		grid-template-columns: auto 1fr auto auto; 
+		grid-template-columns: auto auto 1fr auto auto; 
 		justify-content: start;
 		gap: 0.25rem;
 		position: fixed;
