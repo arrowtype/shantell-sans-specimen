@@ -1,6 +1,7 @@
 <script>
 
 	import PlayPause from "$lib/PlayPause.svelte";
+	import Footer from "$lib/Footer.svelte";
 
     // import { setContext } from 'svelte';
 
@@ -20,6 +21,9 @@
 </header>
   
 <slot></slot>
+
+
+<Footer />
 
 <style>
     header {

@@ -3,7 +3,6 @@
 	import TypeTester from '$lib/TypeTester.svelte'
 	import Definitions from '$lib/Definitions.svelte'
 	import CharSet from '$lib/CharSet.svelte'
-	import Footer from '$lib/Footer.svelte'
 
 	import { animationState } from '../stores.js'
 
@@ -109,8 +108,6 @@
 	<TypeTester />
 	<Definitions animationState={$animationState} />
 	<CharSet {$animationState} />
-
-	<Footer />
 </main>
 
 <style>

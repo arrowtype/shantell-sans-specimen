@@ -143,6 +143,7 @@ header button:hover span {
 
 a {
 	transition: 0.25s color;
+	color: var(--text);
 }
 
 a:hover {
@@ -156,6 +157,18 @@ a:hover {
 h2 {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+}
+
+/* animating headlines in article */
+.markdown-body h1{
+	font-size: 3rem;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+	animation: wobble .875s ease-in-out alternate infinite;
+	animation-play-state: var(--animationState);
 }
 
 @keyframes fadeIn {

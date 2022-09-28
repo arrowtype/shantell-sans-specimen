@@ -1,24 +1,35 @@
 <script>
     import ProcessArticle from '$lib/ProcessArticle.md'
+    import { animationState } from '../../stores.js'
 </script>
 
-<article>
+<main>
+    <article style="--animationState: {$animationState};">
 
-<ProcessArticle />
+        <ProcessArticle />
 
-</article>
+    </article>
+</main>
 
 <style>
-    /* .markdown-body {
+
+    /* NOTE: article typography styles must be done in static/global.css */
+
+    main {
+        display:block;
         margin: 0;
-    } */
+        width: 100%;
+        min-height: 100vh;
+    }
+
     article {
-        /* margin: 6rem auto; */
-        padding: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        width: 800px;
     }
-    h1 {
-        color: red;
-    }
+
     a   {
         color: currentColor;
     }
