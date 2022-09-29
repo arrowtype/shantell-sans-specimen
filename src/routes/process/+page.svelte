@@ -20,14 +20,15 @@
         margin: 0;
         width: 100%;
         min-height: 100vh;
+        padding: 0 1rem;
     }
 
     article {
         margin-left: auto;
         margin-right: auto;
-        padding-top: 12rem;
+        padding-top: 4rem;
         padding-bottom: 12rem;
-        width: 800px;
+        max-width: 800px;
     }
 
     a   {

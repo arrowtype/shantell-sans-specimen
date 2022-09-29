@@ -4,6 +4,12 @@
 	font-style: normal italic;
 	src: url('fonts/ShantellSans[BNCE,IRGL,TRAK,ital,wght].woff2') format('woff2');
 }
+/* @font-face {
+	font-family: 'ShantellSans';
+	font-weight: 400;
+	font-style: italic;
+	src: url('fonts/Shantell_Sans-Normal-Regular_Italic.woff2') format('woff2');
+} */
 
 *,
 *:before,
@@ -165,18 +171,39 @@ h2 {
 
 /* animating headlines in article */
 .markdown-body h1 {
-	font-size: 3rem;
+	font-size: 12vw;
+	font-weight: 800;
+	line-height: 1;
+}
+
+@media (min-width: 800px) {
+	.markdown-body h1 {
+		font-size: 6rem;
+	}
 }
 
 .markdown-body h1,
 .markdown-body h2,
 .markdown-body h3 {
+	margin-top: 2em;
 	animation: wobble .875s ease-in-out alternate infinite;
 	animation-play-state: var(--animationState);
 }
 
-.markdown-body {
+.markdown-body p {
 	letter-spacing: 0.02em;
+	line-height: 1.5;
+	font-size: 1.125rem;
+}
+
+.markdown-body em {
+	font-style: normal;
+	font-variation-settings: 'wght' 400, 'ital' 1;
+}
+
+.markdown-body img {
+	display: block;
+	max-width: 100%;
 }
 
 @keyframes fadeIn {

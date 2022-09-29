@@ -1,4 +1,4 @@
-# The Story of Shantell Sans
+# The Story of<br/>Shantell Sans
 
 _Shantell Sans mixes variable axes for Weight, Italic, Irregularity, and Bounce to deliver a wide array of font styles, from friendly, readable, everyday typographic workhorses to striking, high-energy, experimental styles meant especially for animation._
 
@@ -13,17 +13,8 @@ In school, British visual artist [Shantell Martin ](https://shantellmartin.art/)
 
 **Shantell Martin, Artist**
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.jpg "image_tooltip")
-
-
-Caption: Shantell Martin, Photo credit Michelle Mosqueda
-
-Alt text: Woman holding a black marker drawing on a white canvas 
+ ![Woman holding a black marker drawing on a white canvas](src/assets/shantell-martin-by-Michelle-Mosqueda1.jpg "Shantell Martin, Photo credit Michelle Mosqueda")
+ *Shantell Martin, Photo credit Michelle Mosqueda*
 
 My first relationship with words was back in elementary school. We did spelling tests every week. Since I never passed them, I had to sit in detention.
 
@@ -37,7 +28,7 @@ I think we have an emotional response to fonts. A font might feel easier to read
 
 Stephen Nixon sent me a template, with lines on it for me to handwrite all of the Latin alphabet, numbers, and symbols. He used my handwriting to create a digital font.
 
-**Giving the font away**
+### Giving the font away
 
 I made the choice to release it under an open font [license](https://fonts.google.com/knowledge/glossary/licensing), which means that I'm not charging anyone for it. It's my gift to the world. 
 
