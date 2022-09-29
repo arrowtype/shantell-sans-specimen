@@ -4,16 +4,16 @@ _Shantell Sans mixes variable axes for Weight, Italic, Irregularity, and Bounce 
 
 ## Prologue
 
-#### Susanna Zaraysky, Editor, Google Fonts Blog
+#### By Susanna Zaraysky, Editor, Google Fonts Blog
 
 In school, British visual artist [Shantell Martin ](https://shantellmartin.art/)was scared of spelling tests but she felt how words could be art and emotional relief. A discovery in her early 20s opened her eyes to why reading and writing were so difficult for her and motivated her to create the Shantell Sans typeface to inspire others to have fun with writing and words. She teamed up with Stephen Nixon of [Arrow Type](https://www.arrowtype.com/) to create Shantell Sans. 
 
 
 ## Why make a new font?
 
-#### Shantell Martin, Artist
+#### By Shantell Martin, Artist
 
- ![Woman holding a black marker drawing on a white canvas](src/assets/shantell-martin-by-Michelle-Mosqueda1.jpg "Shantell Martin, Photo credit Michelle Mosqueda")
+ ![Woman holding a black marker drawing on a white canvas](assets/shantell-martin-by-Michelle-Mosqueda1.jpg "Shantell Martin, Photo credit Michelle Mosqueda")
  *Shantell Martin, Photo credit Michelle Mosqueda*
 
 My first relationship with words was back in elementary school. We did spelling tests every week. Since I never passed them, I had to sit in detention.
