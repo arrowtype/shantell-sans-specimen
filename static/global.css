@@ -72,20 +72,25 @@ header .button,
 header h1,
 #cta,
 .cta {
-	border: none;
 	background: var(--trackBg);
-	color: currentColor;
+	color: var(--text);
 	padding: 0.25rem 0.75rem;
 	height: 2rem;
 	border-radius: 999px;
-	font-weight: 600;
 	letter-spacing: 0.03em;
 	display: inline;
 	margin: 0;
-	transition: 0.25s background, 0.25s color;
 	border: transparent solid 2px;
 	font-variation-settings: 'BNCE' 25, 'IRGL' 75;
-	transition: 0.25s color;
+	font-weight: 550;
+	border: 2px solid transparent;
+	cursor: pointer;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	pointer-events: auto;
+	transition: 0.25s border, 0.25s color;
 }
 
 header .button:hover,
@@ -94,24 +99,11 @@ header button:hover,
 	border: var(--text) solid 2px;
 }
 
-header .button,
-header button,
-#cta {
-	font-size: 0.825;
-	font-weight: 550;
-	/* background: none; */
-	border: 2px solid transparent;
-	cursor: pointer;
-	font-size: 1rem;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	text-decoration: none;
-	pointer-events: auto;
-	transition: 0.25s border;
-}
 
 a:hover,
-header button:hover span {
+header button:hover,
+header .button:hover,
+#cta:hover {
 	animation: shinyText 0.75s linear infinite;
 	animation-play-state: var(--animationState);
 }

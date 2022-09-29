@@ -148,16 +148,34 @@
     ul {
         list-style: none;
         padding: 0;
+        margin: 4rem 0rem 0rem;
     }
 
     ul li {
-        margin: 1.5rem -0.75rem 2rem;
+        margin: 0 0 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    ul li:last-of-type {
+        margin: 0;
+    }
+
+    @media (min-width: 900px) {
+
+        ul {
+            margin-top: 2rem;
+        }
+        ul li {
+            /* margin: 0.5rem -0.75rem 2rem; */
+            margin: 0.5rem 0 2rem;
+            justify-content: start;
+        }
     }
 
     a.cta {
         font-weight: 500;
-        background: var(--text);
-        color: var(--background);
+        background: var(--background);
+        color: var(--text);
         text-decoration: none;
     }
 
@@ -166,6 +184,20 @@
         color: var(--offWhite);
         border: 2px solid var(--offWhite);
     }
+
+    @media (prefers-color-scheme: dark) {
+        a.cta {
+            background: var(--text);
+            color: var(--background);
+        }
+        a.cta-secondary {
+            background: transparent;
+            color: var(--offWhite);
+            border: 2px solid var(--offWhite);
+        }
+    }
+
+
 
 
     /* .hr {
