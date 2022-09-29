@@ -156,7 +156,8 @@
 
     a.cta {
         font-weight: 500;
-        color: var(--altBg);
+        background: var(--text);
+        color: var(--background);
         text-decoration: none;
     }
 
