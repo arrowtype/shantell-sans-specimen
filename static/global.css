@@ -80,6 +80,7 @@ header h1,
 	/* color: var(--text); */
 	color: currentColor;
 	padding: 0.25rem 0.75rem;
+	height: 2rem;
 	border-radius: 999px;
 	font-weight: 600;
 	letter-spacing: 0.03em;

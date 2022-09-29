@@ -191,7 +191,7 @@
 
     #control-container {
         padding: 1rem 1.25rem 0.5rem 1.25rem;
-        border-radius:  0 0 1rem 1rem;
+        border-radius:  0 0 1.25rem 1.25rem;
         border: 2px solid var(--trackBg);
         border-top: 0px;
     }

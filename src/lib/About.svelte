@@ -24,8 +24,6 @@
                 <li><a class="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};"><span class="hide-sm">Get it </span>on Google Fonts ↗</a></li>
                 <li><a class="cta cta-secondary"  target="_blank" href="https://github.com/arrowtype/shantell-sans">See the project on GitHub ↗</a></li>
             </ul>
-            
-            
         </div>
     </div>
 </article>
@@ -38,13 +36,11 @@
         justify-content: center;
         padding: 3rem 1rem;
         margin: 0.5rem;
-        border-radius: 1rem;
+        border-radius: 1.25rem;
         text-align: center;
         background: var(--altBg);
         color: var(--altText);
     }
-
-
 
     /* be sure to match this to the character set grid! */
     @media (max-width: 500px) {

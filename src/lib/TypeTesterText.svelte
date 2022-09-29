@@ -53,7 +53,7 @@
       color: var(--text);
       text-align: var(--textAlign);
       font-feature-settings: var(--fontFeatures);
-      border-radius: 1rem 1rem 0 0;
+      border-radius: 1.25rem 1.25rem 0 0;
       border: 2px solid var(--trackBg);
     }
 /* 

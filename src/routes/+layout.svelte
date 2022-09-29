@@ -12,12 +12,15 @@
 
 <div id="header-container">
 	<header>
-		<a href="/" class="button">Shantell Sans</a>
-		<PlayPause />
-		<div class="spacer"></div>
-		<a class="button" href="process"><span class="hide-sm">Design </span>Process</a>
-		<a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it </span>on Google Fonts&nbsp;↗</a>
-		<!-- <a id="cta" href="https://github.com/arrowtype/shantell-sans/releases" >Download <span class="hide-sm">from GitHub</span>&nbsp;↗</a> -->
+		<div>
+			<a href="/" class="button">Shantell Sans</a>
+			<PlayPause />
+		</div>
+		<div>
+			<a class="button" href="process"><span class="hide-sm">Design </span>Process</a>
+			<a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it </span>on Google Fonts&nbsp;↗</a>
+			<!-- <a id="cta" href="https://github.com/arrowtype/shantell-sans/releases" >Download <span class="hide-sm">from GitHub</span>&nbsp;↗</a> -->
+		</div>
 	</header>
 </div>
   
@@ -40,22 +43,32 @@
 
     header {
 		display: grid;
-		grid-template-columns: max-content max-content 1fr max-content max-content; 
-		justify-content: start;
+		grid-template-columns: max-content max-content; 
+		justify-content: space-between;
 		gap: 0.25rem;
 		width: 100%;
 		/* pointer-events: none; */
 	}
-
-	header:last-child {
-		margin-right: 1rem;
+	
+	header>div {
+		display: grid;
+		grid-template-columns: max-content max-content; 
+		gap: 0.25rem;
 	}
 
-	@media (max-width: 500px) {
-		#header-container {
+	
+	/* header:last-child {
+		margin-right: 1rem;
+	} */
+	
+	@media (max-width: 760px) {
+		#cta {
+			margin-right: 0.5rem;
+		}
+		/* #header-container {
 			padding: 0.5rem;
 			padding-right: 1rem;
-		}
+		} */
 	}
 
 	#cta {

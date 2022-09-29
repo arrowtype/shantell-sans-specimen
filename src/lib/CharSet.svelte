@@ -3943,7 +3943,7 @@
         
         background: var(--altBg);
         color: var(--altText);
-        border-radius: 1rem;
+        border-radius: 1.25rem;
         margin: 0 0.5rem;
         font-size: 3rem;
         line-height: 2;
