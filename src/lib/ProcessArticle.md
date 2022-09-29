@@ -2,16 +2,16 @@
 
 _Shantell Sans mixes variable axes for Weight, Italic, Irregularity, and Bounce to deliver a wide array of font styles, from friendly, readable, everyday typographic workhorses to striking, high-energy, experimental styles meant especially for animation._
 
-### Prologue
+## Prologue
 
-**Susanna Zaraysky, Editor, Google Fonts Blog**
+#### Susanna Zaraysky, Editor, Google Fonts Blog
 
 In school, British visual artist [Shantell Martin ](https://shantellmartin.art/)was scared of spelling tests but she felt how words could be art and emotional relief. A discovery in her early 20s opened her eyes to why reading and writing were so difficult for her and motivated her to create the Shantell Sans typeface to inspire others to have fun with writing and words. She teamed up with Stephen Nixon of [Arrow Type](https://www.arrowtype.com/) to create Shantell Sans. 
 
 
-### Why make a new font?
+## Why make a new font?
 
-**Shantell Martin, Artist**
+#### Shantell Martin, Artist
 
  ![Woman holding a black marker drawing on a white canvas](src/assets/shantell-martin-by-Michelle-Mosqueda1.jpg "Shantell Martin, Photo credit Michelle Mosqueda")
  *Shantell Martin, Photo credit Michelle Mosqueda*
@@ -65,7 +65,7 @@ I collaborated with Google Fonts because I wanted to find a partner that could m
 
 ## Design Process
 
-**Stephen Nixon, type designer**
+#### Stephen Nixon, type designer
 
 When Shantell reached out and said, “Let’s make a marker font,” I was on board from the start.
 
@@ -83,7 +83,7 @@ To make a great market font with widespread adoption, I had these 5 goals:
 4. Be legible, accessible, and easy to read
 5. Be an adaptation of Shantell’s marker handwriting
 
-**1. Appeal ** \
+### 1. Appeal
 
 
 For it to be easy to use, Shantell Sans had to have the proportions and styles of a modern font. 
@@ -102,7 +102,7 @@ _Caption: A comparison of Shantell Sans to Roboto, showing that they share simil
 
 Alt text: Two columns of six lines of text in Shantell Sans and Roboto
 
-**2. Function for different types of communication ** \
+### 2. Function for different types of communication
 
 
 The spacing had to work well for small text. The letters are a little wider than an average font, and the spacing between them isn’t too tight. Also, the kerning is optimized for smallish sizes. The typeface had to support a wide range of languages (380+) and be open-source.
@@ -119,7 +119,7 @@ _Caption: Some of the languages supported by Shantell Sans _
 
 _Alt text: All human beings are born free and equal in dignity and rights in different languages on 14 lines _
 
-**3. Explore new territory** \
+### 3. Explore new territory
 
 
 To offer flexibility, the font should have a good range of weights and be a variable font. I brought the spontaneous and vibrant quality of Shantell’s work into some experimental variable axes. For detailed typography for densely-packed information, such as on a business card, the typeface had to also include OpenType features like tabular vs proportional figures, fractions, and localized forms.
@@ -136,7 +136,7 @@ _Caption: Animation of all five variable axes of Shantell Sans: Weight, Italic, 
 
 _Alt text: “Typography is kinetic” text changing shape _
 
-**4. Easy to read ** \
+### 4. Easy to read
 
 
 To make sure the font met Shantell’s goals of making an easy-to-read font, I made sure that the characters could be distinguished from one another. Shantell naturally writes letters like “b”, “d”, “p”, “q” and “n” and “u” that are clearly differentiated from one another through a contrast of simple shapes and well-placed exit [strokes](https://fonts.google.com/knowledge/glossary/stroke). Shantell sometimes writes the uppercase “I” and numeral “1” as only straight lines. To keep these letters distinct, I added serifs to the uppercase “I” and a flag to “1.”
