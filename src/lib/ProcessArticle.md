@@ -32,9 +32,9 @@ Stephen Nixon sent me a template, with lines on it for me to handwrite all of th
 
 I made the choice to release it under an open font [license](https://fonts.google.com/knowledge/glossary/licensing), which means that I'm not charging anyone for it. It's my gift to the world. 
 
+## To be continued...
 
-## 
-
+<!-- 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
@@ -329,4 +329,4 @@ Learning the background of Shantell Sans may help you have a deeper appreciation
 
 Do you have a creative idea that needs a font with some personality? Want to just take a new font for a spin and see where it takes you? Give Shantell Sans a try! 
 
-(Link to GoogleFonts/ShantellSans)
+(Link to GoogleFonts/ShantellSans) -->

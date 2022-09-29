@@ -33,12 +33,20 @@
 
 	#header-container {
 		width: 100vw;
-		overflow-x: auto;
+		overflow-x: scroll;
 		display: block;
 		position: fixed;
 		padding: 1rem;
 		z-index: 999;
-		height: 3.5rem;
+		height: 4.5rem;
+
+		/* hide scroll bars */
+		-ms-overflow-style: none; /* for Internet Explorer, Edge */
+		scrollbar-height: none; /* for Firefox */
+	}
+	
+	#header-container::-webkit-scrollbar {
+		display: none; /* for Chrome, Safari, and Opera */
 	}
 
     header {
@@ -47,6 +55,8 @@
 		justify-content: space-between;
 		gap: 0.25rem;
 		width: 100%;
+		box-sizing: content-box;
+		padding-right: 1rem;
 		/* pointer-events: none; */
 	}
 	
@@ -63,7 +73,7 @@
 	
 	@media (max-width: 760px) {
 		#cta {
-			margin-right: 0.5rem;
+			margin-right: 1rem;
 		}
 		/* #header-container {
 			padding: 0.5rem;
