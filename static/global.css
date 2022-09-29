@@ -42,6 +42,7 @@
 		--altText: white;
 		--trackBg: hsl(230, 0%, 15%);
 		--accent: white;
+		--uiAccent: hsl(26, 100%, 65%);
 	}
 }
 
@@ -73,8 +74,6 @@ header h1,
 .cta {
 	border: none;
 	background: var(--trackBg);
-	/* color: var(--background); */
-	/* color: var(--text); */
 	color: currentColor;
 	padding: 0.25rem 0.75rem;
 	height: 2rem;
@@ -86,6 +85,7 @@ header h1,
 	transition: 0.25s background, 0.25s color;
 	border: transparent solid 2px;
 	font-variation-settings: 'BNCE' 25, 'IRGL' 75;
+	transition: 0.25s color;
 }
 
 header .button:hover,
@@ -107,6 +107,7 @@ header button,
 	letter-spacing: 0.05em;
 	text-decoration: none;
 	pointer-events: auto;
+	transition: 0.25s border;
 }
 
 a:hover,
@@ -129,8 +130,8 @@ header button:hover span {
 	header .button:hover,
 	header button:hover,
 	#cta:hover {
-		/* border: var(--uiAccent) solid 2px; */
-		color: var(--uiAccent);
+		border: var(--uiAccent) solid 2px;
+		color: var(--background);
 	}
 
 }
