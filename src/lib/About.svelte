@@ -19,8 +19,12 @@
             <p>Commissioned for open-source release by Google Fonts.</p>
             
             <!-- <p class="hr">---------------</p>s -->
-            <p>→ <a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};"><span class="hide-sm">Get it </span>on Google Fonts</a></p>
-            <p>→ <a target="_blank" href="https://github.com/arrowtype/shantell-sans">See the project on GitHub</a></p>
+            <ul>
+                <li><a class="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};"><span class="hide-sm">Get it </span>on Google Fonts ↗</a></li>
+                <li><a class="cta cta-secondary"  target="_blank" href="https://github.com/arrowtype/shantell-sans">See the project on GitHub ↗</a></li>
+            </ul>
+            
+            
         </div>
     </div>
 </article>
@@ -38,6 +42,8 @@
         background: var(--altBg);
         color: var(--altText);
     }
+
+
 
     /* be sure to match this to the character set grid! */
     @media (max-width: 500px) {
@@ -134,11 +140,33 @@
     }
 
     .colophon {
-        color: hsl(0,0%,75%);
+        /* color: hsl(0,0%,75%); */
+        color: var(--offWhite);
     }
 
     p {
         margin: 0 0 1rem;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li {
+        margin: 1.5rem -0.75rem 2rem;
+    }
+
+    a.cta {
+        font-weight: 500;
+        color: var(--altBg);
+        text-decoration: none;
+    }
+
+    a.cta-secondary {
+        background: transparent;
+        color: var(--offWhite);
+        border: 2px solid var(--offWhite);
     }
 
 
