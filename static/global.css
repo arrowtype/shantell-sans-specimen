@@ -29,22 +29,19 @@
 	--accent: black;
 	--animationState: running;
 	/* --uiAccent: rgb(44, 44, 255); */
-	--uiAccent: hsl(228, 100%, 65%);
+	--uiAccent: hsl(228, 100%, 50%);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background: black;
 		--text: white;
-		--offWhite: hsl(0,0%,20%);
 		--gray: hsl(240, 0%, 70%);
 		--modalBg: hsl(240, 0%, 10%);
 		--altBg: hsl(230, 0%, 7.5%);
 		--altText: white;
 		--trackBg: hsl(230, 0%, 15%);
 		--accent: white;
-		/* --uiAccent: hsl(228, 100%, 65%); */
-		--uiAccent: hsl(300, 35%, 75%);
 	}
 }
 
@@ -118,14 +115,24 @@ header button:hover span {
 	animation-play-state: var(--animationState);
 }
 
-@media (max-width: 500px) {
-	header button span,
+
+@media (prefers-color-scheme: dark) {
+	header button,
+	header .button,
 	header h1,
-	header a,
-	#cta {
-		/* font-size: 0.75rem; */
-		/* line-height: 1; */
+	#cta,
+	.cta {
+		background: var(--text);
+		color: var(--background);
 	}
+
+	header .button:hover,
+	header button:hover,
+	#cta:hover {
+		/* border: var(--uiAccent) solid 2px; */
+		color: var(--uiAccent);
+	}
+
 }
 
 .phrase {
