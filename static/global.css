@@ -120,9 +120,10 @@ header button:hover span {
 @media (max-width: 500px) {
 	header button span,
 	header h1,
+	header a,
 	#cta {
-		font-size: 0.75rem;
-		line-height: 1;
+		/* font-size: 0.75rem; */
+		/* line-height: 1; */
 	}
 }
 

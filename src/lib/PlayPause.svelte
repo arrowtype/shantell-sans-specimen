@@ -11,10 +11,10 @@
 <button on:click={toggleAnimations}>
   {#if $animationState === "running"}
 					<span id="pauseIcon">⏸</span>
-					<span id="pauseText">Pause</span>
+					<span id="pauseText" class="hide-sm">Pause</span>
 				{:else}
 					<span id="playIcon">▶</span>
-					<span id="playText" style="--animationState: {$animationState};">Play</span>
+					<span id="playText" class="hide-sm" style="--animationState: {$animationState};">Play</span>
 				{/if}
 </button>
 {/if}
