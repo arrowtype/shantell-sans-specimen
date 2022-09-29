@@ -107,7 +107,7 @@
 	<About animationState={$animationState} />
 	<TypeTester />
 	<Definitions animationState={$animationState} />
-	<CharSet {$animationState} />
+	<CharSet animationState={$animationState} />
 </main>
 
 <style>
