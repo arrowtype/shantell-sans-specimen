@@ -9,7 +9,8 @@
 <style>
     footer {
         padding: 1rem 1rem 6rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
+        background: var(--modalBg);
     }
     footer p {
         text-align: center;

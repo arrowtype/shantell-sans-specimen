@@ -3,6 +3,11 @@
     import { animationState } from '../../stores.js'
 </script>
 
+<svelte:head>
+	<title>Shantell Sans → Arrow Type</title>
+	<meta name="description" content="A font for artist Shantell Martin" />
+</svelte:head>
+
 <main>
     <article style="--animationState: {$animationState};">
 
