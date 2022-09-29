@@ -35,6 +35,7 @@
 		position: fixed;
 		padding: 1rem;
 		z-index: 999;
+		height: 3.5rem;
 	}
 
     header {
