@@ -9,13 +9,13 @@
 
 {#if $animationState}
 <button on:click={toggleAnimations}>
-  {#if $animationState === "running"}
-					<span id="pauseIcon">⏸</span>
-					<span id="pauseText" class="hide-sm">Pause</span>
-				{:else}
-					<span id="playIcon">▶</span>
-					<span id="playText" class="hide-sm" style="--animationState: {$animationState};">Play</span>
-				{/if}
+    {#if $animationState === "running"}
+        <span id="pauseIcon">⏸</span>
+        <span id="pauseText" class="hide-sm">Pause</span>
+    {:else}
+        <span id="playIcon">▶</span>
+        <span id="playText" class="hide-sm" style="--animationState: {$animationState};">Play</span>
+    {/if}
 </button>
 {/if}
 
@@ -26,5 +26,9 @@
         position: relative;
         top: .1em;
         font-weight: 800;
+    }
+    #pauseText, #playText {
+        animation: wobbleBounce .625s ease-in-out alternate infinite;
+	    animation-play-state: var(--animationState);
     }
 </style>
