@@ -198,12 +198,14 @@ h2 {
 
 .markdown-body h1 {
 	margin-top: 2em;
+	letter-spacing: 0.02em;
 	animation: wobbleBounce .875s ease-in-out alternate infinite;
 	animation-play-state: var(--animationState);
 }
 
 .markdown-body h2 {
 	margin-top: 2em;
+	letter-spacing: 0.02em;
 	animation: wobbleBounce .875s ease-in-out alternate-reverse infinite ;
 	animation-play-state: var(--animationState);
 	font-size: 2rem;
@@ -285,10 +287,10 @@ h2 {
 
 @keyframes wobbleBounce {
 	0% {
-		font-variation-settings: 'BNCE' -100, 'IRGL' 50;
+		font-variation-settings: 'BNCE' -60, 'IRGL' 50;
 	}
 	100% {
-		font-variation-settings: 'BNCE' 100, 'IRGL' 50;
+		font-variation-settings: 'BNCE' 60, 'IRGL' 50;
 	}
 }
 
