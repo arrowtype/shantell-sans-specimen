@@ -3,11 +3,6 @@
 	import PlayPause from "$lib/PlayPause.svelte";
 	import Footer from "$lib/Footer.svelte";
 
-    // import { setContext } from 'svelte';
-
-
-    // setContext('animationState', animationState);
-
 </script>
 
 <div id="header-container">
@@ -53,7 +48,7 @@
 		display: grid;
 		grid-template-columns: max-content max-content; 
 		justify-content: space-between;
-		gap: 0.25rem;
+		gap: 0.5rem;
 		width: 100%;
 		box-sizing: content-box;
 		padding-right: 1rem;
@@ -63,7 +58,7 @@
 	header>div {
 		display: grid;
 		grid-template-columns: max-content max-content; 
-		gap: 0.25rem;
+		gap: 0.5rem;
 	}
 
 	
