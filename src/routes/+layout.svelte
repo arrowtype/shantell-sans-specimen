@@ -34,6 +34,7 @@
 		display: block;
 		position: fixed;
 		padding: 1rem;
+		z-index: 999;
 	}
 
     header {
@@ -43,7 +44,6 @@
 		gap: 0.25rem;
 		width: 100%;
 		/* pointer-events: none; */
-		z-index: 999;
 	}
 
 	header:last-child {
