@@ -78,7 +78,8 @@ header h1,
 	height: 2rem;
 	border-radius: 999px;
 	letter-spacing: 0.03em;
-	display: inline;
+	display: flex;
+	align-items: center;
 	margin: 0;
 	border: transparent solid 2px;
 	font-variation-settings: 'BNCE' 25, 'IRGL' 75;
@@ -91,6 +92,7 @@ header h1,
 	text-decoration: none;
 	pointer-events: auto;
 	transition: 0.25s border, 0.25s color;
+	line-height: 1;
 }
 
 header .button:hover,

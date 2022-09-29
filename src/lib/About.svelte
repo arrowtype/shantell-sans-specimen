@@ -21,7 +21,7 @@
             
             <!-- <p class="hr">---------------</p>s -->
             <ul>
-                <li><a class="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};"><span class="hide-sm">Get it </span>on Google Fonts ↗</a></li>
+                <li><a class="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};">Get it on Google Fonts ↗</a></li>
                 <li><a class="cta cta-secondary"  target="_blank" href="https://github.com/arrowtype/shantell-sans">See the project on GitHub ↗</a></li>
             </ul>
         </div>
