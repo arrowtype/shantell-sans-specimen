@@ -11,7 +11,7 @@
     <div id="wght" class="axis">
         <div class="axis-diagram" >
             <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">—</span>
+            <span class="between gray">•</span>
             <span class="max" class:to={animationState=="running"}>HHH</span>
         </div>
         <h3 class="axis-name">Weight <span class="axis-range">(300 to 800)</span> <span class="axis-tag">wght</span></h3>
@@ -21,7 +21,7 @@
     <div id="ital" class="axis">
         <div class="axis-diagram">
             <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">—</span>
+            <span class="between gray">•</span>
             <span class="max" class:to={animationState=="running"}>HHH</span>
         </div>
         <h3 class="axis-name">Italic <span class="axis-range">(0 to 1)</span> <span class="axis-tag">ital</span></h3>
@@ -31,7 +31,7 @@
     <div id="IRGL" class="axis">
         <div class="axis-diagram">
             <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">—</span>
+            <span class="between gray">•</span>
             <span class="max" class:to={animationState=="running"}>HHH</span>
         </div>
         <h3 class="axis-name">Irregularity <span class="axis-range">(0 to 100)</span> <span class="axis-tag">IRGL</span></h3>
@@ -41,7 +41,7 @@
     <div id="BNCE" class="axis">
         <div class="axis-diagram">
             <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">—</span>
+            <span class="between gray">•</span>
             <span class="max" class:to={animationState=="running"}>HHH</span>
         </div>
         <h3 class="axis-name">Bounce <span class="axis-range">(-100 to 100)</span> <span class="axis-tag">BNCE</span></h3>
@@ -51,7 +51,7 @@
     <div id="TRAK" class="axis">
         <div class="axis-diagram">
             <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">—</span>
+            <span class="between gray">•</span>
             <span class="max" class:to={animationState=="running"}>HHH</span>
         </div>
         <h3 class="axis-name">Tracking <span class="axis-range">(0 to 500)</span> <span class="axis-tag">TRAK</span></h3>
@@ -276,18 +276,18 @@
         font-variation-settings: "wght" 550, "TRAK" 500;
     }
     #TRAK .from {
-        animation: tracking 3s infinite alternate ease-in-out;
+        animation: tracking 1s infinite alternate ease-in-out;
         animation-play-state: var(--animationState);
     }
     #TRAK .to {
-        animation: tracking 3s infinite alternate-reverse ease-in-out;
+        animation: tracking 1s infinite alternate-reverse ease-in-out;
         animation-play-state: var(--animationState);
     }
     @keyframes tracking {
         from {
             font-variation-settings: "wght" 550,  "TRAK" 0;
         } to {
-            font-variation-settings: "wght" 550,  "TRAK" 300;
+            font-variation-settings: "wght" 550,  "TRAK" 150;
         }
     }
 
