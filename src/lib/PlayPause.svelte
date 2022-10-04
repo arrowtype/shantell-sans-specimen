@@ -27,7 +27,7 @@
         font-weight: 800;
     }
     /* #pauseText, #playText {
-        animation: wobbleBounce .625s ease-in-out alternate infinite;
+        animation: wobbleBounce .625s ease-in-out alternate 12;
 	    animation-play-state: var(--animationState);
     } */
 </style>

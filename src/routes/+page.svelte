@@ -169,7 +169,8 @@
 		font-feature-settings: "case";
 		letter-spacing: 0.2em;
 		text-align: center;
-		animation: wobble .875s ease-in-out alternate infinite;
+		font-variation-settings: 'wght' 800, 'BNCE' -100, 'IRGL' 0;
+		animation: wobble .875s ease-in-out alternate 12;
 		animation-play-state: var(--animationState);
 		pointer-events: none;
 	}
