@@ -14,10 +14,10 @@
             <p>It is free and open-source, licensed under SIL Open Font License 1.1, so you can use it in almost any way you can imagine! Read the <a href="https://github.com/arrowtype/shantell-sans/blob/main/OFL.txt">Shantell Sans license</a> for details.</p>
         </div>
         <div class="colophon">
-            <p>Design & development by <a target="_blank" href="https://arrowtype.com">Arrow&nbsp;Type</a>.</p>
             <p>Created with <a target="_blank" href="https://shantellmartin.art">Shantell Martin</a>, based on her artwork and felt-tip marker handwriting.</p>
+            <p>Design & development by <a target="_blank" href="https://arrowtype.com">Arrow&nbsp;Type</a>.</p>
             <p>Cyrillic by <a target="_blank" href="https://anyadanilova.com">Anya Danilova</a>.</p>
-            <p>Commissioned for open-source release by Google Fonts.</p>
+            <p>Commissioned for open-source release by Shantell Martin and Google Fonts.</p>
             
             <!-- <p class="hr">---------------</p>s -->
             <ul>
