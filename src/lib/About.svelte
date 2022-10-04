@@ -15,9 +15,8 @@
         </div>
         <div class="colophon">
             <p>Created with <a target="_blank" href="https://shantellmartin.art">Shantell Martin</a>, based on her artwork and felt-tip marker handwriting.</p>
-            <p>Design & development by <a target="_blank" href="https://arrowtype.com">Arrow&nbsp;Type</a>.</p>
-            <p>Cyrillic by <a target="_blank" href="https://anyadanilova.com">Anya Danilova</a>.</p>
-            <p>Commissioned for open-source release by Shantell Martin and Google Fonts.</p>
+            <p>Type design & font development by <a target="_blank" href="https://arrowtype.com">Arrow&nbsp;Type</a>. Cyrillic by <a target="_blank" href="https://anyadanilova.com">Anya Danilova</a>.</p>
+            <p>Originally commissioned by Shantell Martin, then supported for extension and open-source release by Google Fonts.</p>
             
             <!-- <p class="hr">---------------</p>s -->
             <ul>
