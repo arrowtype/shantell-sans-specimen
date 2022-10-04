@@ -193,15 +193,17 @@ h2 {
 .markdown-body h1 {
 	margin-top: 2em;
 	letter-spacing: 0.02em;
-	animation: wobbleBounce .875s ease-in-out alternate infinite;
+	animation: wobbleBounce .75s ease-in-out alternate 6;
 	animation-play-state: var(--animationState);
+	font-variation-settings: 'BNCE' -60, 'IRGL' 50;
 }
 
 .markdown-body h2 {
 	margin-top: 2em;
 	letter-spacing: 0.02em;
-	animation: wobbleBounce .875s ease-in-out alternate-reverse infinite ;
-	animation-play-state: var(--animationState);
+	/* animation: wobbleBounce .875s ease-in-out alternate-reverse infinite ;
+	animation-play-state: var(--animationState); */
+	font-variation-settings: "BNCE" 50, "IRGL" 100;
 	font-size: 2rem;
 	line-height: 1;
 	padding: 0.25em 0;
