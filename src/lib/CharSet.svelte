@@ -3992,7 +3992,7 @@
         text-align: center;
     }
 
-    @media (pointer:fine) {
+    /* @media (pointer:fine) {
         #grid:hover span {
             animation: slowShinyText 1s alternate infinite ease-in-out;
             animation-play-state: var(--animationState);
@@ -4009,7 +4009,7 @@
                 font-variation-settings: "BNCE" 100;
             }
         }
-    }
+    } */
 
     @media (prefers-reduced-motion) {
         #grid:hover span, #grid:hover span.down {
