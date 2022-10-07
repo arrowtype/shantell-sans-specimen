@@ -4,20 +4,20 @@
 
 <article class="contents">
     <div class="header">
-        <h2 style="--animationState: {animationState};">A typeface for<br>creative expression</h2>
+        <h2 style="--animationState: {animationState};">A font for you,<br>from Shantell Martin</h2>
     </div>
     <div class="text">
         <div>
-            <p>Shantell Sans is a marker-style font built for creative expression, typographic play, and animation.</p>
+            <p>Shantell Sans, from <a target="_blank" href="https://shantellmartin.art">Shantell Martin</a>, is a marker-style font built for creative expression, typographic play, and animation.</p>
             <p>It is available as a 5-axis variable font as well as a collection of static fonts.</p>
             <p>It includes Latin and Cyrillic characters to support a wide array of languages throughout the Americas, Europe, Central Asia, and Vietnam.</p>
             <p>It is free and open-source, licensed under SIL Open Font License 1.1, so you can use it in almost any way you can imagine! Read the <a href="https://github.com/arrowtype/shantell-sans/blob/main/OFL.txt">Shantell Sans license</a> for details.</p>
         </div>
         <div class="colophon">
-            <p>Created with <a target="_blank" href="https://shantellmartin.art">Shantell Martin</a>, based on her artwork and felt-tip marker handwriting.</p>
+            <p>Project conception and creative direction by Shantell Martin, based on her artwork, handwriting, and creative philosophy.</p>
             <p>Type design & font development by <a target="_blank" href="https://arrowtype.com">Arrow&nbsp;Type</a>. Cyrillic by <a target="_blank" href="https://anyadanilova.com">Anya Danilova</a>.</p>
-            <p>Originally commissioned by Shantell Martin, then supported for extension and open-source release by Google Fonts.</p>
-            
+            <p>Additional support from Google Fonts.</p>
+
             <!-- <p class="hr">---------------</p>s -->
             <ul>
                 <li><a class="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};">Get it on Google Fonts ↗</a></li>
