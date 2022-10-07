@@ -4,6 +4,13 @@
 	import Definitions from '$lib/Definitions.svelte'
 	import CharSet from '$lib/CharSet.svelte'
 
+	import IntersectionObserver from "svelte-intersection-observer";
+
+	// for intersection observer
+	let node;
+	let node1;
+	let node2;
+
 	import { animationState } from '../stores.js'
 
 	let m = { x: 0, y: 0 };
@@ -99,15 +106,30 @@
 
 <main style="--animationState: {$animationState};">
 
-	<div id="wall" on:click={poetryWallClick} bind:this={wall}  style="--animationState: {$animationState};">
-		<span class="hint mouse" style="--animationState: {$animationState};">Click anywhere</span>
-		<span class="hint touch" style="--animationState: {$animationState};">Tap anywhere</span>
-	</div>
 
-	<About animationState={$animationState} />
+	<IntersectionObserver element={node} let:intersecting>
+		<div bind:this={node}>
+			<div id="wall" on:click={poetryWallClick} bind:this={wall} style="--animationState: {intersecting && $animationState=="running" ? "running" : "paused"};">
+				<span class="hint mouse">Click anywhere</span>
+				<span class="hint touch">Tap anywhere</span>
+			</div>
+		</div>
+	</IntersectionObserver>
+
+	<IntersectionObserver element={node1} let:intersecting>
+		<div bind:this={node1}>
+			<About animationState={intersecting && $animationState=="running" ? "running" : "paused"} />
+		</div>
+	</IntersectionObserver>
+	
 	<TypeTester />
-	<Definitions animationState={$animationState} />
-	<CharSet animationState={$animationState} />
+
+	<IntersectionObserver element={node2} let:intersecting>
+		<div bind:this={node2}>
+			<Definitions animationState={intersecting && $animationState=="running" ? "running" : "paused"} />
+		</div>
+	</IntersectionObserver>
+	<CharSet />
 </main>
 
 <style>
@@ -147,7 +169,8 @@
 		font-feature-settings: "case";
 		letter-spacing: 0.2em;
 		text-align: center;
-		animation: wobble .875s ease-in-out alternate infinite;
+		font-variation-settings: 'wght' 800, 'BNCE' -100, 'IRGL' 0;
+		animation: wobble .875s ease-in-out alternate 12;
 		animation-play-state: var(--animationState);
 		pointer-events: none;
 	}
