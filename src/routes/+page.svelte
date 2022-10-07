@@ -99,8 +99,8 @@
 </script>
 
 <svelte:head>
-	<title>Shantell Sans → Arrow Type</title>
-	<meta name="description" content="A font for artist Shantell Martin" />
+	<title>Shantell Sans</title>
+	<meta name="description" content="A font for you, from Shantell Martin" />
 </svelte:head>
 
 
