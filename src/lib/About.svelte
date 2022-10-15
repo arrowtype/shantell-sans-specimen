@@ -4,21 +4,31 @@
 
 <article class="contents">
     <div class="header">
-        <h2 style="--animationState: {animationState};">A font for you,<br>from Shantell Martin</h2>
+        <h2 style="--animationState: {animationState};">Words Are Made<br class="hide-sm"/> Up of Lines</h2>
     </div>
     <div class="text">
         <div>
             <p>Shantell Sans, from <a target="_blank" href="https://shantellmartin.art">Shantell Martin</a>, is a marker-style font built for creative expression, typographic play, and animation.</p>
             <p>It is available as a 5-axis variable font as well as a collection of static fonts.</p>
-            <p>It includes Latin and Cyrillic characters to support a wide array of languages throughout the Americas, Europe, Central Asia, and Vietnam.</p>
-            <p>It is free and open-source, licensed under SIL Open Font License 1.1, so you can use it in almost any way you can imagine! Read the <a href="https://github.com/arrowtype/shantell-sans/blob/main/OFL.txt">Shantell Sans license</a> for details.</p>
+            <blockquote>
+                <p>One of my first relationships with words started in elementary school. We did spelling tests every week, I never passed them and had to sit in detention. Despite my fear of tests, I loved words–I knew they helped me express my feelings and made me feel better.</p>
+                <p>I later discovered I was dyslexic and recently, I thought, ‘What if I take my words and make a font that is playful, professional, accessible and open?’ I was inspired by Comic Sans because I have always liked how fun and easy it is to read, especially for me as a dyslexic.</p>
+                <p>— Shantell Martin</p>
+            </blockquote>
         </div>
-        <div class="colophon">
-            <p>Project conception and creative direction by Shantell Martin, based on her artwork, handwriting, and creative philosophy.</p>
-            <p>Type design & font development by <a target="_blank" href="https://arrowtype.com">Arrow&nbsp;Type</a>. Cyrillic by <a target="_blank" href="https://anyadanilova.com">Anya Danilova</a>.</p>
-            <p>Additional support from Google Fonts.</p>
+        <div class="info">
+            <div>
+                <p>Shantell Sans is free and open-source, licensed under SIL Open Font License 1.1, so you can use it in almost any way you can imagine! Read the <a href="https://github.com/arrowtype/shantell-sans/blob/main/OFL.txt">Shantell Sans license</a> for details. It includes Latin and Cyrillic characters to support a wide array of languages throughout the Americas, Europe, Central Asia, and Vietnam.</p>
+                <p>Project conception and creative direction by Shantell Martin, based on her artwork, handwriting, and creative philosophy.</p>
+                <p class="colophon">
+                    Type design & font development by <a target="_blank" href="https://arrowtype.com">Arrow&nbsp;Type</a>.
+                </p>
+                <p class="colophon">
+                    Cyrillic design by <a target="_blank" href="https://anyadanilova.com">Anya Danilova</a>.</p>
+                <p class="colophon">Additional support from Google Fonts.</p>
+            </div>
 
-            <!-- <p class="hr">---------------</p>s -->
+
             <ul>
                 <li><a class="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};">Get it on Google Fonts ↗</a></li>
                 <li><a class="cta cta-secondary"  target="_blank" href="https://github.com/arrowtype/shantell-sans">See the project on GitHub ↗</a></li>
@@ -57,7 +67,7 @@
         text-align: center;
         text-transform: uppercase;
         max-width: 55ch;
-        font-size: calc(3rem + 3vw);
+        font-size: calc(3rem + 4.5vw);
         line-height: 1.125;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
@@ -111,10 +121,10 @@
         margin: 0 auto;
         font-size: 1.25rem;
         font-weight: 350;
-        max-width: 55rem;
+        max-width: 75rem;
         line-height: 1.5;
         padding: 2rem 0 2rem;
-        letter-spacing: 0;
+        letter-spacing: 0.025em;
         text-align: left;
     } 
 
@@ -135,9 +145,32 @@
         }
     }
 
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    blockquote {
+        border-left: 2px solid var(--gray);
+        font-variation-settings: 'ital' 1;
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    @media (min-width: 1300px) {
+        blockquote {
+            margin-left: -1rem;
+        }
+    }
+
     .colophon {
         /* color: hsl(0,0%,75%); */
         color: var(--offWhite);
+        /* font-weight: 300; */
+        font-size: 0.75em;
+        text-transform: uppercase;
+        letter-spacing: 0.075em;
     }
 
     p {
