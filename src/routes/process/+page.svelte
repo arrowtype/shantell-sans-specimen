@@ -1,6 +1,8 @@
 <script>
     import ProcessArticle from '$lib/ProcessArticle.md'
     import { animationState } from '../../stores.js'
+
+    export const prerender = true
 </script>
 
 <svelte:head>
