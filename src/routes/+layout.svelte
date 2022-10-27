@@ -3,8 +3,6 @@
 	import PlayPause from "$lib/PlayPause.svelte";
 	import Footer from "$lib/Footer.svelte";
 
-	export const prerender = true;
-
 </script>
 
 <div id="header-container">
