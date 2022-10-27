@@ -20,7 +20,7 @@ const config = {
 				base: dev ? '' : '/shantell-sans-specimen-2', // update repo name as needed
 			},
 			// hydrate the <div id="svelte"> element in src/app.html
-			target: "#svelte"
+			// target: "#svelte"
 		  })
 		},
 	extensions: [".svelte", ".md"], // <--
