@@ -8,7 +8,7 @@
 <div id="header-container">
 	<header>
 		<div>
-			<a href="/" class="button">Shantell Sans</a>
+			<a href="./" class="button">Shantell Sans</a>
 			<PlayPause />
 		</div>
 		<div>
