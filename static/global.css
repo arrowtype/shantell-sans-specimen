@@ -138,7 +138,7 @@ header .button:hover,
 	font-variation-settings: 'wght' 800, 'BNCE' -50, 'IRGL' 0;
 	text-transform: uppercase;
 	animation: fadeIn 0.375s ease forwards 1,
-		wobble 2s 0.375s ease-in-out alternate 20 var(--animationState),
+		wobble 2s 0.375s ease-in-out alternate 4 var(--animationState),
 		fadeOut 5s 2s forwards var(--animationState);
 	/* prevent click on word from disrupting placement */
 	pointer-events: none;
