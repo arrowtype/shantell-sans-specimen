@@ -69,6 +69,7 @@ button {
 	/* letter-spacing: 0.05em; */
 }
 
+.button,
 header button,
 header .button,
 header h1,
@@ -97,14 +98,15 @@ header h1,
 	line-height: 1;
 }
 
+.button,
 header .button:hover,
 header button:hover,
 #cta:hover {
 	border: var(--text) solid 2px;
 }
 
-
 a:hover,
+.button:hover,
 header button:hover,
 header .button:hover,
 #cta:hover {
@@ -114,6 +116,7 @@ header .button:hover,
 
 
 @media (prefers-color-scheme: dark) {
+	.button,
 	header button,
 	header .button,
 	header h1,
@@ -123,6 +126,7 @@ header .button:hover,
 		color: var(--background);
 	}
 
+	.button:hover,
 	header .button:hover,
 	header button:hover,
 	#cta:hover {

@@ -1,54 +1,61 @@
 <script>
-    let dropdownOpen = false;
+	import { createEventDispatcher, onDestroy } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+	function close() {
+        dispatch('close');
+        document.body.style.position = "";
+        }
+
+	let modal;
+
+	const handle_keydown = e => {
+		if (e.key === 'Escape') {
+			close();
+			return;
+		}
+
+		if (e.key === 'Tab') {
+			// trap focus
+			const nodes = modal.querySelectorAll('*');
+			const tabbable = Array.from(nodes).filter(n => n.tabIndex >= 0);
+
+			let index = tabbable.indexOf(document.activeElement);
+			if (index === -1 && e.shiftKey) index = 0;
+
+			index += tabbable.length + (e.shiftKey ? -1 : 1);
+			index %= tabbable.length;
+
+			tabbable[index].focus();
+			e.preventDefault();
+		}
+	};
+
+	const previously_focused = typeof document !== 'undefined' && document.activeElement;
+
+	if (previously_focused) {
+		onDestroy(() => {
+			previously_focused.focus();
+		});
+	}
 
     // TODO: make escape key toggle open state
     // TODO: make open menu pause the site
 </script>
 
-<div class="dropdown" class:toggleOpen="{dropdownOpen}">
-    <!-- {#if dropdownOpen} -->
-    <div class="scrim" class:toggleOpen="{dropdownOpen}" on:click={() => (dropdownOpen = !dropdownOpen)}></div>
-    <div class="menu" class:toggleOpen="{dropdownOpen}">
+<svelte:window on:keydown={handle_keydown}/>
+
+<div class="modal-background scrim" class:toggleOpen="{modal}" on:click={close}></div>
+
+<div class="modal dropdown" role="dialog" aria-modal="true" bind:this={modal}>
+    <div class="menu" class:toggleOpen="{modal}">
         <a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it&nbsp;</span>on Google Fonts&nbsp;↗</a>
         <a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" ><span class="hide-sm">Download&nbsp;</span>latest release&nbsp;↓</a> 
     </div>
-    <button id="cta" on:click={() => (dropdownOpen = !dropdownOpen)}>
-        <span id="cta-caret" class:toggleOpen="{dropdownOpen}">
-            ▶
-        </span>
-        &nbsp;Download
-    </button>
-    <!-- {/if} -->
 </div>
 
 <style>
-    /* .dropdown {
-        position: fixed;
-        display: grid;
-        justify-content: end;
-    } */
-    #cta {
-        opacity: 0.999;
-        z-index: 1000;
-        transition: 0.25s color;
-    }
-    .toggleOpen #cta {
-        opacity: 0.625;
-    }
-    .toggleOpen #cta:hover {
-        border: transparent 2px solid;
-    }
-    #cta-caret {
-        font-size: 0.75em;
-        position: relative;
-        top: -0.0625em;
-        transform: rotate(0deg);
-        transition: 0.25s;
-    }
-    #cta-caret.toggleOpen {
-        transform: rotate(90deg);
-        transition: 0.25s;
-    }
+
     .scrim {
         width:100vw;
         height: 100vh;
@@ -65,6 +72,7 @@
         transition: 0.25s;
         pointer-events: auto;
     }
+
     .menu {
         position: fixed;
         display: grid;

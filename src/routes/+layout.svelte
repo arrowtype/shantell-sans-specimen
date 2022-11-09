@@ -1,8 +1,16 @@
 <script>
 
 	import PlayPause from "$lib/PlayPause.svelte";
-	import DropdownButton from "$lib/DropdownButton.svelte";
+	import DownloadMenu from "$lib/DownloadMenu.svelte";
 	import Footer from "$lib/Footer.svelte";
+
+	let showDownloadMenu = false;
+
+    function showDownloadMenuCallback() {
+        showDownloadMenu = true
+        document.body.style.position = "fixed";
+    }
+
 
 </script>
 
@@ -14,12 +22,24 @@
 		</div>
 		<div>
 			<a class="button" href="process"><span class="hide-sm">Design&nbsp;</span>Process</a>
-			<!-- <a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it&nbsp;</span>on Google Fonts&nbsp;↗</a> -->
-			<DropdownButton/>
-			<!-- <a id="cta" href="https://github.com/arrowtype/shantell-sans/releases" >Download <span class="hide-sm">from GitHub</span>&nbsp;↗</a> -->
+
+			<button id="cta" on:click={showDownloadMenuCallback}>
+				<span id="cta-caret" class:toggleOpen="{showDownloadMenu}">
+					▶
+				</span>
+				&nbsp;Download
+			</button>
 		</div>
 	</header>
+	
 </div>
+
+<!-- download menu modal -->
+{#if showDownloadMenu}
+<div class="modal">
+	<DownloadMenu on:close="{() => showDownloadMenu = false}"/>
+</div>
+{/if}
   
 <slot></slot>
 
@@ -81,6 +101,30 @@
 	#cta {
 		justify-self: end;
 	}
+
+	    #cta {
+        opacity: 0.999;
+        z-index: 1000;
+        transition: 0.25s color;
+    }
+    .toggleOpen #cta {
+        opacity: 0.625;
+    }
+    .toggleOpen #cta:hover {
+        border: transparent 2px solid;
+    }
+    #cta-caret {
+        font-size: 0.75em;
+        position: relative;
+        top: -0.0625em;
+        transform: rotate(0deg);
+        transition: 0.25s;
+    }
+    .toggleOpen #cta-caret {
+        transform: rotate(90deg);
+        transition: 0.25s;
+    }
+
 
 	
 
