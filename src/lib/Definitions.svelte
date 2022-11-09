@@ -223,13 +223,9 @@
 
     #IRGL .min {
         font-variation-settings: "wght" 550, "IRGL" 0;
-        animation: irregular 1s infinite alternate ease-in-out;
-        animation-play-state: var(--animationState);
     }
     #IRGL .max {
         font-variation-settings: "wght" 550, "IRGL" 100;
-        animation: irregular 1s infinite alternate-reverse ease-in-out;
-        animation-play-state: var(--animationState);
     }
     #IRGL .from {
         animation: irregular 1s infinite alternate ease-in-out;
