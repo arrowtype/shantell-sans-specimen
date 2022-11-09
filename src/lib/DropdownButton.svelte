@@ -33,7 +33,7 @@
         transition: 0.25s color;
     }
     .toggleOpen #cta {
-        color: var(--offText);
+        opacity: 0.625;
     }
     .toggleOpen #cta:hover {
         border: transparent 2px solid;
