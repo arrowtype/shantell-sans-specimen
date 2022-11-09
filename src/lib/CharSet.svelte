@@ -3114,6 +3114,61 @@
             </div>
             <div>
                 <span class="down">
+                    ₀
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₁
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₂
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₃
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₄
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₅
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₆
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₇
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₈
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₉
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ⁰
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ¹
                 </span>
             </div>
@@ -3125,6 +3180,36 @@
             <div>
                 <span class="down">
                     ³
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ⁴
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ⁵
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ⁶
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ⁷
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ⁸
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ⁹
                 </span>
             </div>
             <div>
@@ -3434,6 +3519,26 @@
             </div>
             <div>
                 <span class="down">
+                    ©
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ®
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ™
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    °
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ·
                 </span>
             </div>
@@ -3689,6 +3794,31 @@
             </div>
             <div>
                 <span class="down">
+                    ฿
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₨
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₪
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₾
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₿
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ^
                 </span>
             </div>
@@ -3764,27 +3894,127 @@
             </div>
             <div>
                 <span class="down">
-                    ©
+                    ⏸
                 </span>
             </div>
             <div>
                 <span class="down">
-                    ®
+                    ◆
                 </span>
             </div>
             <div>
                 <span class="down">
-                    ™
+                    ◇
                 </span>
             </div>
             <div>
                 <span class="down">
-                    °
+                    ○
                 </span>
             </div>
             <div>
                 <span class="down">
-                    ◊
+                    ●
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ■
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    □
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▪
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▫
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▲
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    △
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▶
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▷
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▼
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▽
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ◀
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ◁
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▴
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▵
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▸
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▹
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▾
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ▿
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ◂
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ◃
                 </span>
             </div>
             <div>
@@ -3799,92 +4029,12 @@
             </div>
             <div>
                 <span class="down">
+                    ◊
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ✓
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₀
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₁
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₂
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₃
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₄
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₅
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₆
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₇
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₈
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₉
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ⁰
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ⁴
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ⁵
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ⁶
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ⁷
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ⁸
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ⁹
                 </span>
             </div>
             <div>
@@ -3957,11 +4107,11 @@
         text-transform: uppercase;
         font-size: 2rem;
         letter-spacing: 0.05em;
-        /* animation: trackInOut 10s forwards linear infinite; */
         font-variation-settings: "IRGL" 100;
         padding-top: 3rem;
 
     }
+
 
     @keyframes trackInOut {
         0% {
@@ -4011,11 +4161,11 @@
         }
     } */
 
-    @media (prefers-reduced-motion) {
+    /* @media (prefers-reduced-motion) {
         #grid:hover span, #grid:hover span.down {
             animation: none;
         }
-    }
+    } */
 
 
     @media (max-width: 500px) {
