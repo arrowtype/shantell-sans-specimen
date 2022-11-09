@@ -1,10 +1,18 @@
 <script>
 	import { createEventDispatcher, onDestroy } from 'svelte';
 
+    import { animationState } from '../stores.js'
+
+    function toggleAnimations() {
+		$animationState === "running" ? $animationState = "paused" : $animationState = "running";
+	}
+
+
 	const dispatch = createEventDispatcher();
 	function close() {
         dispatch('close');
         document.body.style.position = "";
+        toggleAnimations()
         }
 
 	let modal;
@@ -45,16 +53,26 @@
 
 <svelte:window on:keydown={handle_keydown}/>
 
-<div class="modal-background scrim" class:toggleOpen="{modal}" on:click={close}></div>
+<div class="modal">
 
-<div class="modal dropdown" role="dialog" aria-modal="true" bind:this={modal}>
-    <div class="menu" class:toggleOpen="{modal}">
-        <a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it&nbsp;</span>on Google Fonts&nbsp;↗</a>
-        <a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" ><span class="hide-sm">Download&nbsp;</span>latest release&nbsp;↓</a> 
+    <div class="modal-background scrim" class:toggleOpen="{modal}" on:click={close}></div>
+
+    <div role="dialog" aria-modal="true" bind:this={modal}>
+        <div class="menu" class:toggleOpen="{modal}">
+            <a class="button show-sm" href="process" on:click={close}>The Story of Shantell Sans</a>
+            <a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >Get it on Google Fonts&nbsp;↗</a>
+            <a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >Download latest release&nbsp;↓</a> 
+        </div>
     </div>
-</div>
+
+    </div>
 
 <style>
+
+    .modal {
+        position: fixed;
+        z-index: 1000;
+    }
 
     .scrim {
         width:100vw;
@@ -72,6 +90,7 @@
         transition: 0.25s;
         pointer-events: auto;
     }
+
 
     .menu {
         position: fixed;
@@ -101,7 +120,25 @@
         pointer-events: auto;
         transform: translateY(2rem);
     }
-    .menu.toggleOpen a:last-of-type {
+    /* .menu.toggleOpen a:first-child {
+        transform: translateY(2rem);
+    } */
+    .menu.toggleOpen a:nth-child(2) {
+        transform: translateY(2rem);
+    }
+    .menu.toggleOpen a:nth-child(3) {
         transform: translateY(4.5rem);
+    }
+
+    @media (max-width: 600px) {
+        .menu.toggleOpen a:first-child {
+            transform: translateY(2rem);
+        }
+        .menu.toggleOpen a:nth-child(2) {
+            transform: translateY(4.5rem);
+        }
+        .menu.toggleOpen a:nth-child(3) {
+            transform: translateY(7rem);
+        }
     }
 </style>

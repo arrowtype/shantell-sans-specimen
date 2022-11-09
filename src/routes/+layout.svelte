@@ -1,14 +1,22 @@
 <script>
 
 	import PlayPause from "$lib/PlayPause.svelte";
-	import DownloadMenu from "$lib/DownloadMenu.svelte";
+	import DropdownMenu from "$lib/DropdownMenu.svelte";
 	import Footer from "$lib/Footer.svelte";
 
-	let showDownloadMenu = false;
+	import { animationState } from '../stores.js'
 
-    function showDownloadMenuCallback() {
-        showDownloadMenu = true
+    function toggleAnimations() {
+		$animationState === "running" ? $animationState = "paused" : $animationState = "running";
+	}
+
+
+	let showDropdownMenu = false;
+
+    function showDropdownMenuCallback() {
+        showDropdownMenu = true
         document.body.style.position = "fixed";
+		toggleAnimations()
     }
 
 
@@ -21,13 +29,20 @@
 			<!-- <PlayPause /> -->
 		</div>
 		<div>
-			<a class="button" href="process"><span class="hide-sm">Design&nbsp;</span>Process</a>
+			<span class="hide-sm">
+				<a class="button" href="process">Design Process</a>
+			</span>
 
-			<button id="cta" on:click={showDownloadMenuCallback}>
-				<span id="cta-caret" class:toggleOpen="{showDownloadMenu}">
+			<button id="cta" on:click={showDropdownMenuCallback} class:toggleOpen="{showDropdownMenu}">
+				<span id="cta-caret" class="hide-sm">
 					▶
 				</span>
-				&nbsp;Download
+				<span class="hide-sm">
+					&nbsp;Download
+				</span>
+				<span class="show-sm">
+					Menu
+				</span>
 			</button>
 		</div>
 	</header>
@@ -35,9 +50,9 @@
 </div>
 
 <!-- download menu modal -->
-{#if showDownloadMenu}
+{#if showDropdownMenu}
 <div class="modal">
-	<DownloadMenu on:close="{() => showDownloadMenu = false}"/>
+	<DropdownMenu on:close="{() => showDropdownMenu = false}"/>
 </div>
 {/if}
   
@@ -70,41 +85,30 @@
 		display: grid;
 		grid-template-columns: max-content max-content; 
 		justify-content: space-between;
-		gap: 0.5rem;
+		grid-gap: 0rem;
 		width: 100%;
 		box-sizing: content-box;
-		padding-right: 1rem;
 		/* pointer-events: none; */
 	}
+
+
 	
-	header>div {
+	header > div {
 		display: grid;
 		grid-template-columns: max-content max-content; 
 		gap: 0.5rem;
 	}
 
-	
-	/* header:last-child {
-		margin-right: 1rem;
-	} */
-	
-	@media (max-width: 760px) {
-		#cta {
-			margin-right: 1rem;
+	@media (max-width: 600px) {
+		header > div  {
+			grid-gap: 0;
 		}
-		/* #header-container {
-			padding: 0.5rem;
-			padding-right: 1rem;
-		} */
 	}
 
 	#cta {
 		justify-self: end;
-	}
-
-	    #cta {
         opacity: 0.999;
-        z-index: 1000;
+        z-index: 1001;
         transition: 0.25s color;
     }
     .toggleOpen #cta {
