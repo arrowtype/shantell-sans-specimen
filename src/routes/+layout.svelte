@@ -1,6 +1,7 @@
 <script>
 
 	import PlayPause from "$lib/PlayPause.svelte";
+	import DropdownButton from "$lib/DropdownButton.svelte";
 	import Footer from "$lib/Footer.svelte";
 
 </script>
@@ -9,11 +10,12 @@
 	<header>
 		<div>
 			<a href="./" class="button">Shantell Sans</a>
-			<PlayPause />
+			<!-- <PlayPause /> -->
 		</div>
 		<div>
 			<a class="button" href="process"><span class="hide-sm">Design&nbsp;</span>Process</a>
-			<a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it&nbsp;</span>on Google Fonts&nbsp;↗</a>
+			<!-- <a id="cta" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it&nbsp;</span>on Google Fonts&nbsp;↗</a> -->
+			<DropdownButton/>
 			<!-- <a id="cta" href="https://github.com/arrowtype/shantell-sans/releases" >Download <span class="hide-sm">from GitHub</span>&nbsp;↗</a> -->
 		</div>
 	</header>

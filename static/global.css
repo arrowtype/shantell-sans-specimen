@@ -23,6 +23,7 @@
 	--altBg: black;
 	--altText: white;
 	--offWhite: hsl(0,0%,80%);
+	--offText: hsl(0,0%,25%);
 	--gray: rgb(87, 87, 87);
 	--modalBg: hsl(240, 0%, 90%);
 	--trackBg: hsl(230, 0%, 90%);
@@ -36,6 +37,7 @@
 	:root {
 		--background: black;
 		--text: white;
+		--offText: hsl(0,0%,75%);
 		--gray: hsl(240, 0%, 70%);
 		--modalBg: hsl(240, 0%, 10%);
 		--altBg: hsl(230, 0%, 7.5%);
