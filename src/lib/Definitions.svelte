@@ -10,9 +10,9 @@
 
     <div id="wght" class="axis">
         <div class="axis-diagram" >
-            <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">•</span>
-            <span class="max" class:to={animationState=="running"}>HHH</span>
+            <span class="min">HHH</span>
+            <span class="between gray">→</span>
+            <span class="max">HHH</span>
         </div>
         <h3 class="axis-name">Weight <span class="axis-range">(300 to 800)</span> <span class="axis-tag">wght</span></h3>
         <p>You know it and love it, and now it’s variable! <em>Weight</em> adjusts the overall thickness of the strokes in letterforms. Useful for establishing typographic hierarchy and much more.</p>
@@ -20,9 +20,9 @@
 
     <div id="ital" class="axis">
         <div class="axis-diagram">
-            <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">•</span>
-            <span class="max" class:to={animationState=="running"}>HHH</span>
+            <span class="min">HHH</span>
+            <span class="between gray">→</span>
+            <span class="max">HHH</span>
         </div>
         <h3 class="axis-name">Italic <span class="axis-range">(0 to 1)</span> <span class="axis-tag">ital</span></h3>
         <p>Adjusts letters from upright to sloped. Glyphs keep the same overall shapes, but are redrawn to keep good curves and monolinear strokes. Useful to provide emphasis in typography.</p>
@@ -30,9 +30,9 @@
 
     <div id="IRGL" class="axis">
         <div class="axis-diagram">
-            <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">•</span>
-            <span class="max" class:to={animationState=="running"}>HHH</span>
+            <span class="min">HHH</span>
+            <span class="between gray">→</span>
+            <span class="max">HHH</span>
         </div>
         <h3 class="axis-name">Irregularity <span class="axis-range">(0 to 100)</span> <span class="axis-tag">IRGL</span></h3>
         <p>Adjusts glyph shapes from normalized proportions (with consistent heights and proportions for everyday typography) to irregular shaping and sizing (more like handwriting).</p>
@@ -40,9 +40,9 @@
 
     <div id="BNCE" class="axis">
         <div class="axis-diagram">
-            <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">•</span>
-            <span class="max" class:to={animationState=="running"}>HHH</span>
+            <span class="min">HHH</span>
+            <span class="between gray">→</span>
+            <span class="max">HHH</span>
         </div>
         <h3 class="axis-name">Bounce <span class="axis-range">(-100 to 100)</span> <span class="axis-tag">BNCE</span></h3>
         <p>Translates glyphs along their Y axis to provide a “bouncy” look. Set to a default of 0, this gives a regular baseline. Animated between -100 and +100, this gives a wavy look.</p>
@@ -50,9 +50,9 @@
 
     <div id="TRAK" class="axis">
         <div class="axis-diagram">
-            <span class="min" class:from={animationState=="running"}>HHH</span>
-            <span class="between gray">•</span>
-            <span class="max" class:to={animationState=="running"}>HHH</span>
+            <span class="min">HHH</span>
+            <span class="between gray">→</span>
+            <span class="max">HHH</span>
         </div>
         <h3 class="axis-name">Tracking <span class="axis-range">(0 to 500)</span> <span class="axis-tag">TRAK</span></h3>
         <p>Adds extra spacing between letters (AKA “tracking”). Useful for animating letter spacing, or for adding tracking in software which doesn’t provide built-in support for it.</p>
