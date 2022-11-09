@@ -10,7 +10,7 @@
     <div class="scrim" class:toggleOpen="{dropdownOpen}" on:click={() => (dropdownOpen = !dropdownOpen)}></div>
     <div class="menu" class:toggleOpen="{dropdownOpen}">
         <a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" ><span class="hide-sm">Get it&nbsp;</span>on Google Fonts&nbsp;↗</a>
-        <a class="button" href="https://github.com/arrowtype/shantell-sans/releases/latest" ><span class="hide-sm">Download&nbsp;</span>latest release&nbsp;↗</a> 
+        <a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" ><span class="hide-sm">Download&nbsp;</span>latest release&nbsp;↓</a> 
     </div>
     <button id="cta" on:click={() => (dropdownOpen = !dropdownOpen)}>
         <span id="cta-caret" class:toggleOpen="{dropdownOpen}">
