@@ -99,10 +99,14 @@
     }
 
     @media (min-width: 800px) {
-        h2 {
-        }
         h2 br {
             display: inline;
+        }
+    }
+
+    @media (max-width: 600px) {
+        h2 {
+            font-size: 15vw;
         }
     }
 
@@ -141,6 +145,11 @@
         font-size: 4rem;
         margin: 0;
         line-height: 1;
+    }
+    @media (max-width: 600px) {
+        .axis-diagram {
+            font-size: 3.5rem;
+        }
     }
 
     .axis-range {
@@ -284,6 +293,12 @@
             font-variation-settings: "wght" 550,  "TRAK" 0;
         } to {
             font-variation-settings: "wght" 550,  "TRAK" 150;
+        }
+    }
+
+    @media (max-width: 600px) {
+        #TRAK .max {
+            font-variation-settings: "wght" 550, "TRAK" 150;
         }
     }
 
