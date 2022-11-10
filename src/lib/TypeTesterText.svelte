@@ -1,5 +1,6 @@
 <script>
     let cursorDisplay = 'inline-block';
+    import { animationState } from '../stores.js'
 
     export let fontFea = ''
 
@@ -24,7 +25,7 @@
 
 
 <div id="type-area" {sizePx} {wght} {ital} {irgl} {bnce} {fontFea} {lineHeight} style="--wght: {wght}; --ital: {ital}; --irgl: {irgl};  --bnce: {bnce}; --trak: {trak};  --size: {sizePx}; --lineHeight: {lineHeight}; --fontFeatures: {fontFea}; --textAlign: {textAlign};">
-  <h2 class="type-tester" contenteditable spellcheck="false" on:focus={removeCursor}>Try Me!<span id="type-cursor" style="display:{cursorDisplay};"></span></h2>
+  <h2  style="--animationState: {$animationState};" class="type-tester" contenteditable spellcheck="false" on:focus={removeCursor}>Try Me!<span id="type-cursor" style="display:{cursorDisplay};"></span></h2>
 </div>
 
 
@@ -108,6 +109,7 @@
       opacity: 0;
       border-radius: 999px;
       animation: blink 0.4s infinite alternate;
+      animation-play-state: var(--animationState);
     }
     @keyframes blink {
       to {
