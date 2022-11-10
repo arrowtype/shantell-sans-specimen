@@ -15,15 +15,29 @@
 
     function showDropdownMenuCallback() {
         showDropdownMenu = true
+
+
+		const scroll = `-${window.scrollY}px`
+
+		// When the modal is shown, we want a fixed body
         document.body.style.position = "fixed";
+		document.body.style.top = scroll;
+
+		const header = document.querySelector("#header-container")
+
+		header.style.position = "fixed";
+		header.style.top = "0";
+
+
 		toggleAnimations()
     }
 
-
 </script>
 
+<svelte:window/>
+
 <div id="header-container">
-	<header>
+	<header id="header">
 		<div>
 			<a href="./" class="button">Shantell Sans</a>
 			<!-- <PlayPause /> -->
@@ -65,22 +79,13 @@
 
 	#header-container {
 		width: 100vw;
-		overflow-x: scroll;
 		display: block;
 		position: fixed;
 		padding: 1rem;
 		z-index: 999;
 		height: 4.5rem;
-
-		/* hide scroll bars */
-		-ms-overflow-style: none; /* for Internet Explorer, Edge */
-		scrollbar-height: none; /* for Firefox */
 	}
 	
-	#header-container::-webkit-scrollbar {
-		display: none; /* for Chrome, Safari, and Opera */
-	}
-
     header {
 		display: grid;
 		grid-template-columns: max-content max-content; 

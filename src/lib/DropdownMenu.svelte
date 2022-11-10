@@ -11,8 +11,11 @@
 	const dispatch = createEventDispatcher();
 	function close() {
         dispatch('close');
-        document.body.style.position = "";
         toggleAnimations()
+        const scrollY = document.body.style.top;
+        document.body.style.position = '';
+        document.body.style.top = '';
+        window.scrollTo(0, parseInt(scrollY || '0') * -1);
         }
 
 	let modal;
@@ -47,8 +50,7 @@
 		});
 	}
 
-    // TODO: make escape key toggle open state
-    // TODO: make open menu pause the site
+    // TODO: fix page scrolling to top on open
 </script>
 
 <svelte:window on:keydown={handle_keydown}/>
