@@ -1,7 +1,8 @@
 <script>
 
 	import PlayPause from "$lib/PlayPause.svelte";
-	import DropdownMenu from "$lib/DropdownMenu.svelte";
+	// import DropdownMenu from "$lib/DropdownMenu.svelte";
+	import { createEventDispatcher, onDestroy } from 'svelte';
 	import Footer from "$lib/Footer.svelte";
 
 	import { animationState } from '../stores.js'
@@ -10,41 +11,77 @@
 		$animationState === "running" ? $animationState = "paused" : $animationState = "running";
 	}
 
+	const dispatch = createEventDispatcher();
 
-	let showDropdownMenu = false;
+	function close() {
+        dispatch('close');
+        toggleAnimations()
+        const scrollY = document.body.style.top;
+        document.body.style.position = '';
+        document.body.style.top = '';
+        window.scrollTo(0, parseInt(scrollY || '0') * -1);
+	}
 
-    function showDropdownMenuCallback() {
-        showDropdownMenu = true
+	function openMenu() {
+		let expanded = this.getAttribute('aria-expanded') === 'true' || false;
+		this.setAttribute('aria-expanded', !expanded);
+		let menu = this.nextElementSibling;
+		menu.hidden = !menu.hidden;
+	};
 
+	const handle_keydown = e => {
+		if (e.key === 'Escape') {
+			close();
+			return;
+		}
+	}
 
-		const scroll = `-${window.scrollY}px`
-
-		// When the modal is shown, we want a fixed body
-        document.body.style.position = "fixed";
-		document.body.style.top = scroll;
-
-		const header = document.querySelector("#header-container")
-
-		header.style.position = "fixed";
-		header.style.top = "0";
-
-
-		toggleAnimations()
-    }
 
 </script>
 
-<svelte:window/>
 
-<div id="header-container">
+<svelte:window on:keydown={handle_keydown}/>
+
+
 	<nav id="header">
 		<div>
 			<a href="./" class="button" tabindex="0">Shantell Sans</a>
 			<!-- <PlayPause /> -->
 		</div>
 		<div>
-			<a class="button hide-sm" href="process" tabindex="0">Design Process</a>
+			<a class="button" href="process" tabindex="0">Design Process</a>
+			<button class="button" aria-expanded="false" aria-controls="menu-list" on:click={openMenu}>
+				<span id="cta-caret" class="hide-sm">
+					▶
+				</span>
+				<span class="hide-sm">
+					&nbsp;Download
+				</span>
+			</button>
+			<ul id="menu-list" hidden>
+				<li>
+					<a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >Get it on Google Fonts&nbsp;↗</a>
+				</li>
+				<li>
+					<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >Download latest release&nbsp;↓</a> 
+				</li>
+			</ul>
+			<!-- <div class="dropdown">
+				<button class="button dropdown-button">
+					<span id="cta-caret" class="hide-sm">
+						▶
+					</span>
+					<span class="hide-sm">
+						&nbsp;Download
+					</span>
+				</button>
+				<div class="dropdown-content">
 
+					<a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >Get it on Google Fonts&nbsp;↗</a>
+					<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >Download latest release&nbsp;↓</a> 
+				</div>
+			</div> -->
+<!-- 
 			<button tabindex="0" id="cta" on:click={showDropdownMenuCallback} class:toggleOpen="{showDropdownMenu}">
 				<span id="cta-caret" class="hide-sm">
 					▶
@@ -55,19 +92,11 @@
 				<span class="show-sm">
 					Menu
 				</span>
-			</button>
+			</button> -->
 		</div>
 	</nav>
 	
-</div>
 
-<!-- download menu modal -->
-{#if showDropdownMenu}
-<div class="modal">
-	<DropdownMenu on:close="{() => showDropdownMenu = false}"/>
-</div>
-{/if}
-  
 <slot></slot>
 
 
@@ -75,14 +104,14 @@
 
 <style>
 
-	#header-container {
+	/* #header-container {
 		width: 100vw;
 		display: block;
 		position: fixed;
 		padding: 1rem;
 		z-index: 999;
-		height: 4.5rem;
-	}
+		height: auto;
+	} */
 	
     nav {
 		display: grid;
@@ -152,11 +181,12 @@
 		overflow: hidden;
 		display: grid;
 		justify-content: center;
-		align-content: center;
+		align-content: start;
 	}
 	
-
-
+	#menu-list {
+		list-style: none;
+	}
 
     
 </style>
