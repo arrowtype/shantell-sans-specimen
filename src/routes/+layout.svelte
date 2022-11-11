@@ -37,17 +37,15 @@
 <svelte:window/>
 
 <div id="header-container">
-	<header id="header">
+	<nav id="header">
 		<div>
-			<a href="./" class="button">Shantell Sans</a>
+			<a href="./" class="button" tabindex="0">Shantell Sans</a>
 			<!-- <PlayPause /> -->
 		</div>
 		<div>
-			<span class="hide-sm">
-				<a class="button" href="process">Design Process</a>
-			</span>
+			<a class="button hide-sm" href="process" tabindex="0">Design Process</a>
 
-			<button id="cta" on:click={showDropdownMenuCallback} class:toggleOpen="{showDropdownMenu}">
+			<button tabindex="0" id="cta" on:click={showDropdownMenuCallback} class:toggleOpen="{showDropdownMenu}">
 				<span id="cta-caret" class="hide-sm">
 					▶
 				</span>
@@ -59,7 +57,7 @@
 				</span>
 			</button>
 		</div>
-	</header>
+	</nav>
 	
 </div>
 
@@ -86,7 +84,7 @@
 		height: 4.5rem;
 	}
 	
-    header {
+    nav {
 		display: grid;
 		grid-template-columns: max-content max-content; 
 		justify-content: space-between;
@@ -98,14 +96,14 @@
 
 
 	
-	header > div {
+	nav > div {
 		display: grid;
 		grid-template-columns: max-content max-content; 
 		gap: 0.5rem;
 	}
 
 	@media (max-width: 600px) {
-		header > div  {
+		nav > div  {
 			grid-gap: 0;
 		}
 	}
