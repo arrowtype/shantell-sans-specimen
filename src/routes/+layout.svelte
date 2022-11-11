@@ -13,25 +13,32 @@
 
 	const dispatch = createEventDispatcher();
 
-	function close() {
-        dispatch('close');
-        toggleAnimations()
-        const scrollY = document.body.style.top;
-        document.body.style.position = '';
-        document.body.style.top = '';
-        window.scrollTo(0, parseInt(scrollY || '0') * -1);
-	}
+	// function close() {
+    //     dispatch('close');
+    //     toggleAnimations()
+    //     const scrollY = document.body.style.top;
+    //     document.body.style.position = '';
+    //     document.body.style.top = '';
+    //     window.scrollTo(0, parseInt(scrollY || '0') * -1);
 
-	function openMenu() {
-		let expanded = this.getAttribute('aria-expanded') === 'true' || false;
-		this.setAttribute('aria-expanded', !expanded);
-		let menu = this.nextElementSibling;
+	// }
+
+	let menuButton;
+	let menuOpen = false;
+
+	function toggleMenu() {
+		let expanded = menuButton.getAttribute('aria-expanded') === 'true' || false;
+		menuButton.setAttribute('aria-expanded', !expanded);
+		let menu = menuButton.nextElementSibling;
 		menu.hidden = !menu.hidden;
+		menuOpen = !menuOpen;
+		toggleAnimations()
 	};
 
 	const handle_keydown = e => {
-		if (e.key === 'Escape') {
-			close();
+		if (e.key === 'Escape' && menuOpen === true) {
+			// close();
+			toggleMenu();
 			return;
 		}
 	}
@@ -43,58 +50,48 @@
 <svelte:window on:keydown={handle_keydown}/>
 
 
-	<nav id="header">
-		<div>
-			<a href="./" class="button" tabindex="0">Shantell Sans</a>
-			<!-- <PlayPause /> -->
-		</div>
-		<div>
-			<a class="button" href="process" tabindex="0">Design Process</a>
-			<button class="button" aria-expanded="false" aria-controls="menu-list" on:click={openMenu}>
-				<span id="cta-caret" class="hide-sm">
-					▶
-				</span>
-				<span class="hide-sm">
-					&nbsp;Download
-				</span>
-			</button>
-			<ul id="menu-list" hidden>
-				<li>
-					<a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >Get it on Google Fonts&nbsp;↗</a>
-				</li>
-				<li>
-					<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >Download latest release&nbsp;↓</a> 
-				</li>
-			</ul>
-			<!-- <div class="dropdown">
-				<button class="button dropdown-button">
-					<span id="cta-caret" class="hide-sm">
-						▶
-					</span>
-					<span class="hide-sm">
-						&nbsp;Download
-					</span>
-				</button>
-				<div class="dropdown-content">
 
-					<a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >Get it on Google Fonts&nbsp;↗</a>
-					<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >Download latest release&nbsp;↓</a> 
-				</div>
-			</div> -->
-<!-- 
-			<button tabindex="0" id="cta" on:click={showDropdownMenuCallback} class:toggleOpen="{showDropdownMenu}">
-				<span id="cta-caret" class="hide-sm">
-					▶
-				</span>
-				<span class="hide-sm">
-					&nbsp;Download
-				</span>
-				<span class="show-sm">
-					Menu
-				</span>
-			</button> -->
-		</div>
-	</nav>
+<div id="menu-scrim" class:menuOpen={menuOpen} on:click={toggleMenu}></div>
+<nav id="header">
+	<div>
+		<a href="./" class="button" tabindex="0">Shantell Sans</a>
+		<!-- <PlayPause /> -->
+	</div>
+	<div>
+		<a class="button hide-sm" href="process" tabindex="0">Design Process</a>
+		<button bind:this={menuButton} class:menuOpen={menuOpen} class="button" aria-expanded="false" aria-controls="menu-list" on:click={toggleMenu}>
+			<span id="cta-caret" class="hide-sm">
+				▶
+			</span>
+			<span class="hide-sm">
+				&nbsp;Download
+			</span>
+			<span class="show-sm">
+				Menu
+			</span>
+		</button>
+		<ul id="menu-list" class:menuOpen={menuOpen} on:click={toggleMenu} hidden>
+			<li class="show-sm">
+				<a class="button" href="process">
+					The Story of Shantell Sans
+				</a>
+			</li>
+			<li>
+				<a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >
+					Get it on Google Fonts
+					<span class="menu-icon">↗</span>
+					</a>
+			</li>
+			<li>
+				<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >
+					Download latest release
+					<span class="menu-icon">↓</span>
+				</a> 
+			</li>
+		</ul>
+	</div>
+</nav>
+
 	
 
 <slot></slot>
@@ -114,12 +111,16 @@
 	} */
 	
     nav {
+		position: fixed;
+		padding: 0.75rem;
 		display: grid;
 		grid-template-columns: max-content max-content; 
 		justify-content: space-between;
 		grid-gap: 0rem;
 		width: 100%;
-		box-sizing: content-box;
+		max-width: 100vw;
+		box-sizing: border-box;
+		z-index: 100;
 		/* pointer-events: none; */
 	}
 
@@ -137,18 +138,9 @@
 		}
 	}
 
-	#cta {
-		justify-self: end;
-        opacity: 0.999;
-        z-index: 1001;
-        transition: 0.25s color;
-    }
-    .toggleOpen #cta {
-        opacity: 0.625;
-    }
-    .toggleOpen #cta:hover {
-        border: transparent 2px solid;
-    }
+
+
+
     #cta-caret {
         font-size: 0.75em;
         position: relative;
@@ -156,10 +148,12 @@
         transform: rotate(0deg);
         transition: 0.25s;
     }
-    .toggleOpen #cta-caret {
+    .menuOpen #cta-caret {
         transform: rotate(90deg);
         transition: 0.25s;
     }
+
+
 
 
 	
@@ -186,6 +180,38 @@
 	
 	#menu-list {
 		list-style: none;
+		position: absolute;
+		top: 2rem;
+		right: 0.75rem;
+	}
+
+	#menu-list.menuOpen {
+		display: grid;
+		grid-gap: 0.25rem;
+		justify-content: end;
+		width: max-content;
+		
+	}
+
+	#menu-list a {
+		display: flex;
+		justify-content: space-between;
+		/* width: max-content; */
+	}
+
+	#menu-scrim{
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		background: #000;
+		pointer-events: none;
+		opacity: 0;
+		transition: 0.25s;
+	}
+	#menu-scrim.menuOpen{
+		display: block;
+		opacity: 0.5;
+		pointer-events: all;
 	}
 
     
