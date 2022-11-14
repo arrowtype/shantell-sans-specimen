@@ -11,31 +11,85 @@
 		$animationState === "running" ? $animationState = "paused" : $animationState = "running";
 	}
 
-	const dispatch = createEventDispatcher();
+	// const dispatch = createEventDispatcher();
 
-	// function close() {
-    //     dispatch('close');
-    //     toggleAnimations()
-    //     const scrollY = document.body.style.top;
-    //     document.body.style.position = '';
-    //     document.body.style.top = '';
-    //     window.scrollTo(0, parseInt(scrollY || '0') * -1);
-
-	// }
 
 	// TODO: scroll fix page
 	// TODO: make clicks on home/process links close the menu
 
+	/**
+	 * @type {HTMLElement}
+	 */
+	let scrim;
+
+	/**
+	 * @type {HTMLElement}
+	 */
+	let header;
+
+	/**
+	 * @type {HTMLButtonElement}
+	 */
 	let menuButton;
+
+	/**
+	 * @type {HTMLUListElement}
+	 */
+	let menu;
+
 	let menuOpen = false;
 
-	function toggleMenu() {
-		let expanded = menuButton.getAttribute('aria-expanded') === 'true' || false;
-		menuButton.setAttribute('aria-expanded', !expanded);
-		let menu = menuButton.nextElementSibling;
-		menu.hidden = !menu.hidden;
-		menuOpen = !menuOpen;
+	function openMenu() {
+        // dispatch('close');
+
+		menu.hidden = false;
 		toggleAnimations()
+
+		const scroll = `-${window.scrollY}px`
+
+		// When the modal is shown, we want a fixed body
+        document.body.style.position = "fixed";
+		document.body.style.top = scroll;
+
+		// make sure the header is fixed as well
+		header.style.position = "fixed";
+		header.style.top = "0";
+		scrim.style.position = "fixed";
+		scrim.style.top = "0";
+
+		toggleAnimations()
+
+		menuOpen = true;
+	}
+
+	function closeMenu() {
+        // dispatch('close');
+
+		menu.hidden = true;
+		toggleAnimations()
+
+		if (menuOpen) {
+			// When the menu is closed, we want a scrollable body
+			const scrollY = document.body.style.top;
+			document.body.style.position = '';
+			document.body.style.top = '';
+			window.scrollTo(0, parseInt(scrollY || '0') * -1);
+		}
+
+		menuOpen = false;
+	}
+
+	function toggleMenu() {
+		// let expanded = menuButton.getAttribute('aria-expanded') === 'true' || false;
+		// menuButton.setAttribute('aria-expanded', String(!expanded));
+
+		if (menuOpen === true) {
+			closeMenu()
+			menuButton.setAttribute('aria-expanded', String(false));
+		} else {
+			openMenu()
+			menuButton.setAttribute('aria-expanded', String(true));
+		}
 	};
 
 	const handle_keydown = e => {
@@ -54,14 +108,14 @@
 
 
 
-<div id="menu-scrim" class:menuOpen={menuOpen} on:click={toggleMenu}></div>
-<nav id="header">
+<div bind:this={scrim} id="menu-scrim" class:menuOpen={menuOpen} on:click={toggleMenu}></div>
+<nav bind:this={header} id="header">
 	<div>
-		<a href="./" class="button" tabindex="0">Shantell Sans</a>
+		<a href="./" class="button" tabindex="0" on:click={closeMenu}>Shantell Sans</a>
 		<!-- <PlayPause /> -->
 	</div>
 	<div>
-		<a class="button hide-sm" href="process" tabindex="0">Design Process</a>
+		<a class="button hide-sm" href="process" tabindex="0" on:click={closeMenu}>Design Process</a>
 		<button bind:this={menuButton} class:menuOpen={menuOpen} class="button" aria-expanded="false" aria-controls="menu-list" on:click={toggleMenu}>
 			<span id="cta-caret" class="hide-sm">
 				▶
@@ -73,7 +127,7 @@
 				Menu
 			</span>
 		</button>
-		<ul id="menu-list" class:menuOpen={menuOpen} on:click={toggleMenu} hidden>
+		<ul bind:this={menu} id="menu-list" class:menuOpen={menuOpen} on:click={toggleMenu} hidden>
 			<li class="show-sm">
 				<a class="button" href="process">
 					The Story of Shantell Sans
