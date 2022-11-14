@@ -79,13 +79,13 @@
 			<li>
 				<a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >
 					Get it on Google Fonts
-					<span class="menu-icon">↗</span>
+					<span class="menu-icon">&nbsp;↗</span>
 					</a>
 			</li>
 			<li>
 				<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >
 					Download latest release
-					<span class="menu-icon">↓</span>
+					<span class="menu-icon">&nbsp;↓</span>
 				</a> 
 			</li>
 		</ul>
@@ -121,7 +121,7 @@
 		max-width: 100vw;
 		box-sizing: border-box;
 		z-index: 100;
-		/* pointer-events: none; */
+		pointer-events: none;
 	}
 
 
@@ -152,12 +152,6 @@
         transform: rotate(90deg);
         transition: 0.25s;
     }
-
-
-
-
-	
-
 
 	h1 {
 		/* position: absolute; */
@@ -207,6 +201,7 @@
 		pointer-events: none;
 		opacity: 0;
 		transition: 0.25s;
+		z-index: 1;
 	}
 	#menu-scrim.menuOpen{
 		display: block;

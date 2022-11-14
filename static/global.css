@@ -110,11 +110,12 @@ header h1,
 	}
 }
 
-.button,
+.button:hover,
 header .button:hover,
 header button:hover,
 #cta:hover {
-	border: var(--text) solid 2px;
+	border: var(--uiAccent) solid 2px;
+	color: var(--uiAccent);
 }
 
 a:hover,
