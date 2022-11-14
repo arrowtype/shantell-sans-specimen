@@ -23,6 +23,9 @@
 
 	// }
 
+	// TODO: scroll fix page
+	// TODO: make clicks on home/process links close the menu
+
 	let menuButton;
 	let menuOpen = false;
 
@@ -77,7 +80,7 @@
 				</a>
 			</li>
 			<li>
-				<a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >
+				<a class="button" target="blank" href="https://fonts.google.com/specimen/Shantell+Sans" >
 					Get it on Google Fonts
 					<span class="menu-icon">&nbsp;↗</span>
 					</a>
@@ -175,16 +178,24 @@
 	#menu-list {
 		list-style: none;
 		position: absolute;
-		top: 2rem;
+		top: 2.25rem;
 		right: 0.75rem;
+		opacity: 0;
+		transform: translateY(-3rem) scaleY(0);
+		transform-origin: 0%;
+		transition: 0.25s;
+		display: grid;
+		pointer-events: none;
+		z-index: -1;
 	}
 
 	#menu-list.menuOpen {
-		display: grid;
-		grid-gap: 0.25rem;
+		pointer-events: all;
+		grid-gap: 0.5rem;
 		justify-content: end;
 		width: max-content;
-		
+		opacity: 1;
+		transform: translateY(0rem) scaleY(1);
 	}
 
 	#menu-list a {
@@ -193,14 +204,14 @@
 		/* width: max-content; */
 	}
 
-	#menu-scrim{
+	#menu-scrim {
 		position: fixed;
 		width: 100vw;
 		height: 100vh;
 		background: #000;
 		pointer-events: none;
 		opacity: 0;
-		transition: 0.25s;
+		transition: 0.25s opacity;
 		z-index: 1;
 	}
 	#menu-scrim.menuOpen{
