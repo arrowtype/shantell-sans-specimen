@@ -187,6 +187,7 @@
 		display: grid;
 		grid-template-columns: max-content max-content; 
 		gap: 0.5rem;
+		overflow: visible;
 	}
 
 	@media (max-width: 600px) {
