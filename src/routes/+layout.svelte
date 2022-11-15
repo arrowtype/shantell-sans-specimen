@@ -13,9 +13,7 @@
 
 	// const dispatch = createEventDispatcher();
 
-
-	// TODO: scroll fix page
-	// TODO: make clicks on home/process links close the menu
+	// TODO: make tab skip the hidden buttons only while they are hidden
 
 	/**
 	 * @type {HTMLElement}
@@ -239,13 +237,14 @@
 		transform: translateY(-3rem) scaleY(0);
 		transform-origin: 0%;
 		transition: 0.25s;
-		display: grid;
+		display: none;
 		pointer-events: none;
 		z-index: -1;
 	}
 
 	#menu-list.menuOpen {
 		pointer-events: all;
+		display: grid;
 		grid-gap: 0.5rem;
 		justify-content: end;
 		width: max-content;
