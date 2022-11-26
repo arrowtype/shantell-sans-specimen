@@ -31,6 +31,8 @@
 	--animationState: running;
 	/* --uiAccent: rgb(44, 44, 255); */
 	--uiAccent: hsl(228, 100%, 50%);
+
+	--text-column: 800px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -210,7 +212,8 @@ h2 {
 }
 
 .markdown-body h1 {
-	margin-top: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
 	letter-spacing: 0.02em;
 	animation: wobbleBounce .75s ease-in-out alternate 6;
 	animation-play-state: var(--animationState);
@@ -274,8 +277,8 @@ h2 {
 }
 
 .markdown-body img {
-	display: block;
-	max-width: 100%;
+	width: 100%;
+	max-width: var(--text-column);
 }
 
 @keyframes fadeIn {
