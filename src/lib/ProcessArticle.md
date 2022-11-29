@@ -113,14 +113,14 @@ The lowercase “n” and “u” are differentiated because the “n” has a t
 <figure>
     <img loading="lazy" src="assets/differentiated-letters-diagram.png" alt="Comparison of visual distinctions between potentially similar characters" title="Comparison of visual distinctions between potentially similar characters">
 </figure>
-<figcaption>Carefully-placed exit strokes, serifs, and flags help differentiate groups of characters that might otherwise have similar structures, such as <code>I l 1</code>, <code>n u</code>, and <code>b d p q</code>.</figcaption>
+<figcaption>Carefully placed exit strokes, serifs, and flags help differentiate groups of characters that might otherwise have similar structures, such as <strong>I l 1</strong>, <strong>n u</strong>, and <strong>b d p q</strong>.</figcaption>
 
 As you might expect in a handwritten font, the “a” and “g” use the single-story forms that kids tend to learn in school, keeping the font friendly and familiar. 
 
 <figure>
     <img loading="lazy" src="assets/simple-a-g-diagram.png" alt="Single-story a and g in Shantell Sans" title="Single-story a and g in Shantell Sans">
 </figure>
-<figcaption>Shantell Sans opts for single-story constructions of <code>a</code> and <code>g</code> to reflect Shantell’s handwriting.</figcaption>
+<figcaption>Shantell Sans opts for single-story constructions of <strong>a</strong> and <strong>g</strong> to reflect Shantell’s handwriting.</figcaption>
 
 ### 5. Do something new
 
