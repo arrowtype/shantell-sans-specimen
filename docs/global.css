@@ -298,6 +298,10 @@ figcaption, figcaption a {
 	color: var(--gray);
 }
 
+figcaption strong {
+	font-variation-settings: 'wght' 700, 'ital' 1;
+}
+
 @keyframes fadeIn {
 	0% {
 		font-variation-settings: 'wght' 300, 'BNCE' 0, 'IRGL' 0;
