@@ -273,12 +273,29 @@ h2 {
 .markdown-body em {
 	font-style: normal;
 	font-variation-settings: 'wght' 400, 'ital' 1;
-	color: var(--gray);
 }
 
 .markdown-body img {
 	width: 100%;
 	max-width: var(--text-column);
+	border-radius: 0.5rem;
+}
+
+blockquote {
+	font-variation-settings: 'ital' 1;
+	border-left: 1px solid currentcolor;
+	margin-left: 0;
+	padding-left: 1.5rem;
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption, figcaption a {
+	font-style: normal;
+	font-variation-settings: 'wght' 400, 'ital' 1;
+	color: var(--gray);
 }
 
 @keyframes fadeIn {

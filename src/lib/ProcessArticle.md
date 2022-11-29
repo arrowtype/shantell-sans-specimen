@@ -13,8 +13,10 @@ In school, British visual artist [Shantell Martin ](https://shantellmartin.art/)
 
 #### Shantell Martin, Artist
 
- ![Woman holding a black marker drawing on a white canvas](assets/shantell-martin-by-Michelle-Mosqueda1.jpg "Shantell Martin, Photo credit Michelle Mosqueda")
- *Shantell Martin, Photo credit Michelle Mosqueda*
+<figure>
+    <img loading="lazy" src="assets/shantell-martin-by-Michelle-Mosqueda1.jpg" alt="Shantell Martin holding a black marker drawing on a white canvas" title="Shantell Martin, Photo credit Michelle Mosqueda">
+</figure>
+<figcaption>Shantell Martin, Photo credit Michelle Mosqueda</figcaption>
 
 One of my first relationships with words was back in elementary school. We did spelling tests every week. Since I never passed them, I had to sit in detention.
 
@@ -43,21 +45,14 @@ I would really love to see children and young adults use Shantell Sans and learn
 
 I have started to use Shantell Sans in some of my projects. I designed key tags with Shantell Sans type for the [Whitney Museum shop](https://shantellmartin.art/work/x-whitney-museum-shop/) in New York City. I also did a project with Cash App, a financial services platform, to create a cash card. The cash tag and the numbers and everything on the back of the card is in Shantell Sans.
 
+<figure>
+    <img loading="lazy" src="assets/various-keytags-cleanup.jpg" alt="Shantell Martin Various Keytags for the Whitney Museum of Art" title="Shantell Martin Various Keytags for the Whitney Museum of Art">
+</figure>
+<figcaption>Key tags for the Whitney Shop, by <a href="https://variouskeytags.com/">Various Keytags</a>, featuring artwork by Shantell Martin and text in Shantell Sans</figcaption>
 
+<h2>Design Process</h2>
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
-<h4>_Key tags for the Whitney Shop, by [Various Keytags](https://variouskeytags.com/), featuring artwork by Shantell Martin and text in Shantell Sans_</h4>
-
-
-<h2>**Design Process**</h2>
-
-
-**Stephen Nixon, type designer & font developer (Arrow Type)**
+#### Stephen Nixon, type designer & font developer (Arrow Type)
 
 I felt both honored and keenly interested when Shantell first reached out to me asking for a custom font, saying that she was “looking to make a usable, visually pleasing, smart, creative typeface.” I first encountered Shantell’s work in the form of large-scale murals, which I love for their exploratory, semi-spontaneous, and playful line artwork, and I was so excited to learn about Shantell’s wider range of creative and technological work.
 
@@ -68,9 +63,9 @@ _Heck_ yes – that was a prompt I could get into. Few typefaces have reached th
 Like most successful typefaces, Comic Sans was actually made for a very specific purpose, before gaining adoption far beyond that initial use case. Comic Sans was designed by Vincent Connare in 1994 as a font for Microsoft Bob, which was software intended to provide a more-approachable user interface for Windows. As described [on Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Bob):
 
 
-    _Microsoft Bob presented screens showing a "house", with "rooms" that the user could go to containing familiar objects corresponding to computer applications—for instance, a desk with pen and paper, a checkbook, and other items. In this case, clicking on the pen and paper would open the word processor. … A cartoon dog named Rover and other cartoon characters provided guidance using speech balloons._
+> Microsoft Bob presented screens showing a "house", with "rooms" that the user could go to containing familiar objects corresponding to computer applications—for instance, a desk with pen and paper, a checkbook, and other items. In this case, clicking on the pen and paper would open the word processor. … A cartoon dog named Rover and other cartoon characters provided guidance using speech balloons.
 
-Microsoft Bob was released before Comic Sans could be completed, and Bob itself didn’t last long due to lukewarm reception by reviewers and users. However, Comic Sans went on to be pre-installed in both Windows and Mac operating systems, where its unique appearance has since endeared it to a vast amount of users, making it used in everything from the tags on Ty _Beanie Babies _(from the 5th generation on) to [a 2012 CERN presentation](https://www.theverge.com/2012/7/4/3136652/cern-scientists-comic-sans-higgs-boson) on the Higgs Boson particle.
+Microsoft Bob was released before Comic Sans could be completed, and Bob itself didn’t last long due to lukewarm reception by reviewers and users. However, Comic Sans went on to be pre-installed in both Windows and Mac operating systems, where its unique appearance has since endeared it to a vast amount of users, making it used in everything from the tags on Ty _Beanie Babies_ (from the 5th generation on) to [a 2012 CERN presentation](https://www.theverge.com/2012/7/4/3136652/cern-scientists-comic-sans-higgs-boson) on the Higgs Boson particle.
 
 To be clear, the Shantell Sans project was never about making a new version of Comic Sans, or anything directly derived from it. Rather, we sought to identify what makes Comic Sans so popular, and apply a few of those lessons to a totally new font.
 
@@ -87,92 +82,66 @@ But what might “a new Comic Sans” really mean, today? And, how could that ty
 4. The font should be legible and easy to read.
 5. The font should do something new, rather than simply rehash old territory.
 
-<h4>**1. Everyday Appeal**</h4>
+### **1. Everyday Appeal**
 
 
 For the font to have an everyday appeal, it should be based on felt-tip marker handwriting, similar to Comic Sans. For this, Shantell’s handwriting was a perfect place to start from. We worked to keep some of the quirks of that writing, while also simplifying the overall look into something true to a digital form. 
 
-<h4>2. Easy to Use</h4>
+### 2. Easy to Use
 
 
 For the font to be easy to use in a wide variety of communication, it should align to typical expectations of proportions and styles for a modern font. To accomplish this, we set the font metrics of Shantell Sans (like cap-height, x-height, and default line height) to be close to those of commonly used fonts, such as Roboto. To keep things easily readable and to keep visually consistent with Shantell’s writing, we used slightly wider-than-average glyph widths and spacing. 
 
 These decisions help make Shantell Sans easy to use in everyday scenarios like websites, apps, presentations, and more. It has enough personality to be striking in large sizes, but is carefully made to work well in smaller text.
 
+<figure>
+    <img loading="lazy" src="assets/average-metrics.png" alt="A comparison of the relative sizing between fonts Shantell Sans and Roboto" title="A comparison of the relative sizing between fonts Shantell Sans and Roboto">
+</figure>
+<figcaption>A comparison of the relative sizing between fonts Shantell Sans and Roboto</figcaption>
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
-
-<h4>3. Usable and Available</h4>
+### 3. Usable and Available
 
 
 For the font to be usable by a wide range of people, it should support a wide range of languages. Shantell Sans follows (and slightly exceeds) the Google Fonts glyphsets _[Latin Plus](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin)_ and _[Cyrillic Plus](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Cyrillic)_, so it supports 380+ languages using Latin & Cyrillic scripts, throughout Europe, the Americas, and central Asia.
 
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
-_Caption: Text in some of the languages supported by Shantell Sans _
-
-_Alt text: All human beings are born free and equal in dignity and rights, in different languages on 14 lines _
+<figure>
+    <img loading="lazy" src="assets/sample-languages.png" alt="All human beings are born free and equal in dignity and rights, in different languages on 14 lines" title="Text in some of the languages supported by Shantell Sans">
+</figure>
+<figcaption>Text in some of the languages supported by Shantell Sans</figcaption>
 
 To make the font available to the widest range of people possible, we decided to release it as a free to use, open-source font. Releasing under an OFL license, with support from Google Fonts, helped make this possible.
 
-<h4>4. Easy to Read</h4>
+### 4. Easy to Read
 
 
 To make sure the font met Shantell’s goals of making an easy-to-read font, I made sure that the characters could be distinguished from one another. Shantell naturally writes letters like “b”, “d”, “p”, “q” and “n” and “u” that are clearly differentiated from one another through a contrast of simple shapes and well-placed exit [strokes](https://fonts.google.com/knowledge/glossary/stroke). Shantell sometimes writes the uppercase “I” and numeral “1” as only straight lines. To keep these letters distinct, I added serifs to the uppercase “I” and a flag to “1.”
 
 The lowercase “n” and “u” are differentiated because the “n” has a typical, "zig-zag" form, while the u has a simplified form without a tail or exit stroke. 
 
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
-_Carefully-placed exit strokes, serifs, and flags help differentiate groups of characters that might otherwise have similar structures, such as I l 1,  n u, and b d p q._
+<figure>
+    <img loading="lazy" src="assets/differentiated-letters-diagram.png" alt="Comparison of visual distinctions between potentially similar characters" title="Comparison of visual distinctions between potentially similar characters">
+</figure>
+<figcaption>Carefully-placed exit strokes, serifs, and flags help differentiate groups of characters that might otherwise have similar structures, such as <code>I l 1</code>, <code>n u</code>, and <code>b d p q</code>.</figcaption>
 
 As you might expect in a handwritten font, the “a” and “g” use the single-story forms that kids tend to learn in school, keeping the font friendly and familiar. 
 
+<figure>
+    <img loading="lazy" src="assets/simple-a-g-diagram.png" alt="Single-story a and g in Shantell Sans" title="Single-story a and g in Shantell Sans">
+</figure>
+<figcaption>Shantell Sans opts for single-story constructions of <code>a</code> and <code>g</code> to reflect Shantell’s handwriting.</figcaption>
 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
-
-_Single-story a and g._
-
-<h4>5. Do something new</h4>
+### 5. Do something new
 
 
 To do something new, the font should have not only a good range of weights. This wide stylistic range should be available in a variable font to also offer more creative utility to designers & developers willing to explore a little more in the capabilities of modern typography. 
 
 To take the creative possibilities even further, I wanted to see how I might bring in some of the free, organic spirit of Shantell’s work into some experimental axes within such a variable font. 
 
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.gif "image_tooltip")
-
-
-_Caption: Animation of all five variable axes of Shantell Sans: Weight, Italic, Irregularity, Bounce, and Tracking_
-
-_Alt text: “Typography is kinetic” text changing shape _
+<figure>
+    <img loading="lazy" src="assets/kinetic.gif" alt="'Typography is kinetic' text changing shape" title="Animation of all five variable axes of Shantell Sans">
+</figure>
+<figcaption>Animation of all five variable axes of Shantell Sans: Weight, Italic, Irregularity, Bounce, and Tracking</figcaption>
 
 And finally, to make sure the typeface would support the needs of detailed typography, it had to also include OpenType features like tabular vs proportional figures, fractions, and localized forms.
 
@@ -180,26 +149,23 @@ Beyond just my many feelings towards Comic Sans, I felt incredibly lucky to have
 
 <h3>Design & Production</h3>
 
-
 After establishing some core goals of the project with Shantell, we set to work.
 
 Shantell chose a favorite medium-sized felt tip marker (Staedtler Lumocolor M) and wrote several uppercase & lowercase pangrams (sentences including all letters of the alphabet). She also wrote strings of numbers, punctuation, and symbols, plus a few words with accented characters. 
 
-She scanned these, and I set to work tracing them – starting with a centered line through the pen strokes, then expanding this into Light and ExtraBold strokes. Because Shantell’s original writing includes a lot more variation in sizing and rhythm than the fonts we are all used to reading, I subtly modified the character proportions to have somewhat-normalized, consistent heights, widths, and spacing. But, key aspects of letter shaping were retained, like the way the crossbars Shantell’s **t** and **f** don’t go left of the main stems, the way the **A** and **R** start from the top left but the **P** is a simple loop starting from the bottom left, and the way the **M** and **W **are continuous waves rather than separate diagonal strokes.
+She scanned these, and I set to work tracing them – starting with a centered line through the pen strokes, then expanding this into Light and ExtraBold strokes. Because Shantell’s original writing includes a lot more variation in sizing and rhythm than the fonts we are all used to reading, I subtly modified the character proportions to have somewhat-normalized, consistent heights, widths, and spacing. But, key aspects of letter shaping were retained, like the way the crossbars Shantell’s **t** and **f** don’t go left of the main stems, the way the **A** and **R** start from the top left but the **P** is a simple loop starting from the bottom left, and the way the **M** and **W** are continuous waves rather than separate diagonal strokes.
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.jpg "image_tooltip")
+<figure>
+    <img loading="lazy" src="assets/select-letters-enlarged-80.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans" title="Key letters of Shantell’s handwriting compared to Shantell Sans">
+</figure>
+<figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans SemiBold</figcaption>
 
 
 We then explored which direction to go in, aesthetically: should the glyphs be truly monolinear, with circular endcaps – similar to Comic Sans – or should they retain more of the organic, sometimes sharp shaping of the felt-marker writing? Neither extreme felt quite right, so we opted to go for something in the middle: strokes are drawn with a little bit of the sharpness and contrast that helps make Shantell’s writing so engaging, but they are also made a little more uniform in thickness and given softened, semi-rounded endings. This strikes a balance, retaining a sense of marker writing while also being approachable and warm in their digital form.
 
-Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. Letters with more horizontal strokes (like the **E** and **e)** tended to be taller than others while letters with more vertical strokes (like the **M **and** W**) tended to be wider and shorter. Simple shapes (like the **P**) tended to be smaller, while horizontal bars (like on the **G**, **R**, and **t**) tended to extend in a quick, long exit stroke.
+Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. Letters with more horizontal strokes (like the **E** and **e**) tended to be taller than others while letters with more vertical strokes (like the **M** and **W**) tended to be wider and shorter. Simple shapes (like the **P**) tended to be smaller, while horizontal bars (like on the **G**, **R**, and **t**) tended to extend in a quick, long exit stroke.
 
-With these “main sources” created, I then entered another, somewhat more geeky phase of the project: using Python code to generate the sources I could build into the full set of working variable & static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for **Bounce** and **Irregularity**, and these aren’t styles I drew entirely by hand. Instead, a script was used to **A)** make Bouncy styles in which glyphs are shifted up or down, and **B)** make Irregular styles in which glyphs are interpolated between the “normal” & “organic” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied to anything from a subtle or to an exaggerated degree.
+With these “main sources” created, I then entered another, somewhat more geeky phase of the project: using Python code to generate the sources I could build into the full set of working variable & static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for _Bounce_ and _Irregularity_, and these aren’t styles I drew entirely by hand. Instead, a script was used to **A)** make Bouncy styles in which glyphs are shifted up or down, and **B)** make Irregular styles in which glyphs are interpolated between the “normal” & “organic” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied to anything from a subtle or to an exaggerated degree.
 
 Was this last part necessary? Probably not. Was it easy? Nope. Is it cool? I think so! Aside from its obvious and fun possibilities of bouncy and/or irregular typography, these experimental styles enable animated type that doesn’t just sit still, but rather pulses and undulates in a familiar-yet-unfamiliar way. Sure, this type of animation could be achieved with any font with enough work in After Effects or through manipulation with JavaScript, but like many things in type, the value here is that it makes a new aesthetic available in a way that is not only easy to use but also deeply considered along with the design of a cohesive system.
 
@@ -217,17 +183,16 @@ We also extended the fonts to include wider language support: the Latin script w
 
 **Anya Danilova, Type Designer**
 
+(To be added soon...)
+
 [https://docs.google.com/document/d/1ldfo87q8q4VFNP5tfYrbuNJnFL3xaXz8XrPsOAxIBnc/edit](https://docs.google.com/document/d/1ldfo87q8q4VFNP5tfYrbuNJnFL3xaXz8XrPsOAxIBnc/edit)
 
 <h2>Thanks for reading!</h2>
 
-
 Learning the background of Shantell Sans may help you have a deeper appreciation of not only this typeface, but of the type design process more generally. 
 
-Do you have a creative idea that needs a font with some personality? Want to just take a new font for a spin and see where it takes you? Give Shantell Sans a try! 
+Do you have a creative idea that needs a font with some personality? Want to just take a new font for a spin and see where it takes you? Give Shantell Sans a try!
 
 You can get Shantell Sans on [Google Fonts](link to GF/ShantellSans), or download the very latest version in the [open-source repo](https://github.com/arrowtype/shantell-sans/releases/latest).
 
-–
-
-_The Google Fonts Blog has [a simplified version of this article](add link when available), with editing by __._
+_Note: The Google Fonts Blog has [a simplified version of this article](add link when available)._
