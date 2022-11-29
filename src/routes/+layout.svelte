@@ -197,6 +197,15 @@
 		}
 	}
 
+	.button {
+		animation: slowShinyText 0.5s linear alternate infinite;
+        animation-play-state: paused;
+	}
+
+	.button:hover {
+        animation-play-state: running;
+		
+	}
 
 
 

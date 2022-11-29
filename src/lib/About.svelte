@@ -30,7 +30,8 @@
 
 
             <ul>
-                <li><a class="cta" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};">Get it on Google Fonts ↗</a></li>
+                <li><a class="cta" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" style="--animationState: {animationState};">Download latest release ↓</a></li>
+                <li><a class="cta cta-secondary" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};">Get it on Google Fonts ↗</a></li>
                 <li><a class="cta cta-secondary"  target="_blank" href="https://github.com/arrowtype/shantell-sans">See the project on GitHub ↗</a></li>
             </ul>
         </div>
@@ -184,7 +185,7 @@
     }
 
     ul li {
-        margin: 0 0 2rem;
+        margin: 0 0 1rem;
         display: flex;
         justify-content: center;
     }
@@ -199,22 +200,49 @@
         }
         ul li {
             /* margin: 0.5rem -0.75rem 2rem; */
-            margin: 0.5rem 0 2rem;
+            margin: 0.5rem 0 1rem;
             justify-content: start;
         }
     }
 
     a.cta {
-        font-weight: 500;
+        /* font-weight: 600; */
         background: var(--background);
         color: var(--text);
         text-decoration: none;
+        transition: 0.25s;
+        animation: slowShinyText 0.5s linear alternate infinite;
+        animation-play-state: paused;
+    }
+
+    a.cta:not(.cta-secondary):hover {
+        border: 2px solid var(--uiAccent);
+        animation-play-state: running;
+    }
+
+    @media (min-width: 900px) {
+        a.cta:not(.cta-secondary) {
+            margin-left: -0.75rem;
+        }
     }
 
     a.cta-secondary {
+        font-weight: 500;
         background: transparent;
         color: var(--offWhite);
-        border: 2px solid var(--offWhite);
+        /* border: 2px solid var(--offWhite); */
+        padding: 0;
+        border: 2px solid transparent;
+        border-bottom: 2px solid var(--offWhite);
+        border-radius: 0;
+        animation: slowShinyText 0.5s linear alternate infinite;
+        animation-play-state: paused;
+    }
+
+    a.cta-secondary:hover {
+        color: var(--uiAccent);
+        border-bottom: 2px solid var(--uiAccent);
+        animation-play-state: running;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -225,7 +253,6 @@
         a.cta-secondary {
             background: transparent;
             color: var(--offWhite);
-            border: 2px solid var(--offWhite);
         }
     }
 
