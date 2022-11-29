@@ -116,7 +116,10 @@
 		<a class="button hide-sm" href="process" tabindex="0" on:click={closeMenu}>Design Process</a>
 		<button bind:this={menuButton} class:menuOpen={menuOpen} class="button" aria-expanded="false" aria-controls="menu-list" on:click={toggleMenu}>
 			<span id="cta-caret" class="hide-sm">
-				▶
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.96 6.84" >
+						<path d="M.61.61c1.14.68,2.74,2.29,2.74,2.88S1.47,5,.61,6.23"/>
+				</svg>
+				<!-- <svg viewBox="0 0 3.96 6.84"><g data-name="Layer 2"><path fill="none" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.22" d="M.61.61c1.14.68 2.74 2.29 2.74 2.88S1.47 5 .61 6.23" data-name="Layer 1"/></g></svg> -->
 			</span>
 			<span class="hide-sm">
 				&nbsp;Download
@@ -203,10 +206,26 @@
         top: -0.0625em;
         transform: rotate(0deg);
         transition: 0.25s;
+		height: 1rem;
+		display: grid;
+		align-content: center;
     }
+
+	#cta-caret svg {
+		height: 0.625rem;
+	}
+
+	#cta-caret svg path {
+		/* stroke: var(--text); */
+		stroke: currentColor;
+		stroke-width: 1.625px;
+		fill: none;
+		stroke-linecap: round;
+	}
     .menuOpen #cta-caret {
         transform: rotate(90deg);
-        transition: 0.25s;
+        transition: 0.25s transform;
+		transform-origin: 50% 50%;
     }
 
 	h1 {
