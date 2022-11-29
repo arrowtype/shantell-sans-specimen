@@ -6,8 +6,7 @@
 
 #### By Susanna Zaraysky, Editor, Google Fonts Blog
 
-In school, British visual artist [Shantell Martin ](https://shantellmartin.art/)was scared of spelling tests but she felt how words could be art and emotional relief. A discovery in her early 20s opened her eyes to why reading and writing were so difficult for her and motivated her to create the Shantell Sans typeface to inspire others to have fun with writing and words. She teamed up with Stephen Nixon of [Arrow Type](https://www.arrowtype.com/) to create Shantell Sans. 
-
+In school, British visual artist [Shantell Martin ](https://shantellmartin.art/)was scared of spelling tests but she felt how words could be art and emotional relief. A discovery in her early 20s opened her eyes to why reading and writing were so difficult for her and motivated her to create the Shantell Sans typeface to inspire others to have fun with writing and words. She teamed up with Stephen Nixon of [Arrow Type](https://www.arrowtype.com/) to create Shantell Sans.
 
 <h2>Why make a new font?</h2>
 
@@ -62,7 +61,6 @@ _Heck_ yes – that was a prompt I could get into. Few typefaces have reached th
 
 Like most successful typefaces, Comic Sans was actually made for a very specific purpose, before gaining adoption far beyond that initial use case. Comic Sans was designed by Vincent Connare in 1994 as a font for Microsoft Bob, which was software intended to provide a more-approachable user interface for Windows. As described [on Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Bob):
 
-
 > Microsoft Bob presented screens showing a "house", with "rooms" that the user could go to containing familiar objects corresponding to computer applications—for instance, a desk with pen and paper, a checkbook, and other items. In this case, clicking on the pen and paper would open the word processor. … A cartoon dog named Rover and other cartoon characters provided guidance using speech balloons.
 
 Microsoft Bob was released before Comic Sans could be completed, and Bob itself didn’t last long due to lukewarm reception by reviewers and users. However, Comic Sans went on to be pre-installed in both Windows and Mac operating systems, where its unique appearance has since endeared it to a vast amount of users, making it used in everything from the tags on Ty _Beanie Babies_ (from the 5th generation on) to [a 2012 CERN presentation](https://www.theverge.com/2012/7/4/3136652/cern-scientists-comic-sans-higgs-boson) on the Higgs Boson particle.
@@ -71,10 +69,7 @@ To be clear, the Shantell Sans project was never about making a new version of C
 
 <h3>Design Goals</h3>
 
-
 But what might “a new Comic Sans” really mean, today? And, how could that typeface extend naturally from Shantell Martin’s artistic universe? These questions led to the following design goals:
-
-
 
 1. The font should appeal to everyday computer users – not just to typography enthusiasts.
 2. The font should be easy to use in a wide variety of communication.
@@ -82,8 +77,7 @@ But what might “a new Comic Sans” really mean, today? And, how could that ty
 4. The font should be legible and easy to read.
 5. The font should do something new, rather than simply rehash old territory.
 
-### **1. Everyday Appeal**
-
+### 1. Everyday Appeal
 
 For the font to have an everyday appeal, it should be based on felt-tip marker handwriting, similar to Comic Sans. For this, Shantell’s handwriting was a perfect place to start from. We worked to keep some of the quirks of that writing, while also simplifying the overall look into something true to a digital form. 
 
@@ -99,9 +93,7 @@ These decisions help make Shantell Sans easy to use in everyday scenarios like w
 </figure>
 <figcaption>A comparison of the relative sizing between fonts Shantell Sans and Roboto</figcaption>
 
-
 ### 3. Usable and Available
-
 
 For the font to be usable by a wide range of people, it should support a wide range of languages. Shantell Sans follows (and slightly exceeds) the Google Fonts glyphsets _[Latin Plus](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin)_ and _[Cyrillic Plus](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Cyrillic)_, so it supports 380+ languages using Latin & Cyrillic scripts, throughout Europe, the Americas, and central Asia.
 
@@ -113,7 +105,6 @@ For the font to be usable by a wide range of people, it should support a wide ra
 To make the font available to the widest range of people possible, we decided to release it as a free to use, open-source font. Releasing under an OFL license, with support from Google Fonts, helped make this possible.
 
 ### 4. Easy to Read
-
 
 To make sure the font met Shantell’s goals of making an easy-to-read font, I made sure that the characters could be distinguished from one another. Shantell naturally writes letters like “b”, “d”, “p”, “q” and “n” and “u” that are clearly differentiated from one another through a contrast of simple shapes and well-placed exit [strokes](https://fonts.google.com/knowledge/glossary/stroke). Shantell sometimes writes the uppercase “I” and numeral “1” as only straight lines. To keep these letters distinct, I added serifs to the uppercase “I” and a flag to “1.”
 
@@ -132,7 +123,6 @@ As you might expect in a handwritten font, the “a” and “g” use the singl
 <figcaption>Shantell Sans opts for single-story constructions of <code>a</code> and <code>g</code> to reflect Shantell’s handwriting.</figcaption>
 
 ### 5. Do something new
-
 
 To do something new, the font should have not only a good range of weights. This wide stylistic range should be available in a variable font to also offer more creative utility to designers & developers willing to explore a little more in the capabilities of modern typography. 
 
