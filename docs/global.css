@@ -304,6 +304,8 @@ figcaption, figcaption a {
 	font-style: normal;
 	font-variation-settings: 'wght' 400, 'ital' 1;
 	color: var(--gray);
+	font-size: 0.825rem;
+	letter-spacing: 0.03em;
 }
 
 figcaption strong {
