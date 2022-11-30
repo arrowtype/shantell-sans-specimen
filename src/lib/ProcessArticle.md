@@ -55,6 +55,11 @@ I have started to use Shantell Sans in some of my projects. I designed key tags 
 
 I felt both honored and keenly interested when Shantell first reached out to me asking for a custom font, saying that she was “looking to make a usable, visually pleasing, smart, creative typeface.” I first encountered Shantell’s work in the form of large-scale murals, which I love for their exploratory, semi-spontaneous, and playful line artwork, and I was so excited to learn about Shantell’s wider range of creative and technological work.
 
+<figure>
+    <img loading="lazy" src="assets/conversation-starter.png" alt="Dramatic recreation of the initial project conversation" title="Dramatic recreation of the initial project conversation">
+</figure>
+<figcaption>A dramatic recreation of the initial project conversation, paraphrased.</figcaption>
+
 We chatted a bit about what that typeface might be, but what truly caught my attention were four words: Shantell said she wanted to make “a new Comic Sans.”
 
 _Heck_ yes – that was a prompt I could get into. Few typefaces have reached the levels of cultural ubiquity as Comic Sans. Everyone has feelings about it – whether positive or negative. In my mind, a mark of a successful creative work is that it elicits an emotional response. If you love Comic Sans, you probably find it fun and approachable in a way that most stiff, ultra-serious typefaces can’t match. If you _hate_ Comic Sans, maybe ask yourself why. Is it really _objectively_ bad, or can a typeface be good in more ways than you may have considered?
@@ -65,7 +70,7 @@ Like most successful typefaces, Comic Sans was actually made for a very specific
 
 Microsoft Bob was released before Comic Sans could be completed, and Bob itself didn’t last long due to lukewarm reception by reviewers and users. However, Comic Sans went on to be pre-installed in both Windows and Mac operating systems, where its unique appearance has since endeared it to a vast amount of users, making it used in everything from the tags on Ty _Beanie Babies_ (from the 5th generation on) to [a 2012 CERN presentation](https://www.theverge.com/2012/7/4/3136652/cern-scientists-comic-sans-higgs-boson) on the Higgs Boson particle.
 
-To be clear, the Shantell Sans project was never about making a new version of Comic Sans, or anything directly derived from it. Rather, we sought to identify what makes Comic Sans so popular, and apply a few of those lessons to a totally new font.
+To be clear, the Shantell Sans project was never *really* about making a new version of Comic Sans, or anything directly derived from it. Rather, we sought to identify what makes Comic Sans so popular, and apply a few of those lessons to a totally new font.
 
 <h3>Design Goals</h3>
 
@@ -137,11 +142,16 @@ And finally, to make sure the typeface would support the needs of detailed typog
 
 Beyond just my many feelings towards Comic Sans, I felt incredibly lucky to have the chance to create a font based on the handwriting of an artist who uses lines & letters in a unique, familiar-yet-unfamiliar way. I love handwriting-based fonts like [Inkwell](https://www.typography.com/blog/meet-inkwell), [Cortado](https://xyztype.com/fonts/cortado) , and [Studio Lettering](https://houseind.com/hi/studio_lettering), and I wanted to bring some of the craft and details of such “elevated” handwriting fonts into the project, rather than making yet another auto-traced felt marker font. (Though, those fonts also have their place!)
 
-<h3>Design & Production</h3>
+### Design & Production
 
 After establishing some core goals of the project with Shantell, we set to work.
 
-Shantell chose a favorite medium-sized felt tip marker (Staedtler Lumocolor M) and wrote several uppercase & lowercase pangrams (sentences including all letters of the alphabet). She also wrote strings of numbers, punctuation, and symbols, plus a few words with accented characters. 
+Shantell chose a favorite medium-sized felt tip marker (Staedtler Lumocolor M) and wrote several uppercase & lowercase pangrams (sentences including all letters of the alphabet). She also wrote strings of numbers, punctuation, and symbols, plus a few words with accented characters.
+
+<figure>
+    <img loading="lazy" src="assets/shantell-with-markers.jpg" alt="Shantell Martin holding Staedler markers, with handwriting samples in the background" title="Shantell Martin holding Staedler markers, with handwriting samples in the background">
+</figure>
+<figcaption>To gather samples of her handwriting, Shantell wrote several pangrams and a collection of symbols with a favorite marker, the Staedtler Lumocolor M</figcaption>
 
 She scanned these, and I set to work tracing them – starting with a centered line through the pen strokes, then expanding this into Light and ExtraBold strokes. Because Shantell’s original writing includes a lot more variation in sizing and rhythm than the fonts we are all used to reading, I subtly modified the character proportions to have somewhat-normalized, consistent heights, widths, and spacing. But, key aspects of letter shaping were retained, like the way the crossbars Shantell’s **t** and **f** don’t go left of the main stems, the way the **A** and **R** start from the top left but the **P** is a simple loop starting from the bottom left, and the way the **M** and **W** are continuous waves rather than separate diagonal strokes.
 
@@ -153,31 +163,44 @@ She scanned these, and I set to work tracing them – starting with a centered l
 
 We then explored which direction to go in, aesthetically: should the glyphs be truly monolinear, with circular endcaps – similar to Comic Sans – or should they retain more of the organic, sometimes sharp shaping of the felt-marker writing? Neither extreme felt quite right, so we opted to go for something in the middle: strokes are drawn with a little bit of the sharpness and contrast that helps make Shantell’s writing so engaging, but they are also made a little more uniform in thickness and given softened, semi-rounded endings. This strikes a balance, retaining a sense of marker writing while also being approachable and warm in their digital form.
 
+### New variable axes
+
 Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. Letters with more horizontal strokes (like the **E** and **e**) tended to be taller than others while letters with more vertical strokes (like the **M** and **W**) tended to be wider and shorter. Simple shapes (like the **P**) tended to be smaller, while horizontal bars (like on the **G**, **R**, and **t**) tended to extend in a quick, long exit stroke.
+
+<figure>
+    <img loading="lazy" src="assets/irregularity.gif" alt="Shantell Sans includes an axis for Irregularity" title="Shantell Sans includes an axis for Irregularity">
+</figure>
+<figcaption>This animation shows the Weight and Irregularity axes. Both text blocks cycle between Light and ExtraBold weights. The bottom text also cycles between Irregularity 0 and 100.</figcaption>
 
 With these “main sources” created, I then entered another, somewhat more geeky phase of the project: using Python code to generate the sources I could build into the full set of working variable & static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for _Bounce_ and _Irregularity_, and these aren’t styles I drew entirely by hand. Instead, a script was used to **A)** make Bouncy styles in which glyphs are shifted up or down, and **B)** make Irregular styles in which glyphs are interpolated between the “normal” & “organic” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied to anything from a subtle or to an exaggerated degree.
 
+<figure>
+    <img loading="lazy" src="assets/bounce.gif" alt="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations" title="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations">
+</figure>
+<figcaption>The animation shows the Weight and Bounce axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Bounce -100 and +100.</figcaption>
+
 Was this last part necessary? Probably not. Was it easy? Nope. Is it cool? I think so! Aside from its obvious and fun possibilities of bouncy and/or irregular typography, these experimental styles enable animated type that doesn’t just sit still, but rather pulses and undulates in a familiar-yet-unfamiliar way. Sure, this type of animation could be achieved with any font with enough work in After Effects or through manipulation with JavaScript, but like many things in type, the value here is that it makes a new aesthetic available in a way that is not only easy to use but also deeply considered along with the design of a cohesive system.
 
-<h3>Extending the typeface for Google Fonts and open-source release</h3>
-
+### Extending the typeface for Google Fonts and open-source release
 
 Because Shantell was interested in releasing Shantell Sans as an open-source project, we reached out to see if Google Fonts might be interested in sponsoring a few extensions to make the typeface even more useful to an even wider audience.
 
 With support from Google Fonts, we extended the stylistic range of the typeface, creating a full set of Italic styles. We also added in a new, experimental axis: _Tracking,_ which adds extra spacing between letters. This can be useful in software that doesn’t support that option by default.
 
+<figure>
+    <img loading="lazy" src="assets/spacing.gif" alt="The Spacing axis adjusts spacing between letters" title="The Spacing axis adjusts spacing between letters">
+</figure>
+<figcaption>The animation shows the Weight and Tracking axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Tracking 0 and 500.</figcaption>
+
 We also extended the fonts to include wider language support: the Latin script was expanded with Vietnamese characters and many more currency symbols, but even more notably, a whole new set of languages was given support through the addition of Cyrillics!
 
-<h2>Designing Shantell Sans Cyrillic</h2>
+## Designing Shantell Sans Cyrillic
 
+#### Anya Danilova, Type Designer
 
-**Anya Danilova, Type Designer**
+[WIP, to be added soon](https://docs.google.com/document/d/1ldfo87q8q4VFNP5tfYrbuNJnFL3xaXz8XrPsOAxIBnc/edit)
 
-(To be added soon...)
-
-[https://docs.google.com/document/d/1ldfo87q8q4VFNP5tfYrbuNJnFL3xaXz8XrPsOAxIBnc/edit](https://docs.google.com/document/d/1ldfo87q8q4VFNP5tfYrbuNJnFL3xaXz8XrPsOAxIBnc/edit)
-
-<h2>Thanks for reading!</h2>
+## Thanks for reading!
 
 Learning the background of Shantell Sans may help you have a deeper appreciation of not only this typeface, but of the type design process more generally. 
 

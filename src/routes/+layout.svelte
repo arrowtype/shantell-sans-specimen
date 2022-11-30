@@ -122,7 +122,7 @@
 				<!-- <svg viewBox="0 0 3.96 6.84"><g data-name="Layer 2"><path fill="none" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.22" d="M.61.61c1.14.68 2.74 2.29 2.74 2.88S1.47 5 .61 6.23" data-name="Layer 1"/></g></svg> -->
 			</span>
 			<span class="hide-sm">
-				&nbsp;Download
+				Download
 			</span>
 			<span class="show-sm">
 				Menu
@@ -181,8 +181,6 @@
 		z-index: 100;
 		pointer-events: none;
 	}
-
-
 	
 	nav > div {
 		display: grid;
@@ -218,6 +216,7 @@
 		height: 1rem;
 		display: grid;
 		align-content: center;
+		margin-right: 0.5rem;
     }
 
 	#cta-caret svg {
