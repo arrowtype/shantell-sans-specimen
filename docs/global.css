@@ -276,9 +276,17 @@ h2 {
 }
 
 .markdown-body img {
-	width: 100%;
-	max-width: var(--text-column);
-	border-radius: 0.5rem;
+	width: 100vw;
+	margin-left: -1rem;
+}
+
+@media (min-width: 800px) {
+	.markdown-body img {
+		width: 100%;
+		max-width: var(--text-column);
+		border-radius: 0.5rem;
+		margin-left: 0rem;
+	}
 }
 
 blockquote {
