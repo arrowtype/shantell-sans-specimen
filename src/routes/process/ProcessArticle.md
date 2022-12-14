@@ -230,21 +230,21 @@ I tried these letterforms in the font. There were very few clear answers on what
 
 It was a matter of a feeling: some shapes felt right in this typeface, while others – even when they typically should be written in a different way – felt wrong. I had the pleasure of consulting with fellow Cyrillic type designers [Maria Doreuli](https://contrastfoundry.com/), [Krista Radoeva](https://www.instagram.com/kristaradoeva/), and [Alexei Vanyashin](http://www.110design.ru/), and most of the time “the feeling” of right and wrong shapes was the same for us.
 
-In Bulgarian and Serbian languages, which usually have some conventional shapes that differ from default Cyrillic, I had to give my attention to the unexpected ones: for example, the Bulgarian “t” that is usually the same shape as Latin “m”.  I had to adjust it, as in this particular style and font it felt like it might be confused with Cyrillic “m”.
+In Bulgarian and Serbian languages, which usually have some conventional shapes that differ from default Cyrillic, I had to give my attention to the unexpected ones: for example, the Bulgarian **t** that is usually the same shape as Latin **m**.  I had to adjust it, as in this particular style and font it felt like it might be confused with Cyrillic “m”.
 
 <figure>
     <img loading="lazy" src="assets/placeholder.svg" alt="Bulgarian “т” and “м” versus the “m” in Latin" title="Bulgarian “т” and “м” versus the “m” in Latin">
 </figure>
 <figcaption>Bulgarian “т” and “м” versus the “m” in Latin</figcaption>
 
-Usually, shapes that look similar in lowercase and uppercase have a similar approach, but in Shantell Sans, a lot of them are slightly different, in order to keep the lively handwriting feeling. With letters like the Serbian “nje,” I had to be sure both shapes would look natural to a native reader. That’s why I also consulted designer [Jovana Jocić](https://www.instagram.com/zacan_macan/) for the Serbian language.
+Usually, shapes that look similar in lowercase and uppercase have a similar approach, but in Shantell Sans, a lot of them are slightly different, in order to keep the lively handwriting feeling. With letters like the Serbian **nje**, I had to be sure both shapes would look natural to a native reader. That’s why I also consulted designer [Jovana Jocić](https://www.instagram.com/zacan_macan/) for the Serbian language.
 
 <figure>
     <img loading="lazy" src="assets/placeholder.svg" alt="Various possibilities of writing “nje” in Serbian" title="Various possibilities of writing “nje” in Serbian">
 </figure>
 <figcaption>I asked Jovana about the possibilities of writing “nje”, because I wanted to have slightly different shapes for capital and lowercase forms, where lowercase shape would be done in one stroke and uppercase shape would be done in two.</figcaption>
 
-Some shapes can handle less conventional approaches. For example, the Ukrainian pair of її – that is, ï+ï, which has four dots in total, sometimes can be rendered with three dots as a ligature in order to save space, especially in dense display typefaces (these three dots, however, should not be mistaken for the ії or їі – that is, i+ï or ï+i). This option was worth trying out, however four dots felt more natural in this case in the end. 
+Some shapes can handle less conventional approaches. For example, the Ukrainian pair of **її** – that is, **ï+ï**, which has four dots in total, sometimes can be rendered with three dots as a ligature in order to save space, especially in dense display typefaces (these three dots, however, should not be mistaken for the ії or їі – that is, **i+ï** or **ï+i**). This option was worth trying out, however four dots felt more natural in this case in the end. 
 
 <figure>
     <img loading="lazy" src="assets/placeholder.svg" alt="Anya to add caption and send missing images" title="Anya to add caption and send missing images">
