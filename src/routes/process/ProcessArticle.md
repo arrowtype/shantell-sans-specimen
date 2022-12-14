@@ -198,7 +198,63 @@ We also extended the fonts to include wider language support: the Latin script w
 
 #### Anya Danilova, Type Designer
 
-[WIP, to be added soon](https://docs.google.com/document/d/1ldfo87q8q4VFNP5tfYrbuNJnFL3xaXz8XrPsOAxIBnc/edit)
+Cyrillic is the script of many languages in Eurasia: Bulgarian, Serbian, Russian, Belarussian, Ukrainian, Tatar, Bashkir and many more.
+
+The process of designing for Cyrillic is relatively similar to designing for Latin, unlike for example designing Arabic, where there is a very different system of writing. In Cyrillic, some glyphs are the same as in Latin, some require more attention, and some are easy to make. However, the process can become challenging once we talk about unconventional shapes or, in our case, about a typeface that was inspired by the  handwriting of a specific person.
+
+Working on another script for a handwriting typeface can feel somewhat similar to translating poetry. When you translate a poem to another language, how can you save the unique tone of it while also using the structure of the language you are translating it to? Which aspects are specific to an author, which are idioms, which are slang, and how can it be translated to save its meaning and rhythm? I had similar questions while working on Shantell Sans Cyrillic.
+
+Cyrillic can be quite prolific with a variety of shapes. There can be upright (AKA “printed”), italic, and cursive shapes in Cyrillic. Some italic and cursive shapes are different in structure from the “usual” printed ones.
+
+<figure>
+    <img loading="lazy" src="assets/cyr_1-styles.png" alt="Cyrillic characters а, б, в, д, ж, and ы in upright, italic and cursive styles of writing" title="Some examples of how Cyrillic letterforms can be different in upright, italic and cursive styles of writing">
+</figure>
+<figcaption>Some examples of how Cyrillic letterforms can be different in upright, italic and cursive styles of writing</figcaption>
+
+Shantell’s handwriting is a mixture of cursive and printed shapes, which is a common thing: in the UK and in the US, children are taught first cursive shapes, then printed ones. My own handwriting is a mixture of two, as well. But, Shantell writes only in Latin, so I had to figure out how to translate her shapes into Cyrillic. Which letters would be cursive, and which ones printed?
+
+We asked Shantell to write a couple of sentences in Russian, just to see her approach to these unfamiliar shapes. I wanted to be as unbiased as possible, so I asked her to write a few words multiple times, with different shapes for the same letters.
+
+
+<figure>
+    <img loading="lazy" src="assets/cyr_2-scans.png" alt="Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow" title="Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow">
+</figure>
+<figcaption>Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow</figcaption>
+
+I tried these letterforms in the font. There were very few clear answers on what Cyrillic shapes should look like in Shantell Sans, so I explored many versions of characters to compare shapes in text and in different languages.
+
+<figure>
+    <img loading="lazy" src="assets/cyr_3-versions.png" alt="Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans" title="Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans">
+</figure>
+<figcaption>Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans</figcaption>
+
+It was a matter of a feeling: some shapes felt right in this typeface, while others – even when they typically should be written in a different way – felt wrong. I had the pleasure of consulting with fellow Cyrillic type designers [Maria Doreuli](https://contrastfoundry.com/), [Krista Radoeva](https://www.instagram.com/kristaradoeva/), and [Alexei Vanyashin](http://www.110design.ru/), and most of the time “the feeling” of right and wrong shapes was the same for us.
+
+In Bulgarian and Serbian languages, which usually have some conventional shapes that differ from default Cyrillic, I had to give my attention to the unexpected ones: for example, the Bulgarian “t” that is usually the same shape as Latin “m”.  I had to adjust it, as in this particular style and font it felt like it might be confused with Cyrillic “m”.
+
+<figure>
+    <img loading="lazy" src="assets/cyr_4-bulgarian.png" alt="Bulgarian “т” and “м” versus the “m” in Latin" title="Bulgarian “т” and “м” versus the “m” in Latin">
+</figure>
+<figcaption>Bulgarian “т” and “м” versus the “m” in Latin</figcaption>
+
+Usually, shapes that look similar in lowercase and uppercase have a similar approach, but in Shantell Sans, a lot of them are slightly different, in order to keep the lively handwriting feeling. With letters like the Serbian “nje,” I had to be sure both shapes would look natural to a native reader. That’s why I also consulted designer [Jovana Jocić](https://www.instagram.com/zacan_macan/) for the Serbian language.
+
+<figure>
+    <img loading="lazy" src="assets/cyr_5-serbian.png" alt="Various possibilities of writing “nje” in Serbian" title="Various possibilities of writing “nje” in Serbian">
+</figure>
+<figcaption>I asked Jovana about the possibilities of writing “nje”, because I wanted to have slightly different shapes for capital and lowercase forms, where lowercase shape would be done in one stroke and uppercase shape would be done in two.</figcaption>
+
+Some shapes can handle less conventional approaches. For example, the Ukrainian pair of її – that is, ï+ï, which has four dots in total, sometimes can be rendered with three dots as a ligature in order to save space, especially in dense display typefaces (these three dots, however, should not be mistaken for the ії or їі – that is, i+ï or ï+i). This option was worth trying out, however four dots felt more natural in this case in the end. 
+
+<figure>
+    <img loading="lazy" src="assets/cyr_6-ukrainian.png" alt="Anya to add caption and send missing images" title="Anya to add caption and send missing images">
+</figure>
+<figcaption>Anya to add caption and send missing images</figcaption>
+
+Overall, it was an incredible pleasure to work on this project, and its many design challenges only made working on Cyrillic more interesting.
+
+I am excited to see how this typeface would be used and hope to see it being handy for typesetting in different Cyrillic languages as well as Latin.
+
 
 ## Thanks for reading!
 

@@ -1,5 +1,5 @@
 <script>
-    import ProcessArticle from '$lib/ProcessArticle.md'
+    import ProcessArticle from './ProcessArticle.md'
     import { animationState } from '../../stores.js'
 
     export const prerender = true
