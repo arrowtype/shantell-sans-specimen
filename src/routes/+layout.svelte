@@ -141,7 +141,7 @@
 					</a>
 			</li>
 			<li>
-				<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >
+				<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.007/Shantell_Sans_1.007.zip" >
 					Download latest release
 					<span class="menu-icon">&nbsp;↓</span>
 				</a> 

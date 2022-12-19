@@ -30,7 +30,7 @@
 
 
             <ul>
-                <li><a class="cta" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" style="--animationState: {animationState};">Download latest release ↓</a></li>
+                <li><a class="cta" href="https://github.com/arrowtype/shantell-sans/releases/download/1.007/Shantell_Sans_1.007.zip" style="--animationState: {animationState};">Download latest release ↓</a></li>
                 <li><a class="cta cta-secondary" href="https://fonts.google.com/specimen/Shantell+Sans" style="--animationState: {animationState};">Get it on Google Fonts ↗</a></li>
                 <li><a class="cta cta-secondary"  target="_blank" href="https://github.com/arrowtype/shantell-sans">See the project on GitHub ↗</a></li>
             </ul>

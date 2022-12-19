@@ -63,7 +63,7 @@
         <div class="menu" class:toggleOpen="{modal}">
             <a class="button show-sm" href="process" on:click={close}>The Story of Shantell Sans</a>
             <a class="button" href="https://fonts.google.com/specimen/Shantell+Sans" >Get it on Google Fonts&nbsp;↗</a>
-            <a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.006/Shantell_Sans_1.006.zip" >Download latest release&nbsp;↓</a> 
+            <a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.007/Shantell_Sans_1.007.zip" >Download latest release&nbsp;↓</a> 
         </div>
     </div>
 
