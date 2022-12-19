@@ -2,7 +2,7 @@
 	font-family: 'ShantellSans';
 	font-weight: 1 1000;
 	font-style: normal italic;
-	src: url('fonts/ShantellSans[BNCE,IRGL,TRAK,ital,wght].woff2') format('woff2');
+	src: url('fonts/ShantellSans[BNCE,INFM,SPAC,ital,wght].woff2') format('woff2');
 }
 /* @font-face {
 	font-family: 'ShantellSans';
@@ -87,7 +87,7 @@ header h1,
 	align-items: center;
 	margin: 0;
 	border: transparent solid 2px;
-	font-variation-settings: 'BNCE' 25, 'IRGL' 75;
+	font-variation-settings: 'BNCE' 25, 'INFM' 75;
 	font-weight: 550;
 	border: 2px solid transparent;
 	cursor: pointer;
@@ -156,7 +156,7 @@ header .button:hover,
 	letter-spacing: 0.05em;
 	font-feature-settings: 'calt' 1;
 	font-weight: 700;
-	font-variation-settings: 'wght' 800, 'BNCE' -50, 'IRGL' 0;
+	font-variation-settings: 'wght' 800, 'BNCE' -50, 'INFM' 0;
 	text-transform: uppercase;
 	animation: fadeIn 0.375s ease forwards 1,
 		wobble 2s 0.375s ease-in-out alternate 4 var(--animationState),
@@ -217,7 +217,7 @@ h2 {
 	letter-spacing: 0.02em;
 	animation: wobbleBounce .75s ease-in-out alternate 6;
 	animation-play-state: var(--animationState);
-	font-variation-settings: 'BNCE' -60, 'IRGL' 50;
+	font-variation-settings: 'BNCE' -60, 'INFM' 50;
 }
 
 .markdown-body h2 {
@@ -225,7 +225,7 @@ h2 {
 	letter-spacing: 0.02em;
 	/* animation: wobbleBounce .875s ease-in-out alternate-reverse infinite ;
 	animation-play-state: var(--animationState); */
-	font-variation-settings: "BNCE" 50, "IRGL" 100;
+	font-variation-settings: "BNCE" 50, "INFM" 100;
 	font-size: 2rem;
 	line-height: 1;
 	padding: 0.25em 0;
@@ -314,32 +314,32 @@ figcaption strong {
 
 @keyframes fadeIn {
 	0% {
-		font-variation-settings: 'wght' 300, 'BNCE' 0, 'IRGL' 0;
+		font-variation-settings: 'wght' 300, 'BNCE' 0, 'INFM' 0;
 		opacity: 0;
 	}
 	50% {
 		opacity: 1;
 	}
 	100% {
-		font-variation-settings: 'wght' 800, 'BNCE' -100, 'IRGL' 0;
+		font-variation-settings: 'wght' 800, 'BNCE' -100, 'INFM' 0;
 	}
 }
 
 @keyframes wobble {
 	0% {
-		font-variation-settings: 'wght' 800, 'BNCE' -100, 'IRGL' 0;
+		font-variation-settings: 'wght' 800, 'BNCE' -100, 'INFM' 0;
 	}
 	100% {
-		font-variation-settings: 'wght' 650, 'BNCE' 100, 'IRGL' 50;
+		font-variation-settings: 'wght' 650, 'BNCE' 100, 'INFM' 50;
 	}
 }
 
 @keyframes wobbleBounce {
 	0% {
-		font-variation-settings: 'BNCE' -60, 'IRGL' 50;
+		font-variation-settings: 'BNCE' -60, 'INFM' 50;
 	}
 	100% {
-		font-variation-settings: 'BNCE' 60, 'IRGL' 50;
+		font-variation-settings: 'BNCE' 60, 'INFM' 50;
 	}
 }
 

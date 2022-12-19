@@ -16,7 +16,7 @@
     export let ital = 0;
     export let irgl = 0;
     export let bnce = 0;
-    export let trak = 0;
+    export let spac = 0;
     // export let italic = "normal";
     export let lineHeight = 1;
     export let textAlign = "center";
@@ -24,7 +24,7 @@
 
 
 
-<div id="type-area" {sizePx} {wght} {ital} {irgl} {bnce} {fontFea} {lineHeight} style="--wght: {wght}; --ital: {ital}; --irgl: {irgl};  --bnce: {bnce}; --trak: {trak};  --size: {sizePx}; --lineHeight: {lineHeight}; --fontFeatures: {fontFea}; --textAlign: {textAlign};">
+<div id="type-area" {sizePx} {wght} {ital} {irgl} {bnce} {fontFea} {lineHeight} style="--wght: {wght}; --ital: {ital}; --irgl: {irgl};  --bnce: {bnce}; --spac: {spac};  --size: {sizePx}; --lineHeight: {lineHeight}; --fontFeatures: {fontFea}; --textAlign: {textAlign};">
   <h2  style="--animationState: {$animationState};" class="type-tester" contenteditable spellcheck="false" on:focus={removeCursor}>Try Me!<span id="type-cursor" style="display:{cursorDisplay};"></span></h2>
 </div>
 
@@ -37,7 +37,7 @@
         --ital: 0;
         --irgl: 0;
         --bnce: 0;
-        --trak: 0;
+        --spac: 0;
         --italic: normal;
         --maxSizePercent: 1;
         --fontFeatures: "";
@@ -77,7 +77,7 @@
         font-size: calc(var(--size) * 1px);
         font-weight: var(--wght);
         /* font-style: var(--italic); */
-        font-variation-settings:  "ital" var(--ital), "IRGL" var(--irgl),  "BNCE" var(--bnce), "TRAK" var(--trak);
+        font-variation-settings:  "ital" var(--ital), "IRGL" var(--irgl),  "BNCE" var(--bnce), "SPAC" var(--spac);
         outline: none;
         line-height: var(--lineHeight);
         opacity: 0;

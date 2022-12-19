@@ -22,7 +22,7 @@
     export let ital = 0.0; // comes from TypeTesterText component (?)
     export let irgl = 0; // comes from TypeTesterText component (?)
     export let bnce = 0;  // comes from TypeTesterText component (?)
-    export let trak = 0;  // comes from TypeTesterText component (?)
+    export let spac = 0;  // comes from TypeTesterText component (?)
 
     export let wghtMin = 300;
     export let wghtMax = 800;
@@ -36,8 +36,8 @@
     export let bnceMin = -100;
     export let bnceMax = 100;
     
-    export let trakMin = 0;
-    export let trakMax = 250;
+    export let spacMin = 0;
+    export let spacMax = 100;
     
 
     // handle font scaling & layout
@@ -119,7 +119,7 @@
 
 <section>
 
-    <TypeTesterText sizePx={sizePx} wght={wght} ital={ital} irgl={irgl} bnce={bnce}  trak={trak} fontFea={fontFeatures} lineHeight={lineHeight} />
+    <TypeTesterText sizePx={sizePx} wght={wght} ital={ital} irgl={irgl} bnce={bnce}  spac={spac} fontFea={fontFeatures} lineHeight={lineHeight} />
 
         <!-- type style sliders -->
     <div id="control-container" >
@@ -142,7 +142,7 @@
             </div>
 
             <div class="slider-box">
-                <label for="irglSlider">Irregularity</label>
+                <label for="irglSlider">Informality</label>
                 <input type="number" bind:value={irgl} min={irglMin} max={irglMax} step="1" />
                 <Slider id="irglSlider"  label="irgl" bind:value={irgl} type="range" min={irglMin} max={irglMax} step={1} />
             </div>
@@ -154,9 +154,9 @@
             </div>
 
             <div class="slider-box">
-                <label for="trakSlider">Tracking</label>
-                <input type="number" bind:value={trak} min={trakMin} max={trakMax} step="1" />
-                <Slider id="trakSlider"  label="trak" bind:value={trak} type="range" min={trakMin} max={trakMax} step={1} />
+                <label for="spacSlider">Spacing</label>
+                <input type="number" bind:value={spac} min={spacMin} max={spacMax} step="1" />
+                <Slider id="spacSlider"  label="spac" bind:value={spac} type="range" min={spacMin} max={spacMax} step={1} />
             </div>
 
             <!-- {#if windowWidth > 1100}

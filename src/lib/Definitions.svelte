@@ -34,7 +34,7 @@
             <span class="between gray">→</span>
             <span class="max">HHH</span>
         </div>
-        <h3 class="axis-name">Irregularity <span class="axis-range">(0 to 100)</span> <span class="axis-tag">IRGL</span></h3>
+        <h3 class="axis-name">Informality <span class="axis-range">(0 to 100)</span> <span class="axis-tag">IFNM</span></h3>
         <p>Adjusts glyph shapes from normalized proportions (with consistent heights and proportions for everyday typography) to irregular shaping and sizing (more like handwriting).</p>
     </div>
 
@@ -48,14 +48,14 @@
         <p>Translates glyphs along their Y axis to provide a “bouncy” look. Set to a default of 0, this gives a regular baseline. Animated between -100 and +100, this gives a wavy look.</p>
     </div>
 
-    <div id="TRAK" class="axis">
+    <div id="SPAC" class="axis">
         <div class="axis-diagram">
             <span class="min">HHH</span>
             <span class="between gray">→</span>
             <span class="max">HHH</span>
         </div>
-        <h3 class="axis-name">Tracking <span class="axis-range">(0 to 500)</span> <span class="axis-tag">TRAK</span></h3>
-        <p>Adds extra spacing between letters (AKA “tracking”). Useful for animating letter spacing, or for adding tracking in software which doesn’t provide built-in support for it.</p>
+        <h3 class="axis-name">Spacing <span class="axis-range">(0 to 100)</span> <span class="axis-tag">SPAC</span></h3>
+        <p>Adds extra spacing between letters (AKA "letter-spacing" or “tracking”). Useful for animations and for adding tracking in software which doesn’t provide built-in support for it.</p>
     </div>
     
 </section>
@@ -274,31 +274,31 @@
         }
     }
 
-    #TRAK .min {
-        font-variation-settings: "wght" 550, "TRAK" 0;
+    #SPAC .min {
+        font-variation-settings: "wght" 550, "SPAC" 0;
     }
-    #TRAK .max {
-        font-variation-settings: "wght" 550, "TRAK" 500;
+    #SPAC .max {
+        font-variation-settings: "wght" 550, "SPAC" 100;
     }
-    #TRAK .from {
+    #SPAC .from {
         animation: tracking 1s infinite alternate ease-in-out;
         animation-play-state: var(--animationState);
     }
-    #TRAK .to {
+    #SPAC .to {
         animation: tracking 1s infinite alternate-reverse ease-in-out;
         animation-play-state: var(--animationState);
     }
     @keyframes tracking {
         from {
-            font-variation-settings: "wght" 550,  "TRAK" 0;
+            font-variation-settings: "wght" 550,  "SPAC" 0;
         } to {
-            font-variation-settings: "wght" 550,  "TRAK" 150;
+            font-variation-settings: "wght" 550,  "SPAC" 150;
         }
     }
 
     @media (max-width: 600px) {
-        #TRAK .max {
-            font-variation-settings: "wght" 550, "TRAK" 150;
+        #SPAC .max {
+            font-variation-settings: "wght" 550, "SPAC" 150;
         }
     }
 
