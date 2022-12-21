@@ -227,7 +227,7 @@ h2 {
 	/* animation: wobbleBounce .875s ease-in-out alternate-reverse infinite ;
 	animation-play-state: var(--animationState); */
 	font-variation-settings: "BNCE" 50, "INFM" 100;
-	font-size: 2rem;
+	font-size: calc(1.125rem + 1vw);
 	line-height: 1;
 	padding: 0.25em 0;
 	margin-bottom: -0.75rem;
