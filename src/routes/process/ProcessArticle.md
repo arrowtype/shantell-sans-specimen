@@ -13,7 +13,7 @@ In school, British visual artist [Shantell Martin ](https://shantellmartin.art/)
 #### Shantell Martin, Artist
 
 <figure>
-    <img loading="lazy" src="assets/shantell-martin-by-Michelle-Mosqueda1.jpg" alt="Shantell Martin holding a black marker drawing on a white canvas" title="Shantell Martin, Photo credit Michelle Mosqueda">
+    <img loading="lazy" src="assets/shantell-portrait-drawing.jpg" alt="Shantell Martin drawing on a piece of paper" title="Shantell Martin, Photo credit Michelle Mosqueda">
 </figure>
 <figcaption>Shantell Martin, Photo credit Michelle Mosqueda</figcaption>
 
