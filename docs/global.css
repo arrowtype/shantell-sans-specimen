@@ -3,6 +3,7 @@
 	font-weight: 1 1000;
 	font-style: normal italic;
 	src: url('fonts/ShantellSans[BNCE,INFM,SPAC,ital,wght].woff2') format('woff2');
+	font-display: block;
 }
 /* @font-face {
 	font-family: 'ShantellSans';
