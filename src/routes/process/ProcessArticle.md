@@ -2,12 +2,6 @@
 
 ***Shantell Sans mixes variable axes for Weight, Italic, Informality, and Bounce to deliver a wide array of font styles, from friendly, readable, everyday typographic workhorses to striking, high-energy, experimental styles meant especially for animation. This is the story behind its inspiration and creation.***
 
-## Prologue
-
-#### By Susanna Zaraysky, Editor, Google Fonts Blog
-
-In school, British visual artist [Shantell Martin ](https://shantellmartin.art/)was scared of spelling tests but she felt how words could be art and emotional relief. A discovery in her early 20s opened her eyes to why reading and writing were so difficult for her and motivated her to create the Shantell Sans typeface to inspire others to have fun with writing and words. She teamed up with Stephen Nixon of [Arrow Type](https://www.arrowtype.com/) to create Shantell Sans.
-
 <h2>Why make a new font?</h2>
 
 #### Shantell Martin, Artist
