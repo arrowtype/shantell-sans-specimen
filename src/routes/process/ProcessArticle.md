@@ -52,7 +52,7 @@ I felt both honored and keenly interested when Shantell first reached out to me 
 <figure>
     <img loading="lazy" src="assets/conversation-starter.png" alt="Dramatic recreation of the initial project conversation" title="Dramatic recreation of the initial project conversation">
 </figure>
-<figcaption>A dramatic recreation of the initial project conversation, paraphrased.</figcaption>
+<figcaption>The initial project conversation, paraphrased.</figcaption>
 
 We chatted a bit about what that typeface might be, but what truly caught my attention were four words: Shantell said she wanted to make “a new Comic Sans.”
 
