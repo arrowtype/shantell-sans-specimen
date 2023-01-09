@@ -7,6 +7,22 @@
 
 	import { animationState } from '../stores.js'
 
+	import { json } from '@sveltejs/kit';
+ 
+	export function userAgent() {
+	// log all headers
+	console.log(...event.request.headers);
+	
+	return json({
+		// retrieve a specific header
+		userAgent: event.request.headers.get('user-agent')
+	});
+	}
+
+	console.log(userAgent())
+
+
+
     function toggleAnimations() {
 		$animationState === "running" ? $animationState = "paused" : $animationState = "running";
 	}
@@ -141,7 +157,7 @@
 					</a>
 			</li>
 			<li>
-				<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.007/Shantell_Sans_1.007.zip" >
+				<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.008/Shantell_Sans_1.008.zip" >
 					Download latest release
 					<span class="menu-icon">&nbsp;↓</span>
 				</a> 
