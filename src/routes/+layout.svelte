@@ -7,19 +7,6 @@
 
 	import { animationState } from '../stores.js'
 
-	import { json } from '@sveltejs/kit';
- 
-	export function userAgent() {
-	// log all headers
-	console.log(...event.request.headers);
-	
-	return json({
-		// retrieve a specific header
-		userAgent: event.request.headers.get('user-agent')
-	});
-	}
-
-	console.log(userAgent())
 
 
 
