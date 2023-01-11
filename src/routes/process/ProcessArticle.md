@@ -186,7 +186,7 @@ With support from Google Fonts, we extended the stylistic range of the typeface,
 </figure>
 <figcaption>The animation shows the Weight and Spacing axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Tracking 0 and 100.</figcaption>
 
-We also extended the fonts to include wider language support: the Latin script was expanded with Vietnamese characters and many more currency symbols, but even more notably, a whole new set of languages was given support through the addition of Cyrillics!
+Best of all, we also extended the fonts to include wider language support: the Latin script was expanded with Vietnamese characters and many more currency symbols, but even more notably, a whole new set of languages was given support through the addition of Cyrillics!
 
 ## Designing Shantell Sans Cyrillic
 
@@ -218,7 +218,7 @@ We asked Shantell to write a couple of sentences in Russian, just to see her app
 I tried these letterforms in the font. There were very few clear answers on what Cyrillic shapes should look like in Shantell Sans, so I explored many versions of characters to compare shapes in text and in different languages.
 
 <figure>
-    <img loading="lazy" src="assets/placeholder.svg" alt="Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans" title="Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans">
+    <img loading="lazy" src="assets/cyr_3-style-tests.png" alt="Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans" title="Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans">
 </figure>
 <figcaption>Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans</figcaption>
 
@@ -227,23 +227,23 @@ It was a matter of a feeling: some shapes felt right in this typeface, while oth
 In Bulgarian and Serbian languages, which usually have some conventional shapes that differ from default Cyrillic, I had to give my attention to the unexpected ones: for example, the Bulgarian **t** that is usually the same shape as Latin **m**.  I had to adjust it, as in this particular style and font it felt like it might be confused with Cyrillic “m”.
 
 <figure>
-    <img loading="lazy" src="assets/placeholder.svg" alt="Bulgarian “т” and “м” versus the “m” in Latin" title="Bulgarian “т” and “м” versus the “m” in Latin">
+    <img loading="lazy" src="assets/cyr_4-m.png" alt="Bulgarian “т” and “м” versus the “m” in Latin" title="Bulgarian “т” and “м” versus the “m” in Latin">
 </figure>
 <figcaption>Bulgarian “т” and “м” versus the “m” in Latin</figcaption>
 
 Usually, shapes that look similar in lowercase and uppercase have a similar approach, but in Shantell Sans, a lot of them are slightly different, in order to keep the lively handwriting feeling. With letters like the Serbian **nje**, I had to be sure both shapes would look natural to a native reader. That’s why I also consulted designer [Jovana Jocić](https://www.instagram.com/zacan_macan/) for the Serbian language.
 
 <figure>
-    <img loading="lazy" src="assets/placeholder.svg" alt="Various possibilities of writing “nje” in Serbian" title="Various possibilities of writing “nje” in Serbian">
+    <img loading="lazy" src="assets/cyr_5-nje-colorshift.png" alt="Various possibilities of writing “nje” in Serbian" title="Various possibilities of writing “nje” in Serbian">
 </figure>
-<figcaption>I asked Jovana about the possibilities of writing “nje”, because I wanted to have slightly different shapes for capital and lowercase forms, where lowercase shape would be done in one stroke and uppercase shape would be done in two.</figcaption>
+<figcaption>Testing various possibilities of the Serbian “nje.” The goal was to create slightly different shapes for capital and lowercase forms, where the lowercase shape would be done in one stroke and the uppercase shape would be done in two.</figcaption>
 
-Some shapes can handle less conventional approaches. For example, the Ukrainian pair of **її** – that is, **ï+ï**, which has four dots in total, sometimes can be rendered with three dots as a ligature in order to save space, especially in dense display typefaces (these three dots, however, should not be mistaken for the ії or їі – that is, **i+ï** or **ï+i**). This option was worth trying out, however four dots felt more natural in this case in the end. 
+Some shapes can handle less conventional approaches. For example, the Ukrainian pair of **її** – that is, **ï**+**ï**, which has four dots in total, sometimes can be rendered with three dots as a ligature in order to save space, especially in dense display typefaces (these three dots, however, should not be mistaken for the ії or їі – that is, **i**+**ï** or **ï**+**i**). This option was worth trying out, however four dots felt more natural in the end.
 
 <figure>
-    <img loading="lazy" src="assets/placeholder.svg" alt="Anya to add caption and send missing images" title="Anya to add caption and send missing images">
+    <img loading="lazy" src="assets/cyr_6-ukr.png" alt="Testing four versus three dots in the Ukrainian “її” bigraph" title="Testing four versus three dots in the Ukrainian “її” bigraph">
 </figure>
-<figcaption>Anya to add caption and send missing images</figcaption>
+<figcaption>Testing four versus three dots in the Ukrainian “її” bigraph</figcaption>
 
 Overall, it was an incredible pleasure to work on this project, and its many design challenges only made working on Cyrillic more interesting.
 
@@ -252,10 +252,10 @@ I am excited to see how this typeface would be used and hope to see it being han
 
 ## Thanks for reading!
 
-Learning the background of Shantell Sans may help you have a deeper appreciation of not only this typeface, but of the type design process more generally. 
+Hopefully, learning about the background of Shantell Sans helps you have a deeper appreciation of not only this typeface, but of the type design process more generally.
 
 Do you have a creative idea that needs a font with some personality? Want to just take a new font for a spin and see where it takes you? Give Shantell Sans a try!
 
-You can get Shantell Sans on [Google Fonts](link to GF/ShantellSans), or download the very latest version in the [open-source repo](https://github.com/arrowtype/shantell-sans/releases/latest).
+You can get [Shantell Sans on Google Fonts](https://fonts.google.com/specimen/Shantell+Sans) or download the very latest version in the [open-source repo](https://github.com/arrowtype/shantell-sans/releases/latest).
 
 _Note: The Google Fonts Blog has [a simplified version of this article](add link when available)._
