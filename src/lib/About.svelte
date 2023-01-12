@@ -19,7 +19,7 @@
         <div class="info">
             <div>
                 <p>Shantell Sans is free and open-source, licensed under SIL Open Font License 1.1, so you can use it in almost any way you can imagine! Read the <a href="https://github.com/arrowtype/shantell-sans/blob/main/OFL.txt">Shantell Sans license</a> for details. It includes Latin and Cyrillic characters to support a wide array of languages throughout the Americas, Europe, Central Asia, and Vietnam.</p>
-                <p>Project conception and creative direction by Shantell Martin, based on her artwork, handwriting, and creative philosophy.</p>
+                <p>Project conception & creative direction by Shantell Martin, based on her artwork, handwriting, and creative philosophy.</p>
                 <p class="colophon">
                     Type design & font development by <a target="_blank" href="https://arrowtype.com">Arrow&nbsp;Type</a>.
                 </p>
