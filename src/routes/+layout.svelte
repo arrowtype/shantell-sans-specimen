@@ -5,7 +5,7 @@
 	import { createEventDispatcher, onDestroy } from 'svelte';
 	import Footer from "$lib/Footer.svelte";
 
-	import { animationState } from '../stores.js'
+	import { animationState, canAnimate } from '../stores.js'
 
     function toggleAnimations() {
 		$animationState === "running" ? $animationState = "paused" : $animationState = "running";
@@ -64,7 +64,7 @@
         // dispatch('close');
 
 		menu.hidden = true;
-		toggleAnimations()
+		// toggleAnimations()
 
 		if (menuOpen) {
 			// When the menu is closed, we want a scrollable body
@@ -80,6 +80,10 @@
 	function toggleMenu() {
 		// let expanded = menuButton.getAttribute('aria-expanded') === 'true' || false;
 		// menuButton.setAttribute('aria-expanded', String(!expanded));
+		
+		if ($canAnimate === true) {
+			toggleAnimations()
+		}
 
 		if (menuOpen === true) {
 			closeMenu()
@@ -137,6 +141,12 @@
 			<li>
 				<a class="button" target="blank" href="https://fonts.google.com/specimen/Shantell+Sans" >
 					Get it on Google Fonts
+					<span class="menu-icon">&nbsp;↗</span>
+					</a>
+			</li>
+			<li>
+				<a class="button" target="blank" href="https://github.com/arrowtype/shantell-sans" >
+					See the project on GitHub
 					<span class="menu-icon">&nbsp;↗</span>
 					</a>
 			</li>
