@@ -20,7 +20,7 @@
     
     export let wght = 700; // comes from TypeTesterText component (?)
     export let ital = 0.0; // comes from TypeTesterText component (?)
-    export let irgl = 0; // comes from TypeTesterText component (?)
+    export let infm = 0; // comes from TypeTesterText component (?)
     export let bnce = 0;  // comes from TypeTesterText component (?)
     export let spac = 0;  // comes from TypeTesterText component (?)
 
@@ -30,8 +30,8 @@
     export let italMin = 0.0;
     export let italMax = 1.0;
 
-    export let irglMin = 0;
-    export let irglMax = 100;
+    export let infmMin = 0;
+    export let infmMax = 100;
 
     export let bnceMin = -100;
     export let bnceMax = 100;
@@ -119,7 +119,7 @@
 
 <section>
 
-    <TypeTesterText sizePx={sizePx} wght={wght} ital={ital} irgl={irgl} bnce={bnce}  spac={spac} fontFea={fontFeatures} lineHeight={lineHeight} />
+    <TypeTesterText sizePx={sizePx} wght={wght} ital={ital} infm={infm} bnce={bnce}  spac={spac} fontFea={fontFeatures} lineHeight={lineHeight} />
 
         <!-- type style sliders -->
     <div id="control-container" >
@@ -142,9 +142,9 @@
             </div>
 
             <div class="slider-box">
-                <label for="irglSlider">Informality</label>
-                <input type="number" bind:value={irgl} min={irglMin} max={irglMax} step="1" />
-                <Slider id="irglSlider"  label="irgl" bind:value={irgl} type="range" min={irglMin} max={irglMax} step={1} />
+                <label for="infmSlider">Informality</label>
+                <input type="number" bind:value={infm} min={infmMin} max={infmMax} step="1" />
+                <Slider id="infmSlider"  label="infm" bind:value={infm} type="range" min={infmMin} max={infmMax} step={1} />
             </div>
 
             <div class="slider-box">
@@ -241,19 +241,19 @@
 
     /* @keyframes slowShinyText {
     0% {
-        font-variation-settings: "BNCE" 0, "IRGL" 50;
+        font-variation-settings: "BNCE" 0, "INFM" 50;
     }
     25% {
-        font-variation-settings: "BNCE" -50, "IRGL" 50;
+        font-variation-settings: "BNCE" -50, "INFM" 50;
     }
     50% {
-        font-variation-settings: "BNCE" 0, "IRGL" 50;
+        font-variation-settings: "BNCE" 0, "INFM" 50;
     }
     75% {
-        font-variation-settings: "BNCE" 50, "IRGL" 50;
+        font-variation-settings: "BNCE" 50, "INFM" 50;
     }
     100% {
-        font-variation-settings: "BNCE" 0, "IRGL" 50;
+        font-variation-settings: "BNCE" 0, "INFM" 50;
     }
     } */
 </style>
