@@ -15,7 +15,7 @@ One of my first relationships with words was back in elementary school. We did s
 
 Despite being scared of the spelling tests, I loved words. I wrote and drew a lot. I knew that words helped me to express my feelings and feel better. Since I was writing for myself, I didn't have to care about spelling. 
 
-When I was 20 or 21, I found out that I was dyslexic. When I started my art degree at [Central Saint Martins](https://www.arts.ac.uk/colleges/central-saint-martins) in London, I was in an environment where it felt like the majority of people were dyslexic.  I was instantly part of a cool group of creative people. However, I was disappointed about the amount of teachers who had never spotted my reading challenges. Instead of supporting me to learn to read and write, they punished me.
+When I was 20 or 21, I found out that I was dyslexic. When I started my art degree at [Central Saint Martins](https://www.arts.ac.uk/colleges/central-saint-martins) in London, I was in an environment where it felt like the majority of people were dyslexic. I was instantly part of a cool group of creative people. However, I was disappointed about the amount of teachers who had never spotted my reading challenges. Instead of supporting me to learn to read and write, they punished me.
 
 Creating my own font was a way to empower people to read and write, despite their relationship to words. What if I take my words, or my handwriting or the letters that I've created, and make a font that is fun and playful, but also professional and usable? I wanted to make a font that feels accessible and open to remind people, including myself, that words are drawings and that words can exist on our own terms. 
 
@@ -28,7 +28,6 @@ The usage of a font can make that font take on a certain personality. If you're 
 To start this project, Stephen Nixon sent me a template, with lines on it for me to handwrite all of the Latin alphabet, numbers, and symbols. He used my handwriting to create a digital font.
 
 <h3>Giving the font away</h3>
-
 
 To make the font visible and successful, I am releasing Shantell Sans under an open font [license](https://fonts.google.com/knowledge/glossary/licensing) with Google Fonts. It’s my gift to the world. Having the font be available without charge on Google Fonts means that a wide variety of people will have access to Shantell Sans. 
 
@@ -209,7 +208,6 @@ Shantell’s handwriting is a mixture of cursive and printed shapes, which is a 
 
 We asked Shantell to write a couple of sentences in Russian, just to see her approach to these unfamiliar shapes. I wanted to be as unbiased as possible, so I asked her to write a few words multiple times, with different shapes for the same letters.
 
-
 <figure>
     <img loading="lazy" src="assets/cyr_2-scans.png" alt="Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow" title="Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow">
 </figure>
@@ -224,7 +222,7 @@ I tried these letterforms in the font. There were very few clear answers on what
 
 It was a matter of a feeling: some shapes felt right in this typeface, while others – even when they typically should be written in a different way – felt wrong. I had the pleasure of consulting with fellow Cyrillic type designers [Maria Doreuli](https://contrastfoundry.com/), [Krista Radoeva](https://www.instagram.com/kristaradoeva/), and [Alexei Vanyashin](http://www.110design.ru/), and most of the time “the feeling” of right and wrong shapes was the same for us.
 
-In Bulgarian and Serbian languages, which usually have some conventional shapes that differ from default Cyrillic, I had to give my attention to the unexpected ones: for example, the Bulgarian **t** that is usually the same shape as Latin **m**.  I had to adjust it, as in this particular style and font it felt like it might be confused with Cyrillic “m”.
+In Bulgarian and Serbian languages, which usually have some conventional shapes that differ from default Cyrillic, I had to give my attention to the unexpected ones: for example, the Bulgarian **t** that is usually the same shape as Latin **m**. I had to adjust it, as in this particular style and font it felt like it might be confused with Cyrillic “m”.
 
 <figure>
     <img loading="lazy" src="assets/cyr_4-m.png" alt="Bulgarian “т” and “м” versus the “m” in Latin" title="Bulgarian “т” and “м” versus the “m” in Latin">
@@ -249,5 +247,10 @@ Hopefully, learning about the background of Shantell Sans helps you have a deepe
 Do you have a creative idea that needs a font with some personality? Want to just take a new font for a spin and see where it takes you? Give Shantell Sans a try!
 
 You can get [Shantell Sans on Google Fonts](https://fonts.google.com/specimen/Shantell+Sans) or download the very latest version in the [open-source repo](https://github.com/arrowtype/shantell-sans/releases/latest).
+
+You can also use Shantell Sans on Google Docs, Slides, and other Workspace products:
+1. In a document, open the font menu and click "More Fonts"
+2. In the pop-up panel that opens, search for "Shantell Sans”
+3. Click on the family to add it to your fonts menu
 
 _Note: The Google Fonts Blog has [a simplified version of this article](add link when available)._
