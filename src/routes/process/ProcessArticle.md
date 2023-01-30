@@ -238,17 +238,9 @@ Usually, shapes that look similar in lowercase and uppercase have a similar appr
 </figure>
 <figcaption>Testing various possibilities of the Serbian “nje.” The goal was to create slightly different shapes for capital and lowercase forms, where the lowercase shape would be done in one stroke and the uppercase shape would be done in two.</figcaption>
 
-Some shapes can handle less conventional approaches. For example, the Ukrainian pair of **її** – that is, **ï**+**ï**, which has four dots in total, sometimes can be rendered with three dots as a ligature in order to save space, especially in dense display typefaces (these three dots, however, should not be mistaken for the ії or їі – that is, **i**+**ï** or **ï**+**i**). This option was worth trying out, however four dots felt more natural in the end.
-
-<figure>
-    <img loading="lazy" src="assets/cyr_6-ukr.png" alt="Testing four versus three dots in the Ukrainian “її” bigraph" title="Testing four versus three dots in the Ukrainian “її” bigraph">
-</figure>
-<figcaption>Testing four versus three dots in the Ukrainian “її” bigraph</figcaption>
-
 Overall, it was an incredible pleasure to work on this project, and its many design challenges only made working on Cyrillic more interesting.
 
 I am excited to see how this typeface would be used and hope to see it being handy for typesetting in different Cyrillic languages as well as Latin.
-
 
 ## Thanks for reading!
 
