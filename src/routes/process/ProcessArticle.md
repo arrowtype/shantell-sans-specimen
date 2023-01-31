@@ -29,7 +29,7 @@ To start this project, Stephen Nixon sent me a template, with lines on it for me
 
 ### Giving the font away
 
-To make the font useful for as many people as possible, I am releasing Shantell Sans under an open font [license](https://fonts.google.com/knowledge/glossary/licensing). It’s my gift to the world. Having the font be available without charge means that a wide variety of people will have access to Shantell Sans. It also means that the font will be widely available through Google Fonts and other platforms.
+To make the font as useful as possible, I am releasing Shantell Sans under an open font [license](https://fonts.google.com/knowledge/glossary/licensing). It’s my gift to the world. Having the font be available without charge means that a wide variety of people will have access to Shantell Sans. It also means that the font will be widely available through Google Fonts and other platforms.
 
 I wanted to create a typeface by a living artist, and perhaps inspire other living artists to create their own typography. I'm curious to see what people will do with it. I'm giving up control over something that is innately mine since Shantell Sans is based on my handwriting and is quite personal.
 
