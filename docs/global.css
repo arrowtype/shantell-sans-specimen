@@ -278,11 +278,15 @@ h2 {
 
 .markdown-body img,
 .markdown-body video {
-	width: 100vw;
-	margin-left: -1rem;
+	/* width: 100vw; */
+	/* margin-left: -1rem; */
+	width: calc(100% + 1rem);
+	margin: 0;
+	margin-left: -0.5rem;
+	border-radius: 0.5rem;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
 	.markdown-body img,
 	.markdown-body video {
 		width: 100%;
@@ -290,6 +294,18 @@ h2 {
 		border-radius: 0.5rem;
 		margin-left: 0rem;
 	}
+} */
+
+@media (min-width: 800px) {
+
+	.markdown-body figure {
+		margin-top: 2.5rem;
+	}
+
+	.markdown-body figcaption {
+		margin-bottom: 2.5rem;
+	}
+
 }
 
 video {

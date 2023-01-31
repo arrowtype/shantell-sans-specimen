@@ -67,7 +67,7 @@ It’s also been made into a web-building template by <a href="https://univer.se
 </figure>
 <figcaption>Shantell Sans was used for a web-building template by <a href="https://univer.se/">univer.se</a></figcaption>
 
-These uses only really hint at what Shantell Sans might do in the future – I look forward to seeing what others create with it!
+These use cases only hint at what Shantell Sans might do in the future – I look forward to seeing what others create with it!
 
 <h2>Design Process</h2>
 
