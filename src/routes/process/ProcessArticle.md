@@ -27,13 +27,15 @@ The usage of a font can make that font take on a certain personality. If you're 
 
 To start this project, Stephen Nixon sent me a template, with lines on it for me to handwrite all of the Latin alphabet, numbers, and symbols. He used my handwriting to create a digital font.
 
-<h3>Giving the font away</h3>
+### Giving the font away
 
-To make the font visible and successful, I am releasing Shantell Sans under an open font [license](https://fonts.google.com/knowledge/glossary/licensing) with Google Fonts. It’s my gift to the world. Having the font be available without charge on Google Fonts means that a wide variety of people will have access to Shantell Sans. 
+To make the font useful for as many people as possible, I am releasing Shantell Sans under an open font [license](https://fonts.google.com/knowledge/glossary/licensing). It’s my gift to the world. Having the font be available without charge means that a wide variety of people will have access to Shantell Sans. It also means that the font will be widely available through Google Fonts and other platforms.
 
-I wanted to create a typeface by a living artist, and perhaps inspire other living artists to create their own typography. I'm curious to see what people will do with it. I'm giving up control over something that is innately mine since Shantell Sans is based on my handwriting and is quite personal. 
+I wanted to create a typeface by a living artist, and perhaps inspire other living artists to create their own typography. I'm curious to see what people will do with it. I'm giving up control over something that is innately mine since Shantell Sans is based on my handwriting and is quite personal.
 
 I would really love to see children and young adults use Shantell Sans and learn about how it came about. I want to see it being used for personal projects, or even bigger design projects. I think with something like this, when you put it out into the wild, it's going to be used in ways that you probably didn't even think of.
+
+### Early uses of Shantell Sans
 
 I have started to use Shantell Sans in some of my projects. I designed key tags with Shantell Sans type for the [Whitney Museum shop](https://shantellmartin.art/work/x-whitney-museum-shop/) in New York City.
 
@@ -42,7 +44,7 @@ I have started to use Shantell Sans in some of my projects. I designed key tags 
 </figure>
 <figcaption>Key tags for the Whitney Shop, by <a href="https://variouskeytags.com/">Various Keytags</a>, featuring artwork by Shantell Martin and text in Shantell Sans</figcaption>
 
-I also did a project with Cash App, a financial services platform, to create [a cash card](https://www.instagram.com/p/Cev757GgkN1/). The cash tag and the numbers and everything on the back of the card is in Shantell Sans.
+Working with Cash App, a financial services platform, I helped create [a cash card](https://www.instagram.com/p/Cev757GgkN1/). The cash tag and the numbers and everything on the back of the card is in Shantell Sans.
 
 <figure>
     <img loading="lazy" src="assets/in_use-cashapp.png" alt="Shantell Sans in use for a Cash App card design" title="Shantell Sans in use for a Cash App card design">
