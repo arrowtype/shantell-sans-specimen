@@ -51,7 +51,7 @@ I also did a project with Cash App, a financial services platform, to create [a 
 
 Beyond that, a few other brands have started to find creative uses for Shantell Sans.
 
-It’s been used by tldraw, collaborative drawing app, for the main font that users can write with.
+It’s been used by tldraw, a collaborative drawing app on the web, as the primary writing font.
 
 <figure>
     <img loading="lazy" src="assets/in_use-tldraw.png" alt="Shantell Sans in use by tldraw" title="Shantell Sans in use by tldraw">
@@ -65,8 +65,7 @@ It’s also been made into a web-building template by <a href="https://univer.se
 </figure>
 <figcaption>Shantell Sans was used for a web-building template by <a href="https://univer.se/">univer.se</a></figcaption>
 
-I look forward to seeing what others create with Shantell Sans!
-
+These uses only really hint at what Shantell Sans might do in the future – I look forward to seeing what others create with it!
 
 <h2>Design Process</h2>
 
