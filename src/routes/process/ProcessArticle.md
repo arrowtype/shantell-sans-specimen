@@ -35,12 +35,38 @@ I wanted to create a typeface by a living artist, and perhaps inspire other livi
 
 I would really love to see children and young adults use Shantell Sans and learn about how it came about. I want to see it being used for personal projects, or even bigger design projects. I think with something like this, when you put it out into the wild, it's going to be used in ways that you probably didn't even think of.
 
-I have started to use Shantell Sans in some of my projects. I designed key tags with Shantell Sans type for the [Whitney Museum shop](https://shantellmartin.art/work/x-whitney-museum-shop/) in New York City. I also did a project with Cash App, a financial services platform, to create a cash card. The cash tag and the numbers and everything on the back of the card is in Shantell Sans.
+I have started to use Shantell Sans in some of my projects. I designed key tags with Shantell Sans type for the [Whitney Museum shop](https://shantellmartin.art/work/x-whitney-museum-shop/) in New York City.
 
 <figure>
     <img loading="lazy" src="assets/various-keytags-cleanup.jpg" alt="Shantell Martin Various Keytags for the Whitney Museum of Art" title="Shantell Martin Various Keytags for the Whitney Museum of Art">
 </figure>
 <figcaption>Key tags for the Whitney Shop, by <a href="https://variouskeytags.com/">Various Keytags</a>, featuring artwork by Shantell Martin and text in Shantell Sans</figcaption>
+
+I also did a project with Cash App, a financial services platform, to create [a cash card](https://www.instagram.com/p/Cev757GgkN1/). The cash tag and the numbers and everything on the back of the card is in Shantell Sans.
+
+<figure>
+    <img loading="lazy" src="assets/in_use-cashapp.png" alt="Shantell Sans in use for a Cash App card design" title="Shantell Sans in use for a Cash App card design">
+</figure>
+<figcaption>Cash App used Shantell Sans to let users order a physical Cash Card, customized with their info.</figcaption>
+
+Beyond that, a few other brands have started to find creative uses for Shantell Sans.
+
+It’s been used by tldraw, collaborative drawing app, for the main font that users can write with.
+
+<figure>
+    <img loading="lazy" src="assets/in_use-tldraw.png" alt="Shantell Sans in use by tldraw" title="Shantell Sans in use by tldraw">
+</figure>
+<figcaption>Shantell Sans has been made the primary font of <a href="https://beta.tldraw.com/">tldraw</a></figcaption>
+
+It’s also been made into a web-building template by <a href="https://univer.se/">univer.se</a>, an app that lets users build websites on their phone.
+
+<figure>
+    <img loading="lazy" src="assets/in_use-universe.png" alt="Shantell Sans in use by univer.se" title="Shantell Sans in use by univer.se">
+</figure>
+<figcaption>Shantell Sans was used for a web-building template by <a href="https://univer.se/">univer.se</a></figcaption>
+
+I look forward to seeing what others create with Shantell Sans!
+
 
 <h2>Design Process</h2>
 
