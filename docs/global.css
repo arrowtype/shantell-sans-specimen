@@ -276,18 +276,24 @@ h2 {
 	font-variation-settings: 'wght' 400, 'ital' 1;
 }
 
-.markdown-body img {
+.markdown-body img,
+.markdown-body video {
 	width: 100vw;
 	margin-left: -1rem;
 }
 
 @media (min-width: 800px) {
-	.markdown-body img {
+	.markdown-body img,
+	.markdown-body video {
 		width: 100%;
 		max-width: var(--text-column);
 		border-radius: 0.5rem;
 		margin-left: 0rem;
 	}
+}
+
+video {
+	width: 100%;
 }
 
 blockquote {

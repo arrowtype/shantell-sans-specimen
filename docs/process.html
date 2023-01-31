@@ -36,14 +36,14 @@
 		<meta http-equiv="content-security-policy" content=""><title>Shantell Sans → Arrow Type</title><meta name="description" content="A font for artist Shantell Martin" data-svelte="svelte-1lv2o5g">
 	<link href="./_app/immutable/assets/_layout-4f55f3e8.css" rel="stylesheet">
 	<link href="./_app/immutable/assets/_page-d244ef19.css" rel="stylesheet">
-	<link rel="modulepreload" href="./_app/immutable/start-0c969586.js">
+	<link rel="modulepreload" href="./_app/immutable/start-5596ca76.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/index-69e7cea0.js">
-	<link rel="modulepreload" href="./_app/immutable/chunks/singletons-80c73695.js">
+	<link rel="modulepreload" href="./_app/immutable/chunks/singletons-fa522389.js">
 	<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-8f8b1ea8.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/stores-76a5075b.js">
 	<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-7b9cbfbc.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/_layout-8d2a742b.js">
-	<link rel="modulepreload" href="./_app/immutable/components/pages/process/_page.svelte-98c181f4.js">
+	<link rel="modulepreload" href="./_app/immutable/components/pages/process/_page.svelte-018d3c08.js">
 	</head>
 	<body>
 		<div id="svelte">
@@ -152,7 +152,8 @@
 <h3>5. Do something new</h3>
 <p>To do something new, the font should have not only a good range of weights. This wide stylistic range should be available in a variable font to also offer more creative utility to designers &amp; developers willing to explore a little more in the capabilities of modern typography.</p>
 <p>To take the creative possibilities even further, I wanted to see how I might bring in some of the free, organic spirit of Shantell’s work into some experimental axes within such a variable font.</p>
-<figure><img loading="lazy" src="assets/kinetic.gif" alt="'Typography is kinetic' text changing shape" title="Animation of all five variable axes of Shantell Sans"></figure>
+<figure>
+    <video autoplay muted loop playsinline><source src="assets/kinetic4.mp4" type="video/mp4"></video></figure>
 <figcaption>Animation of all five variable axes of Shantell Sans: Weight, Italic, Informality, Bounce, and Spacing</figcaption>
 <p>And finally, to make sure the typeface would support the needs of detailed typography, it had to also include OpenType features like tabular vs proportional figures, fractions, and localized forms.</p>
 <p>Beyond just my many feelings towards Comic Sans, I felt incredibly lucky to have the chance to create a font based on the handwriting of an artist who uses lines &amp; letters in a unique, familiar-yet-unfamiliar way. I love handwriting-based fonts like <a href="https://www.typography.com/blog/meet-inkwell">Inkwell</a>, <a href="https://xyztype.com/fonts/cortado">Cortado</a> , and <a href="https://houseind.com/hi/studio_lettering">Studio Lettering</a>, and I wanted to bring some of the craft and details of such “elevated” handwriting fonts into the project, rather than making yet another auto-traced felt marker font. (Though, those fonts also have their place!)</p>
@@ -167,16 +168,19 @@
 <p>We then explored which direction to go in, aesthetically: should the glyphs be truly monolinear, with circular endcaps – similar to Comic Sans – or should they retain more of the organic, sometimes sharp shaping of the felt-marker writing? Neither extreme felt quite right, so we opted to go for something in the middle: strokes are drawn with a little bit of the sharpness and contrast that helps make Shantell’s writing so engaging, but they are also made a little more uniform in thickness and given softened, semi-rounded endings. This strikes a balance, retaining a sense of marker writing while also being approachable and warm in their digital form.</p>
 <h3>New variable axes</h3>
 <p>Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. Letters with more horizontal strokes (like the <strong>E</strong> and <strong>e</strong>) tended to be taller than others while letters with more vertical strokes (like the <strong>M</strong> and <strong>W</strong>) tended to be wider and shorter. Simple shapes (like the <strong>P</strong>) tended to be smaller, while horizontal bars (like on the <strong>G</strong>, <strong>R</strong>, and <strong>t</strong>) tended to extend in a quick, long exit stroke.</p>
-<figure><img loading="lazy" src="assets/irregularity.gif" alt="Shantell Sans includes an axis for Informality" title="Shantell Sans includes an axis for Informality"></figure>
+<figure>
+    <video autoplay muted loop playsinline><source src="assets/informality.mp4" type="video/mp4"></video></figure>
 <figcaption>This animation shows the Weight and Informality axes. Both text blocks cycle between Light and ExtraBold weights. The bottom text also cycles between Informality 0 and 100.</figcaption>
 <p>With these “main sources” created, I then entered another, somewhat more geeky phase of the project: using Python code to generate the sources I could build into the full set of working variable &amp; static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for <em>Bounce</em> and <em>Informality</em>, and these aren’t styles I drew entirely by hand. Instead, a script was used to <strong>A)</strong> make Bouncy styles in which glyphs are shifted up or down, and <strong>B)</strong> make Irregular styles in which glyphs are interpolated between the “normal” &amp; “organic” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied to anything from a subtle or to an exaggerated degree.</p>
-<figure><img loading="lazy" src="assets/bounce.gif" alt="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations" title="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations"></figure>
+<figure>
+    <video autoplay muted loop playsinline><source src="assets/bounce.mp4" type="video/mp4"></video></figure>
 <figcaption>The animation shows the Weight and Bounce axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Bounce -100 and +100.</figcaption>
 <p>Was this last part necessary? Probably not. Was it easy? Nope. Is it cool? I think so! Aside from its obvious and fun possibilities of bouncy and/or irregular typography, these experimental styles enable animated type that doesn’t just sit still, but rather pulses and undulates in a familiar-yet-unfamiliar way. Sure, this type of animation could be achieved with any font with enough work in After Effects or through manipulation with JavaScript, but like many things in type, the value here is that it makes a new aesthetic available in a way that is not only easy to use but also deeply considered along with the design of a cohesive system.</p>
 <h3>Extending the typeface for Google Fonts and open-source release</h3>
 <p>Because Shantell was interested in releasing Shantell Sans as an open-source project, we reached out to see if Google Fonts might be interested in sponsoring a few extensions to make the typeface even more useful to an even wider audience.</p>
 <p>With support from Google Fonts, we extended the stylistic range of the typeface, creating a full set of Italic styles. We also added in a new, experimental axis: <em>Spacing,</em> which adds extra spacing between letters. This can be useful in software that doesn’t support that option by default.</p>
-<figure><img loading="lazy" src="assets/spacing.gif" alt="The Spacing axis adjusts spacing between letters" title="The Spacing axis adjusts spacing between letters"></figure>
+<figure>
+    <video autoplay muted loop playsinline><source src="assets/spacing.mp4" type="video/mp4"></video></figure>
 <figcaption>The animation shows the Weight and Spacing axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Tracking 0 and 100.</figcaption>
 <p>Best of all, we also extended the fonts to include wider language support: the Latin script was expanded with Vietnamese characters and many more currency symbols, but even more notably, a whole new set of languages was given support through the addition of Cyrillics!</p>
 <h2>Designing Shantell Sans Cyrillic</h2>
@@ -225,8 +229,8 @@
 </footer>
 
 
-		<script type="module" data-sveltekit-hydrate="1mpg3xw">
-		import { start } from "./_app/immutable/start-0c969586.js";
+		<script type="module" data-sveltekit-hydrate="tp835a">
+		import { start } from "./_app/immutable/start-5596ca76.js";
 
 		start({
 			env: {},
@@ -240,7 +244,7 @@
 				errors: null
 			},
 			paths: {"base":"","assets":""},
-			target: document.querySelector('[data-sveltekit-hydrate="1mpg3xw"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="tp835a"]').parentNode,
 			trailing_slash: "never"
 		});
 	</script>

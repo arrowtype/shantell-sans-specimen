@@ -154,7 +154,10 @@ To do something new, the font should have not only a good range of weights. This
 To take the creative possibilities even further, I wanted to see how I might bring in some of the free, organic spirit of Shantell’s work into some experimental axes within such a variable font. 
 
 <figure>
-    <img loading="lazy" src="assets/kinetic.gif" alt="'Typography is kinetic' text changing shape" title="Animation of all five variable axes of Shantell Sans">
+    <!-- <img loading="lazy" src="assets/kinetic.gif" alt="'Typography is kinetic' text changing shape" title="Animation of all five variable axes of Shantell Sans"> -->
+    <video autoplay muted loop playsinline>
+        <source src="assets/kinetic4.mp4" type="video/mp4" />
+    </video>
 </figure>
 <figcaption>Animation of all five variable axes of Shantell Sans: Weight, Italic, Informality, Bounce, and Spacing</figcaption>
 
@@ -188,14 +191,20 @@ We then explored which direction to go in, aesthetically: should the glyphs be t
 Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. Letters with more horizontal strokes (like the **E** and **e**) tended to be taller than others while letters with more vertical strokes (like the **M** and **W**) tended to be wider and shorter. Simple shapes (like the **P**) tended to be smaller, while horizontal bars (like on the **G**, **R**, and **t**) tended to extend in a quick, long exit stroke.
 
 <figure>
-    <img loading="lazy" src="assets/irregularity.gif" alt="Shantell Sans includes an axis for Informality" title="Shantell Sans includes an axis for Informality">
+    <!-- <img loading="lazy" src="assets/informality.gif" alt="Shantell Sans includes an axis for Informality" title="Shantell Sans includes an axis for Informality"> -->
+    <video autoplay muted loop playsinline>
+        <source src="assets/informality.mp4" type="video/mp4" />
+    </video>
 </figure>
 <figcaption>This animation shows the Weight and Informality axes. Both text blocks cycle between Light and ExtraBold weights. The bottom text also cycles between Informality 0 and 100.</figcaption>
 
 With these “main sources” created, I then entered another, somewhat more geeky phase of the project: using Python code to generate the sources I could build into the full set of working variable & static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for _Bounce_ and _Informality_, and these aren’t styles I drew entirely by hand. Instead, a script was used to **A)** make Bouncy styles in which glyphs are shifted up or down, and **B)** make Irregular styles in which glyphs are interpolated between the “normal” & “organic” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied to anything from a subtle or to an exaggerated degree.
 
 <figure>
-    <img loading="lazy" src="assets/bounce.gif" alt="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations" title="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations">
+    <!-- <img loading="lazy" src="assets/bounce.gif" alt="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations" title="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations"> -->
+    <video autoplay muted loop playsinline>
+        <source src="assets/bounce.mp4" type="video/mp4" />
+    </video>
 </figure>
 <figcaption>The animation shows the Weight and Bounce axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Bounce -100 and +100.</figcaption>
 
@@ -208,7 +217,10 @@ Because Shantell was interested in releasing Shantell Sans as an open-source pro
 With support from Google Fonts, we extended the stylistic range of the typeface, creating a full set of Italic styles. We also added in a new, experimental axis: _Spacing,_ which adds extra spacing between letters. This can be useful in software that doesn’t support that option by default.
 
 <figure>
-    <img loading="lazy" src="assets/spacing.gif" alt="The Spacing axis adjusts spacing between letters" title="The Spacing axis adjusts spacing between letters">
+    <!-- <img loading="lazy" src="assets/spacing.gif" alt="The Spacing axis adjusts spacing between letters" title="The Spacing axis adjusts spacing between letters"> -->
+    <video autoplay muted loop playsinline>
+        <source src="assets/spacing.mp4" type="video/mp4" />
+    </video>
 </figure>
 <figcaption>The animation shows the Weight and Spacing axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Tracking 0 and 100.</figcaption>
 
