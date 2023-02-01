@@ -10,13 +10,13 @@
     export let sizePxMin = 4;
     export let sizePxMax = 250;
     export let maxVmin = 32;
-    export let minLineHeight = 0.825;
-    export let maxLineHeight = 1.375;
-    export let lineHeightSizeScalingCapPx = 72;
+    export let minLineHeight = 1;
+    export let maxLineHeight = 1.5;
+    export let lineHeightSizeScalingMinPx = 32;
+    export let lineHeightSizeScalingCapPx = 160;
     export let lineHeight = 1;
 
     let updatedSizeVmin;
-    let updatedSizePx;
 
     let innerWidth;
     let innerHeight;
