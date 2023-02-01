@@ -5,7 +5,8 @@
 
     // basic font sizing & layout
     export let initialSizeVmin;
-    export let sizePx = 200; // comes from TypeTesterText component (?)
+    // export let sizePx = 200; // comes from TypeTesterText component (?)
+    let sizePx;
     export let sizePxMin = 4;
     export let sizePxMax = 250;
     export let maxVmin = 32;
@@ -17,8 +18,6 @@
     let updatedSizeVmin;
     let updatedSizePx;
 
-    // let innerWidth = window.innerWidth;
-    // let innerHeight = window.innerHeight;
     let innerWidth;
     let innerHeight;
 
@@ -45,17 +44,13 @@
     export let spacMin = 0;
     export let spacMax = 100;
 
-    // function onResize() {
-	// 	innerWidth = window.innerWidth;
-    //     innerHeight = window.innerHeight;
-    //     handleResize(innerWidth, innerHeight)
-	// }
-	
 	onMount(() => {
+
+        // adapted from https://svelte.dev/repl/30667c29ab92487597f7e845578f263a?version=3.55.1
+
 		function onResize() {
 			innerWidth = window.innerWidth;
             innerHeight = window.innerHeight;
-            
 
             handleResize(innerWidth, innerHeight)
 		}
@@ -81,7 +76,10 @@
     function setInitialFontSize(innerWidth, innerHeight) {
         let oneVmin = oneVmin2px(innerWidth, innerHeight)
         sizePxMax = oneVmin * maxVmin
-        sizePx = Math.round(oneVmin * innerWidth / 100)
+
+        // start at 50% of the possible slider scale
+        sizePx = Math.round(sizePxMin + sizePxMax) / 2
+
         updateFontPx()
         setLineHeight()
     }
