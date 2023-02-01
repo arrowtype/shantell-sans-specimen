@@ -1,9 +1,10 @@
 <script>
     import TypeTesterText from '$lib/TypeTesterText.svelte'
     import Slider from '$lib/Slider.svelte'
+    import { onMount } from 'svelte';
 
     // basic font sizing & layout
-    export let initialSizeVmin = '15';
+    export let initialSizeVmin = 10;
     export let sizePx = 200; // comes from TypeTesterText component (?)
     export let sizePxMin = 4;
     export let sizePxMax = 250;
@@ -13,8 +14,12 @@
     export let lineHeightSizeScalingCapPx = 72;
     export let lineHeight = 1;
 
-    let windowWidth = 500;
-    let windowHeight = 500;
+    let updatedSizeVmin;
+
+    // let innerWidth = window.innerWidth;
+    // let innerHeight = window.innerHeight;
+    let innerWidth;
+    let innerHeight;
 
     // variable axes
     
@@ -38,37 +43,69 @@
     
     export let spacMin = 0;
     export let spacMax = 100;
+
+    // function onResize() {
+	// 	innerWidth = window.innerWidth;
+    //     innerHeight = window.innerHeight;
+    //     handleResize(innerWidth, innerHeight)
+	// }
+	
+	onMount(() => {
+		function onResize() {
+			innerWidth = window.innerWidth;
+            innerHeight = window.innerHeight;
+            
+            initialSizeVmin = innerWidth / 100
+
+            handleResize(innerWidth, innerHeight)
+		}
+        innerWidth = window.innerWidth;
+        innerHeight = window.innerHeight;
+		window.addEventListener('resize', onResize);
+
+        initialSizeVmin = innerWidth / 100
+
+        setInitialFontSize(innerWidth, innerHeight)
+
+		return () => window.removeEventListener('resize', onResize);
+	});
     
 
     // handle font scaling & layout
 
-    function oneVmin2px(windowWidth, windowHeight) {
-        let windowMin = windowWidth < windowHeight ? windowWidth : windowHeight;
+    function oneVmin2px(innerWidth, innerHeight) {
+        let windowMin = innerWidth < innerHeight ? innerWidth : innerHeight;
         let oneVmin = windowMin / 100
         return oneVmin
     }
 
-    function setInitialFontSize(windowWidth, windowHeight) {
-        let oneVmin = oneVmin2px(windowWidth, windowHeight)
+    function setInitialFontSize(innerWidth, innerHeight) {
+        let oneVmin = oneVmin2px(innerWidth, innerHeight)
         sizePxMax = oneVmin * maxVmin
         sizePx = Math.round(oneVmin * initialSizeVmin)
+        updateFontPx()
         setLineHeight()
     }
 
-    function handleResize(windowWidth, windowHeight) {
-        let oneVmin = oneVmin2px(windowWidth, windowHeight)
+    function handleResize(innerWidth, innerHeight) {
+        let oneVmin = oneVmin2px(innerWidth, innerHeight)
         sizePxMax = oneVmin * maxVmin
+
+
+        sizePx = Math.round(updatedSizeVmin * innerWidth / 100)
     }
 
     function updateFontVmin() {
-        sizeVmin = sizePx / 0.01 / windowWidth
-        autoOpsz()
+        sizeVmin = sizePx / 0.01 / innerWidth
     }
 
     function updateFontPx() {
         sizePx = Math.round(sizePx)
+
+        updatedSizeVmin = (100 / innerWidth ) * sizePx
+
+        console.log(updatedSizeVmin)
         setLineHeight()
-        autoOpsz()
     }
 
     function setLineHeight() {
@@ -115,7 +152,7 @@
 
 </script>
 
-<svelte:window bind:innerHeight={windowHeight} bind:innerWidth={windowWidth} on:resize={handleResize(windowWidth, windowHeight)} on:load={setInitialFontSize(windowWidth, windowHeight)} />
+<svelte:window bind:innerWidth bind:innerHeight />
 
 <section>
 
@@ -159,7 +196,7 @@
                 <Slider id="spacSlider"  label="spac" bind:value={spac} type="range" min={spacMin} max={spacMax} step={1} />
             </div>
 
-            <!-- {#if windowWidth > 1100}
+            <!-- {#if innerWidth > 1100}
                 <button on:click={showOptionsDrawer}>
                     <OptionsToggle/>
                 </button>
