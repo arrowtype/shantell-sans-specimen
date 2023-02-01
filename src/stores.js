@@ -10,7 +10,7 @@ let animationsPossible;
 // handle the case where we don't detect the browser
 if (browser) {
 
-    if (browser.name === "safari" ||  browser.name === "firefox") {
+    if (["safari", "firefox", "ios-webview", "ios"].includes(browser.name)) {
         runAnimations = 'running'
         animationsPossible = true
     } else {
