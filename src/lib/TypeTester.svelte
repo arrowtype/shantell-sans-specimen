@@ -4,7 +4,7 @@
     import { onMount } from 'svelte';
 
     // basic font sizing & layout
-    export let initialSizeVmin = 10;
+    export let initialSizeVmin;
     export let sizePx = 200; // comes from TypeTesterText component (?)
     export let sizePxMin = 4;
     export let sizePxMax = 250;
@@ -15,6 +15,7 @@
     export let lineHeight = 1;
 
     let updatedSizeVmin;
+    let updatedSizePx;
 
     // let innerWidth = window.innerWidth;
     // let innerHeight = window.innerHeight;
@@ -55,7 +56,6 @@
 			innerWidth = window.innerWidth;
             innerHeight = window.innerHeight;
             
-            initialSizeVmin = innerWidth / 100
 
             handleResize(innerWidth, innerHeight)
 		}
@@ -63,7 +63,6 @@
         innerHeight = window.innerHeight;
 		window.addEventListener('resize', onResize);
 
-        initialSizeVmin = innerWidth / 100
 
         setInitialFontSize(innerWidth, innerHeight)
 
@@ -82,7 +81,7 @@
     function setInitialFontSize(innerWidth, innerHeight) {
         let oneVmin = oneVmin2px(innerWidth, innerHeight)
         sizePxMax = oneVmin * maxVmin
-        sizePx = Math.round(oneVmin * initialSizeVmin)
+        sizePx = Math.round(oneVmin * innerWidth / 100)
         updateFontPx()
         setLineHeight()
     }
@@ -91,8 +90,11 @@
         let oneVmin = oneVmin2px(innerWidth, innerHeight)
         sizePxMax = oneVmin * maxVmin
 
+        let windowMin = innerWidth < innerHeight ? innerWidth : innerHeight;
+        // updatedSizeVmin = (100 / windowMin ) * sizePx
 
-        sizePx = Math.round(updatedSizeVmin * innerWidth / 100)
+
+        sizePx = Math.round(updatedSizeVmin * windowMin / 100)
     }
 
     function updateFontVmin() {
@@ -102,7 +104,8 @@
     function updateFontPx() {
         sizePx = Math.round(sizePx)
 
-        updatedSizeVmin = (100 / innerWidth ) * sizePx
+        let windowMin = innerWidth < innerHeight ? innerWidth : innerHeight;
+        updatedSizeVmin = (100 / windowMin ) * sizePx
 
         console.log(updatedSizeVmin)
         setLineHeight()
