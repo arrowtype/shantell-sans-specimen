@@ -177,6 +177,10 @@ header .button:hover,
 	background: var(--uiAccent);
 }
 
+.tnum {
+	font-feature-settings: "tnum";	
+}
+
 a {
 	transition: 0.25s color;
 	color: var(--text);

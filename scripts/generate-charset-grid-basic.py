@@ -4,9 +4,6 @@
 import html
 
 html ="""\
-<script>
-    export let animationState;
-</script>
 <section class="charset">
 
     <h2>Characters</h2>
@@ -50,19 +47,25 @@ for i, c in enumerate(u):
         c = "&#123;"
     if c == "<":
         c = "&lt;"
-
-    if i % 1 == 1:
+    
+    if c == "1":
         html += f"""\
             <div>
-                <span class="up">
-                    {c}
+                <span>
+                    1
+                </span>
+            </div>
+            <div>
+                <span class="tnum">
+                    1
                 </span>
             </div>
 """
+
     else:
         html += f"""\
             <div>
-                <span class="down">
+                <span>
                     {c}
                 </span>
             </div>

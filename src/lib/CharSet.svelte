@@ -1,6 +1,3 @@
-<script>
-    export let animationState;
-</script>
 <section class="charset">
 
     <h2>Characters</h2>
@@ -8,4147 +5,4152 @@
     <!-- BEGIN CHARSET GRID -->
     <div class="grid" id="grid">
             <div>
-                <span class="down">
+                <span>
                     A
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     À
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Á
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Â
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ã
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ä
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Å
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ā
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ă
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ą
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǎ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǻ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȁ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȃ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ạ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ả
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ấ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ầ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẩ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ậ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ắ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ằ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ặ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     B
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     C
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ç
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ć
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĉ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ċ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Č
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     D
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ď
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     E
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     È
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     É
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ê
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ë
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ē
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ė
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ę
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ě
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȅ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȇ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẻ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẽ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ế
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ề
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ể
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ễ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ệ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     F
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     G
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ğ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ġ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ģ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǧ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     H
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĥ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     I
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ì
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Í
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Î
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ï
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĩ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ī
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĭ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Į
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     İ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȉ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȋ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ỉ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ị
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     J
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     K
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ķ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     L
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĺ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ļ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ľ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     M
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     N
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ñ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ń
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ņ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ň
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     O
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ò
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ó
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ô
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Õ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ö
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ō
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŏ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ő
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ơ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȍ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȏ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȭ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȱ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ọ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ỏ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ố
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ồ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ổ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ỗ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ộ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ớ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ờ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ở
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ỡ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ợ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     P
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Q
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     R
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŗ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ř
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȑ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȓ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     S
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ś
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ş
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Š
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ș
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     T
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ţ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ť
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ț
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     U
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ù
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ú
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Û
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ü
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ũ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ū
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŭ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ů
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ű
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ų
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ư
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǔ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȗ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ụ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ủ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ứ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ừ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ử
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ữ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ự
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     V
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     W
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẁ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẃ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ẅ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     X
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Y
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ý
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ÿ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ȳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ỳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ỵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ỷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ỹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Z
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ź
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ż
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ž
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Æ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǽ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ð
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ø
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǿ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Þ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Đ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ħ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ĳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŀ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ł
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŋ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Œ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ŧ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ə
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǆ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǉ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ǌ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǅ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǈ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǋ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẞ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ω
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     a
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     à
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     á
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     â
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ã
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ä
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     å
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ā
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ă
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ą
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǎ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǻ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȁ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȃ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ạ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ả
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ấ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ầ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẩ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ậ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ắ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ằ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ặ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     b
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     c
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ç
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ć
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĉ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ċ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     č
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     d
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ď
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     e
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     è
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     é
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ê
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ë
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ē
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ė
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ę
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ě
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȅ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȇ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẻ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẽ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ế
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ề
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ể
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ễ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ệ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     f
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     g
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ğ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ġ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ģ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǧ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     h
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĥ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     i
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ì
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     í
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     î
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ï
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĩ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ī
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĭ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     į
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȉ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȋ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ỉ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ị
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     j
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     k
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ķ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     l
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĺ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ļ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ľ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     m
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     n
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ñ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ń
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ņ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ň
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     o
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ò
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ó
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ô
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     õ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ö
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ō
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŏ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ő
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ơ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȍ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȏ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȭ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȱ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ọ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ỏ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ố
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ồ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ổ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ỗ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ộ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ớ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ờ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ở
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ỡ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ợ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     p
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     q
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     r
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŗ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ř
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȑ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȓ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     s
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ś
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ş
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     š
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ș
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     t
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ţ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ť
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ț
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     u
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ù
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ú
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     û
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ü
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ũ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ū
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŭ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ů
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ű
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ų
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ư
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǔ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȗ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ụ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ủ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ứ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ừ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ử
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ữ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ự
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     v
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     w
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẁ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẃ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ẅ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     x
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     y
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ý
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ÿ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ỳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ỵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ỷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ỹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     z
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ź
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ż
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ž
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ß
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     æ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǽ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ð
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ø
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǿ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     þ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     đ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ħ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ı
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ĸ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŀ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ł
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŋ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     œ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ŧ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǆ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǉ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ǌ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ə
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ȷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ђ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Є
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ѕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     І
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ї
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ј
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Љ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Њ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ћ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Џ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     А
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӑ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӓ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Б
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     В
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Г
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ѓ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Д
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Е
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ѐ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ё
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӗ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ж
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӂ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     З
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӟ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     И
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ѝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Й
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӣ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӥ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     К
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ќ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Л
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     М
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Н
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     О
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӧ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     П
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Р
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     С
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Т
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     У
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ў
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӯ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӱ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ф
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Х
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ц
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ч
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ш
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Щ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ъ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ы
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ь
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Э
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ю
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Я
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ѣ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ѫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ѳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ѵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ґ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ғ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Җ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҙ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Қ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҡ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ң
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҥ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ү
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ұ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ҹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Һ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӏ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӌ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ә
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ө
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ӷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ԛ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ԝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     а
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӑ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӓ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     б
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     в
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     г
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ѓ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     д
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     е
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ѐ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ё
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӗ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ж
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӂ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     з
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӟ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     и
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     й
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ѝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӣ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӥ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     к
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ќ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     л
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     м
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     н
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     о
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӧ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     п
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     р
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     с
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     т
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     у
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ў
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӯ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӱ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ф
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     х
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ц
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ч
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ш
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     щ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ъ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ы
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ь
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     э
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ю
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     я
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ђ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     є
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ѕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     і
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ї
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ј
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     љ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     њ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ћ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     џ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ѣ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ѫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ѳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ѵ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ґ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ғ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     җ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҙ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     қ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҡ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ң
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҥ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҫ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ү
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ұ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҳ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ҹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     һ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӌ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӏ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӕ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ә
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ө
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ӷ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ԛ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ԝ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ʼ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ª
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     º
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̀
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ́
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̂
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̃
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̄
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̆
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̇
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̈
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̉
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̊
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̋
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̌
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̏
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̑
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̒
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̛
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̣
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̤
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̦
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̧
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̨
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̮
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̱
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ̵
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     0
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     1
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span class="tnum">
+                    1
+                </span>
+            </div>
+            <div>
+                <span>
                     2
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     3
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     4
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     5
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     6
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     7
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     8
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     9
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁰
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¹
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ²
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ³
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁴
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁵
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁶
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁷
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁸
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁹
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁄
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₀
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₁
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₂
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₃
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₄
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₅
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₆
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₇
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₈
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₉
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¼
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ½
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¾
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⅓
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⅔
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⅛
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⅜
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⅝
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⅞
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     _
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     -
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ‐
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     –
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     —
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     (
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     )
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     [
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ]
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     &#123;
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     }
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⟨
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⟩
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     #
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     %
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ‰
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     '
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     "
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ‘
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ’
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     “
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ”
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ‚
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     „
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ‹
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ›
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     «
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     »
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     *
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     †
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ‡
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     .
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ,
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     :
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ;
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     …
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     !
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¡
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ?
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¿
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     /
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     /
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     \
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     |
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¦
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ‖
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     &
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     §
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¶
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ℓ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     №
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ·
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     •
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◦
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ′
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ″
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ʹ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ʺ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     +
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     −
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ±
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ÷
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ×
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     =
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     &lt;
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     >
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ≤
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ≥
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ≈
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ≠
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¬
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∅
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ℮
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     µ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     π
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     Ω
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⁒
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∂
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∆
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∏
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∑
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∕
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∙
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     √
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∞
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ∫
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     $
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¢
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     £
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¤
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¥
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₡
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₤
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₦
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₩
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₫
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     €
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ƒ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₭
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₮
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₱
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₲
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₴
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₵
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₸
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₹
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₺
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₼
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₽
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ฿
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₨
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₪
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₾
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ₿
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ^
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ~
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ´
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     `
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ˝
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ˆ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ˇ
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ˘
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ˜
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¯
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¨
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ˙
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ˚
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ¸
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ˛
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ©
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ®
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ™
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     °
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ⏸
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◆
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◇
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ○
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ●
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ■
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     □
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▪
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▫
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▲
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     △
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▶
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▷
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▼
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▽
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◀
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◁
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▴
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▵
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▸
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▹
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▾
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ▿
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◂
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◃
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ♡
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ♥
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◊
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ✓
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ←
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ↑
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     →
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ↓
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ↔
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ↕
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ↖
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ↗
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ↘
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ↙
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     ◌
                 </span>
             </div>
             <div>
-                <span class="down">
+                <span>
                     @
                 </span>
             </div>
@@ -4211,9 +4213,6 @@
     #grid span, #grid span.down {
         text-align: center;
     }
-
-
-
 
     @media (max-width: 500px) {
         section {
