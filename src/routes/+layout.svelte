@@ -216,9 +216,10 @@
 	}
 
 	.trademark {
-		margin-left: 0.125em;
+		margin-left: 0.1em;
 		font-size: 1.125em;
 		font-weight: 475;
+		transform: translateY(0.05em);
 	}
 
     #cta-caret {
