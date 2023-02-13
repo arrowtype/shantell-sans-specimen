@@ -6,7 +6,7 @@
     <h2>Characters</h2>
     
     <!-- BEGIN CHARSET GRID -->
-    <div class="grid" id="grid" style="--animationState: {animationState};">
+    <div class="grid" id="grid">
             <div>
                 <span class="down">
                     A
@@ -954,6 +954,11 @@
             </div>
             <div>
                 <span class="down">
+                    
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     Ŀ
                 </span>
             </div>
@@ -999,462 +1004,27 @@
             </div>
             <div>
                 <span class="down">
+                    ǅ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ǈ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ǋ
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ẞ
                 </span>
             </div>
             <div>
                 <span class="down">
                     Ω
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ђ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Є
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ѕ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    І
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ї
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ј
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Љ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Њ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ћ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Џ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    А
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӑ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӓ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Б
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    В
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Г
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ѓ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Д
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Е
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ѐ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ё
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӗ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ж
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӂ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӝ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    З
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӟ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    И
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ѝ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӣ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӥ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    К
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ќ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Л
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    М
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Н
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    О
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӧ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    П
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Р
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    С
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Т
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    У
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ў
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӯ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӱ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӳ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ф
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Х
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ц
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ч
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӵ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ш
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Щ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ъ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ы
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӹ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ь
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Э
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ю
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Я
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ѣ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ѫ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ѳ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ѵ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ґ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ғ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҕ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Җ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҙ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Қ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҝ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҡ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ң
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҥ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҫ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ү
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ұ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҳ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҷ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ҹ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Һ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӏ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӌ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӕ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ә
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ө
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ӷ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ԛ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    Ԝ
                 </span>
             </div>
             <div>
@@ -2409,6 +1979,11 @@
             </div>
             <div>
                 <span class="down">
+                    
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ĸ
                 </span>
             </div>
@@ -2459,7 +2034,462 @@
             </div>
             <div>
                 <span class="down">
-                    π
+                    ȷ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ђ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Є
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ѕ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    І
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ї
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ј
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Љ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Њ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ћ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Џ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    А
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӑ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӓ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Б
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    В
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Г
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ѓ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Д
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Е
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ѐ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ё
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӗ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ж
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӂ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӝ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    З
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӟ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    И
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ѝ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Й
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӣ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӥ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    К
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ќ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Л
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    М
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Н
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    О
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӧ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    П
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Р
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    С
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Т
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    У
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ў
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӯ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӱ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӳ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ф
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Х
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ц
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ч
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӵ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ш
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Щ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ъ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ы
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӹ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ь
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Э
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ю
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Я
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ѣ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ѫ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ѳ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ѵ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ґ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ғ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҕ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Җ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҙ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Қ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҝ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҡ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ң
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҥ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҫ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ү
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ұ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҳ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҷ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ҹ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Һ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӏ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӌ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӕ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ә
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ө
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ӷ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ԛ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ԝ
                 </span>
             </div>
             <div>
@@ -2849,6 +2879,16 @@
             </div>
             <div>
                 <span class="down">
+                    ү
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ұ
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ҳ
                 </span>
             </div>
@@ -2905,31 +2945,6 @@
             <div>
                 <span class="down">
                     ԝ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ǅ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ǈ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ǋ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ʹ
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ʺ
                 </span>
             </div>
             <div>
@@ -3064,6 +3079,11 @@
             </div>
             <div>
                 <span class="down">
+                    ̵
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     0
                 </span>
             </div>
@@ -3114,56 +3134,6 @@
             </div>
             <div>
                 <span class="down">
-                    ₀
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₁
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₂
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₃
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₄
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₅
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₆
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₇
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₈
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ₉
-                </span>
-            </div>
-            <div>
-                <span class="down">
                     ⁰
                 </span>
             </div>
@@ -3210,6 +3180,61 @@
             <div>
                 <span class="down">
                     ⁹
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ⁄
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₀
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₁
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₂
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₃
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₄
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₅
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₆
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₇
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₈
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ₉
                 </span>
             </div>
             <div>
@@ -3320,11 +3345,6 @@
             <div>
                 <span class="down">
                     ⟩
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    \
                 </span>
             </div>
             <div>
@@ -3469,12 +3489,12 @@
             </div>
             <div>
                 <span class="down">
-                    \
+                    /
                 </span>
             </div>
             <div>
                 <span class="down">
-                    ⁄
+                    \
                 </span>
             </div>
             <div>
@@ -3489,7 +3509,7 @@
             </div>
             <div>
                 <span class="down">
-                    @
+                    ‖
                 </span>
             </div>
             <div>
@@ -3519,26 +3539,6 @@
             </div>
             <div>
                 <span class="down">
-                    ©
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ®
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    ™
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    °
-                </span>
-            </div>
-            <div>
-                <span class="down">
                     ·
                 </span>
             </div>
@@ -3549,12 +3549,27 @@
             </div>
             <div>
                 <span class="down">
+                    ◦
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ′
                 </span>
             </div>
             <div>
                 <span class="down">
                     ″
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ʹ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ʺ
                 </span>
             </div>
             <div>
@@ -3624,6 +3639,31 @@
             </div>
             <div>
                 <span class="down">
+                    ∅
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ℮
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    µ
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    π
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    Ω
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ⁒
                 </span>
             </div>
@@ -3665,11 +3705,6 @@
             <div>
                 <span class="down">
                     ∞
-                </span>
-            </div>
-            <div>
-                <span class="down">
-                    µ
                 </span>
             </div>
             <div>
@@ -3894,6 +3929,26 @@
             </div>
             <div>
                 <span class="down">
+                    ©
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ®
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ™
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    °
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ⏸
                 </span>
             </div>
@@ -4059,6 +4114,16 @@
             </div>
             <div>
                 <span class="down">
+                    ↔
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ↕
+                </span>
+            </div>
+            <div>
+                <span class="down">
                     ↖
                 </span>
             </div>
@@ -4075,6 +4140,11 @@
             <div>
                 <span class="down">
                     ↙
+                </span>
+            </div>
+            <div>
+                <span class="down">
+                    ◌
                 </span>
             </div>
             <div>
@@ -4115,19 +4185,19 @@
 
     @keyframes trackInOut {
         0% {
-            font-variation-settings: "SPAC" 50, "BNCE" 0;
+            font-variation-settings: "TRAK" 50, "BNCE" 0;
         }
         25% {
-            font-variation-settings: "SPAC" 250, "BNCE" 100;
+            font-variation-settings: "TRAK" 250, "BNCE" 100;
         }
                 50% {
-            font-variation-settings: "SPAC" 50, "BNCE" 0;
+            font-variation-settings: "TRAK" 50, "BNCE" 0;
         }
         75% {
-            font-variation-settings: "SPAC" 250, "BNCE" -100;
+            font-variation-settings: "TRAK" 250, "BNCE" -100;
         }
         100% {
-            font-variation-settings: "SPAC" 50, "BNCE" 0;
+            font-variation-settings: "TRAK" 50, "BNCE" 0;
         }
     }
 
@@ -4142,30 +4212,7 @@
         text-align: center;
     }
 
-    /* @media (pointer:fine) {
-        #grid:hover span {
-            animation: slowShinyText 1s alternate infinite ease-in-out;
-            animation-play-state: var(--animationState);
-        }
-        #grid:hover span.down {
-            animation: slowShinyText 1s reverse alternate infinite ease-in-out;
-            animation-play-state: var(--animationState);
-        }
-        @keyframes slowShinyText {
-            from {
-                font-variation-settings: "BNCE" -100;
-            }
-            to {
-                font-variation-settings: "BNCE" 100;
-            }
-        }
-    } */
 
-    /* @media (prefers-reduced-motion) {
-        #grid:hover span, #grid:hover span.down {
-            animation: none;
-        }
-    } */
 
 
     @media (max-width: 500px) {
