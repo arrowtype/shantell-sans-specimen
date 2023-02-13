@@ -113,7 +113,7 @@
 <div bind:this={scrim} id="menu-scrim" class:menuOpen={menuOpen} on:click={toggleMenu}></div>
 <nav bind:this={header} id="header">
 	<div>
-		<a href="./" class="button" tabindex="0" on:click={closeMenu}>Shantell Sans</a>
+		<a href="./" class="button" tabindex="0" on:click={closeMenu}>Shantell Sans<span class="trademark">™</span></a>
 		<!-- <PlayPause /> -->
 	</div>
 	<div>
@@ -215,7 +215,11 @@
 		
 	}
 
-
+	.trademark {
+		margin-left: 0.125em;
+		font-size: 1.125em;
+		font-weight: 475;
+	}
 
     #cta-caret {
         font-size: 0.75em;
