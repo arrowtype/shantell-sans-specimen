@@ -3,7 +3,7 @@
     <p>Website by <a target="_blank" href="https://arrowtype.com">Arrow Type</a>.</p>
     <p class="line">------------</p>
     <p><a target="_blank" href="https://github.com/arrowtype/shantell-sans">Shantell Sans on GitHub</a></p>
-    <p><a target="_blank" href="https://github.com/arrowtype/shantell-sans-specimen-2">View this website’s source</a></p>
+    <p><a target="_blank" href="https://github.com/arrowtype/shantell-sans-specimen">View this website’s source</a></p>
     <p class="line">------------</p>
     <p>
         <svg width="136" height="42" viewBox="0 0 136 42" fill="none" xmlns="http://www.w3.org/2000/svg">
