@@ -2,11 +2,15 @@
 
 A web specimen for [Shantell Sans](http://github.com/arrowtype/shantell-sans).
 
-## Background
+### Credits
 
-This is a continuation and extension of [arrowtype/shantell-sans-specimen](https://github.com/arrowtype/shantell-sans-specimen).
+Website design and developement by Stephen Nixon / [Arrow Type](https://arrowtype.com).
 
-This version was started with SvelteKit and [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte), to better support multiple pages.
+Poetry, design input, and some writing from [Shantell Martin](https://shantellmartin.art).
+
+Additional support from [Google Fonts](https://fonts.google.com).
+
+This website was built with [SvelteKit](http://svelte.dev).
 
 ## Development
 
