@@ -6,6 +6,8 @@
 
 	import IntersectionObserver from "svelte-intersection-observer";
 
+	export const prerender = true
+
 	// for intersection observer
 	let node;
 	let node1;

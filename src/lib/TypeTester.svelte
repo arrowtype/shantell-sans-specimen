@@ -1,28 +1,33 @@
 <script>
     import TypeTesterText from '$lib/TypeTesterText.svelte'
     import Slider from '$lib/Slider.svelte'
+    import { onMount } from 'svelte';
 
     // basic font sizing & layout
-    export let initialSizeVmin = '15';
-    export let sizePx = 200; // comes from TypeTesterText component (?)
+    export let initialSizeVmin;
+    // export let sizePx = 200; // comes from TypeTesterText component (?)
+    let sizePx;
     export let sizePxMin = 4;
     export let sizePxMax = 250;
     export let maxVmin = 32;
-    export let minLineHeight = 0.825;
-    export let maxLineHeight = 1.375;
-    export let lineHeightSizeScalingCapPx = 72;
+    export let minLineHeight = 1;
+    export let maxLineHeight = 1.5;
+    export let lineHeightSizeScalingMinPx = 32;
+    export let lineHeightSizeScalingCapPx = 160;
     export let lineHeight = 1;
 
-    let windowWidth = 500;
-    let windowHeight = 500;
+    let updatedSizeVmin;
+
+    let innerWidth;
+    let innerHeight;
 
     // variable axes
     
     export let wght = 700; // comes from TypeTesterText component (?)
     export let ital = 0.0; // comes from TypeTesterText component (?)
-    export let irgl = 0; // comes from TypeTesterText component (?)
+    export let infm = 0; // comes from TypeTesterText component (?)
     export let bnce = 0;  // comes from TypeTesterText component (?)
-    export let trak = 0;  // comes from TypeTesterText component (?)
+    export let spac = 0;  // comes from TypeTesterText component (?)
 
     export let wghtMin = 300;
     export let wghtMax = 800;
@@ -30,45 +35,78 @@
     export let italMin = 0.0;
     export let italMax = 1.0;
 
-    export let irglMin = 0;
-    export let irglMax = 100;
+    export let infmMin = 0;
+    export let infmMax = 100;
 
     export let bnceMin = -100;
     export let bnceMax = 100;
     
-    export let trakMin = 0;
-    export let trakMax = 250;
+    export let spacMin = 0;
+    export let spacMax = 100;
+
+	onMount(() => {
+
+        // adapted from https://svelte.dev/repl/30667c29ab92487597f7e845578f263a?version=3.55.1
+
+		function onResize() {
+			innerWidth = window.innerWidth;
+            innerHeight = window.innerHeight;
+
+            handleResize(innerWidth, innerHeight)
+		}
+        innerWidth = window.innerWidth;
+        innerHeight = window.innerHeight;
+		window.addEventListener('resize', onResize);
+
+
+        setInitialFontSize(innerWidth, innerHeight)
+
+		return () => window.removeEventListener('resize', onResize);
+	});
     
 
     // handle font scaling & layout
 
-    function oneVmin2px(windowWidth, windowHeight) {
-        let windowMin = windowWidth < windowHeight ? windowWidth : windowHeight;
+    function oneVmin2px(innerWidth, innerHeight) {
+        let windowMin = innerWidth < innerHeight ? innerWidth : innerHeight;
         let oneVmin = windowMin / 100
         return oneVmin
     }
 
-    function setInitialFontSize(windowWidth, windowHeight) {
-        let oneVmin = oneVmin2px(windowWidth, windowHeight)
+    function setInitialFontSize(innerWidth, innerHeight) {
+        let oneVmin = oneVmin2px(innerWidth, innerHeight)
         sizePxMax = oneVmin * maxVmin
-        sizePx = Math.round(oneVmin * initialSizeVmin)
+
+        // start at 50% of the possible slider scale
+        sizePx = Math.round(sizePxMin + sizePxMax) / 2
+
+        updateFontPx()
         setLineHeight()
     }
 
-    function handleResize(windowWidth, windowHeight) {
-        let oneVmin = oneVmin2px(windowWidth, windowHeight)
+    function handleResize(innerWidth, innerHeight) {
+        let oneVmin = oneVmin2px(innerWidth, innerHeight)
         sizePxMax = oneVmin * maxVmin
+
+        let windowMin = innerWidth < innerHeight ? innerWidth : innerHeight;
+        // updatedSizeVmin = (100 / windowMin ) * sizePx
+
+
+        sizePx = Math.round(updatedSizeVmin * windowMin / 100)
     }
 
     function updateFontVmin() {
-        sizeVmin = sizePx / 0.01 / windowWidth
-        autoOpsz()
+        sizeVmin = sizePx / 0.01 / innerWidth
     }
 
     function updateFontPx() {
         sizePx = Math.round(sizePx)
+
+        let windowMin = innerWidth < innerHeight ? innerWidth : innerHeight;
+        updatedSizeVmin = (100 / windowMin ) * sizePx
+
+        console.log(updatedSizeVmin)
         setLineHeight()
-        autoOpsz()
     }
 
     function setLineHeight() {
@@ -115,11 +153,11 @@
 
 </script>
 
-<svelte:window bind:innerHeight={windowHeight} bind:innerWidth={windowWidth} on:resize={handleResize(windowWidth, windowHeight)} on:load={setInitialFontSize(windowWidth, windowHeight)} />
+<svelte:window bind:innerWidth bind:innerHeight />
 
 <section>
 
-    <TypeTesterText sizePx={sizePx} wght={wght} ital={ital} irgl={irgl} bnce={bnce}  trak={trak} fontFea={fontFeatures} lineHeight={lineHeight} />
+    <TypeTesterText sizePx={sizePx} wght={wght} ital={ital} infm={infm} bnce={bnce}  spac={spac} fontFea={fontFeatures} lineHeight={lineHeight} />
 
         <!-- type style sliders -->
     <div id="control-container" >
@@ -142,9 +180,9 @@
             </div>
 
             <div class="slider-box">
-                <label for="irglSlider">Irregularity</label>
-                <input type="number" bind:value={irgl} min={irglMin} max={irglMax} step="1" />
-                <Slider id="irglSlider"  label="irgl" bind:value={irgl} type="range" min={irglMin} max={irglMax} step={1} />
+                <label for="infmSlider">Informality</label>
+                <input type="number" bind:value={infm} min={infmMin} max={infmMax} step="1" />
+                <Slider id="infmSlider"  label="infm" bind:value={infm} type="range" min={infmMin} max={infmMax} step={1} />
             </div>
 
             <div class="slider-box">
@@ -154,12 +192,12 @@
             </div>
 
             <div class="slider-box">
-                <label for="trakSlider">Tracking</label>
-                <input type="number" bind:value={trak} min={trakMin} max={trakMax} step="1" />
-                <Slider id="trakSlider"  label="trak" bind:value={trak} type="range" min={trakMin} max={trakMax} step={1} />
+                <label for="spacSlider">Spacing</label>
+                <input type="number" bind:value={spac} min={spacMin} max={spacMax} step="1" />
+                <Slider id="spacSlider"  label="spac" bind:value={spac} type="range" min={spacMin} max={spacMax} step={1} />
             </div>
 
-            <!-- {#if windowWidth > 1100}
+            <!-- {#if innerWidth > 1100}
                 <button on:click={showOptionsDrawer}>
                     <OptionsToggle/>
                 </button>
@@ -241,19 +279,19 @@
 
     /* @keyframes slowShinyText {
     0% {
-        font-variation-settings: "BNCE" 0, "IRGL" 50;
+        font-variation-settings: "BNCE" 0, "INFM" 50;
     }
     25% {
-        font-variation-settings: "BNCE" -50, "IRGL" 50;
+        font-variation-settings: "BNCE" -50, "INFM" 50;
     }
     50% {
-        font-variation-settings: "BNCE" 0, "IRGL" 50;
+        font-variation-settings: "BNCE" 0, "INFM" 50;
     }
     75% {
-        font-variation-settings: "BNCE" 50, "IRGL" 50;
+        font-variation-settings: "BNCE" 50, "INFM" 50;
     }
     100% {
-        font-variation-settings: "BNCE" 0, "IRGL" 50;
+        font-variation-settings: "BNCE" 0, "INFM" 50;
     }
     } */
 </style>
