@@ -211,24 +211,8 @@
 	#wght .min {
 		font-variation-settings: 'wght' 300;
 	}
-	#wght .from {
-		animation: weight 1s infinite alternate ease-in-out;
-		animation-play-state: var(--animationState);
-	}
 	#wght .max {
 		font-variation-settings: 'wght' 800;
-	}
-	#wght .to {
-		animation: weight 1s infinite alternate-reverse ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	@keyframes weight {
-		from {
-			font-variation-settings: 'wght' 300;
-		}
-		to {
-			font-variation-settings: 'wght' 800;
-		}
 	}
 
 	#ital .min {
@@ -237,44 +221,12 @@
 	#ital .max {
 		font-variation-settings: 'wght' 550, 'ital' 1;
 	}
-	#ital .from {
-		animation: italic 1s infinite alternate ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	#ital .to {
-		animation: italic 1s infinite alternate-reverse ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	@keyframes italic {
-		from {
-			font-variation-settings: 'wght' 550, 'ital' 0;
-		}
-		to {
-			font-variation-settings: 'wght' 550, 'ital' 1;
-		}
-	}
 
 	#INFM .min {
 		font-variation-settings: 'wght' 550, 'INFM' 0;
 	}
 	#INFM .max {
 		font-variation-settings: 'wght' 550, 'INFM' 100;
-	}
-	#INFM .from {
-		animation: irregular 1s infinite alternate ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	#INFM .to {
-		animation: irregular 1s infinite alternate-reverse ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	@keyframes irregular {
-		from {
-			font-variation-settings: 'wght' 550, 'INFM' 0;
-		}
-		to {
-			font-variation-settings: 'wght' 550, 'INFM' 100;
-		}
 	}
 
 	#BNCE .min {
@@ -283,44 +235,12 @@
 	#BNCE .max {
 		font-variation-settings: 'wght' 550, 'BNCE' 100;
 	}
-	#BNCE .from {
-		animation: bounce 1s infinite alternate ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	#BNCE .to {
-		animation: bounce 1s infinite alternate-reverse ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	@keyframes bounce {
-		from {
-			font-variation-settings: 'wght' 550, 'BNCE' -100;
-		}
-		to {
-			font-variation-settings: 'wght' 550, 'BNCE' 100;
-		}
-	}
 
 	#SPAC .min {
 		font-variation-settings: 'wght' 550, 'SPAC' 0;
 	}
 	#SPAC .max {
 		font-variation-settings: 'wght' 550, 'SPAC' 100;
-	}
-	#SPAC .from {
-		animation: tracking 1s infinite alternate ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	#SPAC .to {
-		animation: tracking 1s infinite alternate-reverse ease-in-out;
-		animation-play-state: var(--animationState);
-	}
-	@keyframes tracking {
-		from {
-			font-variation-settings: 'wght' 550, 'SPAC' 0;
-		}
-		to {
-			font-variation-settings: 'wght' 550, 'SPAC' 150;
-		}
 	}
 
 	@media (max-width: 600px) {
@@ -329,10 +249,4 @@
 		}
 	}
 
-	@media (prefers-reduced-motion) {
-		* .from,
-		* .to {
-			animation-play-state: paused !important;
-		}
-	}
 </style>

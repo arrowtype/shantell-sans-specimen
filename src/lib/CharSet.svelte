@@ -2543,8 +2543,7 @@
 		grid-template-columns: repeat(auto-fit, minmax(3ch, 1fr));
 	}
 
-	#grid span,
-	#grid span.down {
+	#grid span {
 		text-align: center;
 	}
 
