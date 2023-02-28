@@ -1,6 +1,6 @@
 # The Story of Shantell Sans
 
-***Shantell Sans mixes variable axes for Weight, Italic, Informality, and Bounce to deliver a wide array of font styles, from friendly, readable, everyday typographic workhorses to striking, high-energy, experimental styles meant especially for animation. This is the story behind its inspiration and creation.***
+**_Shantell Sans mixes variable axes for Weight, Italic, Informality, and Bounce to deliver a wide array of font styles, from friendly, readable, everyday typographic workhorses to striking, high-energy, experimental styles meant especially for animation. This is the story behind its inspiration and creation._**
 
 <h2>Why make a new font?</h2>
 
@@ -13,15 +13,15 @@
 
 One of my first relationships with words was back in elementary school. We did spelling tests every week. Since I never passed them, I had to sit in detention.
 
-Despite being scared of the spelling tests, I loved words. I wrote and drew a lot. I knew that words helped me to express my feelings and feel better. Since I was writing for myself, I didn't have to care about spelling. 
+Despite being scared of the spelling tests, I loved words. I wrote and drew a lot. I knew that words helped me to express my feelings and feel better. Since I was writing for myself, I didn't have to care about spelling.
 
 When I was 20 or 21, I found out that I was dyslexic. When I started my art degree at [Central Saint Martins](https://www.arts.ac.uk/colleges/central-saint-martins) in London, I was in an environment where it felt like the majority of people were dyslexic. I was instantly part of a cool group of creative people. However, I was disappointed about the amount of teachers who had never spotted my reading challenges. Instead of supporting me to learn to read and write, they punished me.
 
-Creating my own font was a way to empower people to read and write, despite their relationship to words. What if I take my words, or my handwriting or the letters that I've created, and make a font that is fun and playful, but also professional and usable? I wanted to make a font that feels accessible and open to remind people, including myself, that words are drawings and that words can exist on our own terms. 
+Creating my own font was a way to empower people to read and write, despite their relationship to words. What if I take my words, or my handwriting or the letters that I've created, and make a font that is fun and playful, but also professional and usable? I wanted to make a font that feels accessible and open to remind people, including myself, that words are drawings and that words can exist on our own terms.
 
 I was inspired by the Comic Sans typeface. Since I was a kid, I have liked how playful and easy it was to read text in Comic Sans, especially for me as a dyslexic.
 
-I think we have an emotional response to fonts. A font might feel easier to read, or it feels more welcoming. Or it feels like something I want to look at or pick up. I definitely like fonts that have a little bit more space, because they feel more approachable. If you have a really tiny, fancy font, I don't want to touch it. 
+I think we have an emotional response to fonts. A font might feel easier to read, or it feels more welcoming. Or it feels like something I want to look at or pick up. I definitely like fonts that have a little bit more space, because they feel more approachable. If you have a really tiny, fancy font, I don't want to touch it.
 
 The usage of a font can make that font take on a certain personality. If you're very dyslexic, you're likely not going to pick up a book printed in a tiny font with words very close together. It feels intimidating. Or if the font is very plain and boring, it doesn't capture your attention enough to want to spend time with it.
 
@@ -90,7 +90,7 @@ Like most successful typefaces, Comic Sans was actually made for a very specific
 
 Microsoft Bob was released before Comic Sans could be completed, and Bob itself didn’t last long due to lukewarm reception by reviewers and users. However, Comic Sans went on to be pre-installed in both Windows and Mac operating systems, where its unique appearance has since endeared it to a vast amount of users, making it used in everything from the tags on Ty _Beanie Babies_ (from the 5th generation on) to [a 2012 CERN presentation](https://www.theverge.com/2012/7/4/3136652/cern-scientists-comic-sans-higgs-boson) on the Higgs Boson particle.
 
-To be clear, the Shantell Sans project was never *really* about making a new version of Comic Sans, or anything directly derived from it. Rather, we sought to identify what makes Comic Sans so popular, and apply a few of those lessons to a totally new font.
+To be clear, the Shantell Sans project was never _really_ about making a new version of Comic Sans, or anything directly derived from it. Rather, we sought to identify what makes Comic Sans so popular, and apply a few of those lessons to a totally new font.
 
 <h3>Design Goals</h3>
 
@@ -104,12 +104,11 @@ But what might “a new Comic Sans” really mean, today? And, how could that ty
 
 ### 1. Everyday Appeal
 
-For the font to have an everyday appeal, it should be based on felt-tip marker handwriting, similar to Comic Sans. For this, Shantell’s handwriting was a perfect place to start from. We worked to keep some of the quirks of that writing, while also simplifying the overall look into something true to a digital form. 
+For the font to have an everyday appeal, it should be based on felt-tip marker handwriting, similar to Comic Sans. For this, Shantell’s handwriting was a perfect place to start from. We worked to keep some of the quirks of that writing, while also simplifying the overall look into something true to a digital form.
 
 ### 2. Easy to Use
 
-
-For the font to be easy to use in a wide variety of communication, it should align to typical expectations of proportions and styles for a modern font. To accomplish this, we set the font metrics of Shantell Sans (like cap-height, x-height, and default line height) to be close to those of commonly used fonts, such as Roboto. To keep things easily readable and to keep visually consistent with Shantell’s writing, we used slightly wider-than-average glyph widths and spacing. 
+For the font to be easy to use in a wide variety of communication, it should align to typical expectations of proportions and styles for a modern font. To accomplish this, we set the font metrics of Shantell Sans (like cap-height, x-height, and default line height) to be close to those of commonly used fonts, such as Roboto. To keep things easily readable and to keep visually consistent with Shantell’s writing, we used slightly wider-than-average glyph widths and spacing.
 
 These decisions help make Shantell Sans easy to use in everyday scenarios like websites, apps, presentations, and more. It has enough personality to be striking in large sizes, but is carefully made to work well in smaller text.
 
@@ -133,14 +132,14 @@ To make the font available to the widest range of people possible, we decided to
 
 To make sure the font met Shantell’s goals of making an easy-to-read font, I made sure that the characters could be distinguished from one another. Shantell naturally writes letters like “b”, “d”, “p”, “q” and “n” and “u” that are clearly differentiated from one another through a contrast of simple shapes and well-placed exit [strokes](https://fonts.google.com/knowledge/glossary/stroke). Shantell sometimes writes the uppercase “I” and numeral “1” as only straight lines. To keep these letters distinct, I added serifs to the uppercase “I” and a flag to “1.”
 
-The lowercase “n” and “u” are differentiated because the “n” has a typical, "zig-zag" form, while the u has a simplified form without a tail or exit stroke. 
+The lowercase “n” and “u” are differentiated because the “n” has a typical, "zig-zag" form, while the u has a simplified form without a tail or exit stroke.
 
 <figure>
     <img loading="lazy" src="assets/differentiated-letters-diagram.png" alt="Comparison of visual distinctions between potentially similar characters" title="Comparison of visual distinctions between potentially similar characters">
 </figure>
 <figcaption>Carefully placed exit strokes, serifs, and flags help differentiate groups of characters that might otherwise have similar structures, such as <strong>I l 1</strong>, <strong>n u</strong>, and <strong>b d p q</strong>.</figcaption>
 
-As you might expect in a handwritten font, the “a” and “g” use the single-story forms that kids tend to learn in school, keeping the font friendly and familiar. 
+As you might expect in a handwritten font, the “a” and “g” use the single-story forms that kids tend to learn in school, keeping the font friendly and familiar.
 
 <figure>
     <img loading="lazy" src="assets/simple-a-g-diagram.png" alt="Single-story a and g in Shantell Sans" title="Single-story a and g in Shantell Sans">
@@ -149,9 +148,9 @@ As you might expect in a handwritten font, the “a” and “g” use the singl
 
 ### 5. Do something new
 
-To do something new, the font should have not only a good range of weights. This wide stylistic range should be available in a variable font to also offer more creative utility to designers & developers willing to explore a little more in the capabilities of modern typography. 
+To do something new, the font should have not only a good range of weights. This wide stylistic range should be available in a variable font to also offer more creative utility to designers & developers willing to explore a little more in the capabilities of modern typography.
 
-To take the creative possibilities even further, I wanted to see how I might bring in some of the free, organic spirit of Shantell’s work into some experimental axes within such a variable font. 
+To take the creative possibilities even further, I wanted to see how I might bring in some of the free, organic spirit of Shantell’s work into some experimental axes within such a variable font.
 
 <figure>
     <!-- <img loading="lazy" src="assets/kinetic.gif" alt="'Typography is kinetic' text changing shape" title="Animation of all five variable axes of Shantell Sans"> -->
@@ -182,7 +181,6 @@ She scanned these, and I set to work tracing them – starting with a centered l
     <img loading="lazy" src="assets/select-letters-enlarged-80.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans" title="Key letters of Shantell’s handwriting compared to Shantell Sans">
 </figure>
 <figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans SemiBold</figcaption>
-
 
 We then explored which direction to go in, aesthetically: should the glyphs be truly monolinear, with circular endcaps – similar to Comic Sans – or should they retain more of the organic, sometimes sharp shaping of the felt-marker writing? Neither extreme felt quite right, so we opted to go for something in the middle: strokes are drawn with a little bit of the sharpness and contrast that helps make Shantell’s writing so engaging, but they are also made a little more uniform in thickness and given softened, semi-rounded endings. This strikes a balance, retaining a sense of marker writing while also being approachable and warm in their digital form.
 
@@ -232,7 +230,7 @@ Best of all, we also extended the fonts to include wider language support: the L
 
 Cyrillic is the script of many languages in Eurasia: Bulgarian, Serbian, Russian, Belarussian, Ukrainian, Tatar, Bashkir and many more.
 
-The process of designing for Cyrillic is relatively similar to designing for Latin, unlike for example designing Arabic, where there is a very different system of writing. In Cyrillic, some glyphs are the same as in Latin, some require more attention, and some are easy to make. However, the process can become challenging once we talk about unconventional shapes or, in our case, about a typeface that was inspired by the  handwriting of a specific person.
+The process of designing for Cyrillic is relatively similar to designing for Latin, unlike for example designing Arabic, where there is a very different system of writing. In Cyrillic, some glyphs are the same as in Latin, some require more attention, and some are easy to make. However, the process can become challenging once we talk about unconventional shapes or, in our case, about a typeface that was inspired by the handwriting of a specific person.
 
 Working on another script for a handwriting typeface can feel somewhat similar to translating poetry. When you translate a poem to another language, how can you save the unique tone of it while also using the structure of the language you are translating it to? Which aspects are specific to an author, which are idioms, which are slang, and how can it be translated to save its meaning and rhythm? I had similar questions while working on Shantell Sans Cyrillic.
 
@@ -288,6 +286,7 @@ Do you have a creative idea that needs a font with some personality? Want to jus
 You can get [Shantell Sans on Google Fonts](https://fonts.google.com/specimen/Shantell+Sans) or download the very latest version in the [open-source repo](https://github.com/arrowtype/shantell-sans/releases/latest).
 
 You can also use Shantell Sans on Google Docs, Slides, and other Workspace products:
+
 1. In a document, open the font menu and click "More Fonts"
 2. In the pop-up panel that opens, search for "Shantell Sans”
 3. Click on the family to add it to your fonts menu

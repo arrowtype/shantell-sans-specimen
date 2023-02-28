@@ -23,8 +23,8 @@
 	--text: black;
 	--altBg: black;
 	--altText: white;
-	--offWhite: hsl(0,0%,80%);
-	--offText: hsl(0,0%,25%);
+	--offWhite: hsl(0, 0%, 80%);
+	--offText: hsl(0, 0%, 25%);
 	--gray: rgb(87, 87, 87);
 	--modalBg: hsl(240, 0%, 90%);
 	--trackBg: hsl(230, 0%, 90%);
@@ -40,7 +40,7 @@
 	:root {
 		--background: black;
 		--text: white;
-		--offText: hsl(0,0%,75%);
+		--offText: hsl(0, 0%, 75%);
 		--gray: hsl(240, 0%, 70%);
 		--modalBg: hsl(240, 0%, 10%);
 		--altBg: hsl(230, 0%, 7.5%);
@@ -130,7 +130,6 @@ header .button:hover,
 	animation-play-state: var(--animationState);
 }
 
-
 @media (prefers-color-scheme: dark) {
 	.button,
 	header button,
@@ -149,7 +148,6 @@ header .button:hover,
 		border: var(--uiAccent) solid 2px;
 		color: var(--background);
 	}
-
 }
 
 .phrase {
@@ -178,7 +176,7 @@ header .button:hover,
 }
 
 .tnum {
-	font-feature-settings: "tnum";	
+	font-feature-settings: 'tnum';
 }
 
 a {
@@ -220,7 +218,7 @@ h2 {
 	margin-top: 0.5em;
 	margin-bottom: 0em;
 	letter-spacing: 0.02em;
-	animation: wobbleBounce .75s ease-in-out alternate 6;
+	animation: wobbleBounce 0.75s ease-in-out alternate 6;
 	animation-play-state: var(--animationState);
 	font-variation-settings: 'BNCE' -60, 'INFM' 50;
 }
@@ -230,7 +228,7 @@ h2 {
 	letter-spacing: 0.02em;
 	/* animation: wobbleBounce .875s ease-in-out alternate-reverse infinite ;
 	animation-play-state: var(--animationState); */
-	font-variation-settings: "BNCE" 50, "INFM" 100;
+	font-variation-settings: 'BNCE' 50, 'INFM' 100;
 	font-size: calc(1.125rem + 1vw);
 	line-height: 1;
 	padding: 0.25em 0;
@@ -247,7 +245,6 @@ h2 {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	font-weight: 600;
-
 }
 
 .markdown-body p,
@@ -301,7 +298,6 @@ h2 {
 } */
 
 @media (min-width: 800px) {
-
 	.markdown-body figure {
 		margin-top: 2.5rem;
 	}
@@ -309,7 +305,6 @@ h2 {
 	.markdown-body figcaption {
 		margin-bottom: 2.5rem;
 	}
-
 }
 
 video {
@@ -327,7 +322,8 @@ figure {
 	margin: 0;
 }
 
-figcaption, figcaption a {
+figcaption,
+figcaption a {
 	font-style: normal;
 	font-variation-settings: 'wght' 400, 'ital' 1;
 	color: var(--gray);

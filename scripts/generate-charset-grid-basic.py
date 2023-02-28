@@ -97,7 +97,7 @@ html += """\
         text-transform: uppercase;
         font-size: 2rem;
         letter-spacing: 0.05em;
-        font-variation-settings: "IRGL" 100;
+        font-variation-settings: "INFM" 100;
         padding-top: 3rem;
 
     }
@@ -105,19 +105,19 @@ html += """\
 
     @keyframes trackInOut {
         0% {
-            font-variation-settings: "TRAK" 50, "BNCE" 0;
+            font-variation-settings: "SPAC" 50, "BNCE" 0;
         }
         25% {
-            font-variation-settings: "TRAK" 250, "BNCE" 100;
+            font-variation-settings: "SPAC" 250, "BNCE" 100;
         }
                 50% {
-            font-variation-settings: "TRAK" 50, "BNCE" 0;
+            font-variation-settings: "SPAC" 50, "BNCE" 0;
         }
         75% {
-            font-variation-settings: "TRAK" 250, "BNCE" -100;
+            font-variation-settings: "SPAC" 250, "BNCE" -100;
         }
         100% {
-            font-variation-settings: "TRAK" 50, "BNCE" 0;
+            font-variation-settings: "SPAC" 50, "BNCE" 0;
         }
     }
 

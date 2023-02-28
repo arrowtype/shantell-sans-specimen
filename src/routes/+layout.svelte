@@ -1,14 +1,13 @@
 <script>
-
-	import PlayPause from "$lib/PlayPause.svelte";
+	import PlayPause from '$lib/PlayPause.svelte';
 	// import DropdownMenu from "$lib/DropdownMenu.svelte";
 	import { createEventDispatcher, onDestroy } from 'svelte';
-	import Footer from "$lib/Footer.svelte";
+	import Footer from '$lib/Footer.svelte';
 
-	import { animationState, canAnimate } from '../stores.js'
+	import { animationState, canAnimate } from '../stores.js';
 
-    function toggleAnimations() {
-		$animationState === "running" ? $animationState = "paused" : $animationState = "running";
+	function toggleAnimations() {
+		$animationState === 'running' ? ($animationState = 'paused') : ($animationState = 'running');
 	}
 
 	// const dispatch = createEventDispatcher();
@@ -38,30 +37,30 @@
 	let menuOpen = false;
 
 	function openMenu() {
-        // dispatch('close');
+		// dispatch('close');
 
 		menu.hidden = false;
-		toggleAnimations()
+		toggleAnimations();
 
-		const scroll = `-${window.scrollY}px`
+		const scroll = `-${window.scrollY}px`;
 
 		// When the modal is shown, we want a fixed body
-        document.body.style.position = "fixed";
+		document.body.style.position = 'fixed';
 		document.body.style.top = scroll;
 
 		// make sure the header is fixed as well
-		header.style.position = "fixed";
-		header.style.top = "0";
-		scrim.style.position = "fixed";
-		scrim.style.top = "0";
+		header.style.position = 'fixed';
+		header.style.top = '0';
+		scrim.style.position = 'fixed';
+		scrim.style.top = '0';
 
-		toggleAnimations()
+		toggleAnimations();
 
 		menuOpen = true;
 	}
 
 	function closeMenu() {
-        // dispatch('close');
+		// dispatch('close');
 
 		menu.hidden = true;
 		// toggleAnimations()
@@ -80,95 +79,92 @@
 	function toggleMenu() {
 		// let expanded = menuButton.getAttribute('aria-expanded') === 'true' || false;
 		// menuButton.setAttribute('aria-expanded', String(!expanded));
-		
+
 		if ($canAnimate === true) {
-			toggleAnimations()
+			toggleAnimations();
 		}
 
 		if (menuOpen === true) {
-			closeMenu()
+			closeMenu();
 			menuButton.setAttribute('aria-expanded', String(false));
 		} else {
-			openMenu()
+			openMenu();
 			menuButton.setAttribute('aria-expanded', String(true));
 		}
-	};
+	}
 
-	const handle_keydown = e => {
+	const handle_keydown = (e) => {
 		if (e.key === 'Escape' && menuOpen === true) {
 			// close();
 			toggleMenu();
 			return;
 		}
-	}
-
-
+	};
 </script>
 
+<svelte:window on:keydown={handle_keydown} />
 
-<svelte:window on:keydown={handle_keydown}/>
-
-
-
-<div bind:this={scrim} id="menu-scrim" class:menuOpen={menuOpen} on:click={toggleMenu}></div>
+<div bind:this={scrim} id="menu-scrim" class:menuOpen on:click={toggleMenu} />
 <nav bind:this={header} id="header">
 	<div>
-		<a href="./" class="button" tabindex="0" on:click={closeMenu}>Shantell Sans<span class="trademark">™</span></a>
+		<a href="./" class="button" tabindex="0" on:click={closeMenu}
+			>Shantell Sans<span class="trademark">™</span></a
+		>
 		<!-- <PlayPause /> -->
 	</div>
 	<div>
 		<a class="button hide-sm" href="process" tabindex="0" on:click={closeMenu}>Design Process</a>
-		<button bind:this={menuButton} class:menuOpen={menuOpen} class="button" aria-expanded="false" aria-controls="menu-list" on:click={toggleMenu}>
+		<button
+			bind:this={menuButton}
+			class:menuOpen
+			class="button"
+			aria-expanded="false"
+			aria-controls="menu-list"
+			on:click={toggleMenu}
+		>
 			<span id="cta-caret" class="hide-sm">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.96 6.84" >
-						<path d="M.61.61c1.14.68,2.74,2.29,2.74,2.88S1.47,5,.61,6.23"/>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3.96 6.84">
+					<path d="M.61.61c1.14.68,2.74,2.29,2.74,2.88S1.47,5,.61,6.23" />
 				</svg>
 				<!-- <svg viewBox="0 0 3.96 6.84"><g data-name="Layer 2"><path fill="none" stroke="#231f20" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.22" d="M.61.61c1.14.68 2.74 2.29 2.74 2.88S1.47 5 .61 6.23" data-name="Layer 1"/></g></svg> -->
 			</span>
-			<span class="hide-sm">
-				Download
-			</span>
-			<span class="show-sm">
-				Menu
-			</span>
+			<span class="hide-sm"> Download </span>
+			<span class="show-sm"> Menu </span>
 		</button>
-		<ul bind:this={menu} id="menu-list" class:menuOpen={menuOpen} on:click={toggleMenu} hidden>
+		<ul bind:this={menu} id="menu-list" class:menuOpen on:click={toggleMenu} hidden>
 			<li class="show-sm">
-				<a class="button" href="process">
-					The Story of Shantell Sans
+				<a class="button" href="process"> The Story of Shantell Sans </a>
+			</li>
+			<li>
+				<a class="button" target="blank" href="https://fonts.google.com/specimen/Shantell+Sans">
+					Get it on Google Fonts
+					<span class="menu-icon">&nbsp;↗</span>
 				</a>
 			</li>
 			<li>
-				<a class="button" target="blank" href="https://fonts.google.com/specimen/Shantell+Sans" >
-					Get it on Google Fonts
-					<span class="menu-icon">&nbsp;↗</span>
-					</a>
-			</li>
-			<li>
-				<a class="button" target="blank" href="https://github.com/arrowtype/shantell-sans" >
+				<a class="button" target="blank" href="https://github.com/arrowtype/shantell-sans">
 					See the project on GitHub
 					<span class="menu-icon">&nbsp;↗</span>
-					</a>
+				</a>
 			</li>
 			<li>
-				<a class="button" href="https://github.com/arrowtype/shantell-sans/releases/download/1.008/Shantell_Sans_1.008.zip" >
+				<a
+					class="button"
+					href="https://github.com/arrowtype/shantell-sans/releases/download/1.008/Shantell_Sans_1.008.zip"
+				>
 					Download latest release
 					<span class="menu-icon">&nbsp;↓</span>
-				</a> 
+				</a>
 			</li>
 		</ul>
 	</div>
 </nav>
 
-	
-
-<slot></slot>
-
+<slot />
 
 <Footer />
 
 <style>
-
 	/* #header-container {
 		width: 100vw;
 		display: block;
@@ -177,12 +173,12 @@
 		z-index: 999;
 		height: auto;
 	} */
-	
-    nav {
+
+	nav {
 		position: fixed;
 		padding: 0.75rem;
 		display: grid;
-		grid-template-columns: max-content max-content; 
+		grid-template-columns: max-content max-content;
 		justify-content: space-between;
 		grid-gap: 0rem;
 		width: 100%;
@@ -191,28 +187,27 @@
 		z-index: 100;
 		pointer-events: none;
 	}
-	
+
 	nav > div {
 		display: grid;
-		grid-template-columns: max-content max-content; 
+		grid-template-columns: max-content max-content;
 		gap: 0.5rem;
 		overflow: visible;
 	}
 
 	@media (max-width: 600px) {
-		nav > div  {
+		nav > div {
 			grid-gap: 0;
 		}
 	}
 
 	.button {
 		animation: slowShinyText 0.5s linear alternate infinite;
-        animation-play-state: paused;
+		animation-play-state: paused;
 	}
 
 	.button:hover {
-        animation-play-state: running;
-		
+		animation-play-state: running;
 	}
 
 	.trademark {
@@ -222,17 +217,17 @@
 		transform: translateY(0.05em);
 	}
 
-    #cta-caret {
-        font-size: 0.75em;
-        position: relative;
-        top: -0.0625em;
-        transform: rotate(0deg);
-        transition: 0.25s;
+	#cta-caret {
+		font-size: 0.75em;
+		position: relative;
+		top: -0.0625em;
+		transform: rotate(0deg);
+		transition: 0.25s;
 		height: 1rem;
 		display: grid;
 		align-content: center;
 		margin-right: 0.5rem;
-    }
+	}
 
 	#cta-caret svg {
 		height: 0.625rem;
@@ -245,31 +240,31 @@
 		fill: none;
 		stroke-linecap: round;
 	}
-    .menuOpen #cta-caret {
-        transform: rotate(90deg);
-        transition: 0.25s transform;
+	.menuOpen #cta-caret {
+		transform: rotate(90deg);
+		transition: 0.25s transform;
 		transform-origin: 50% 50%;
-    }
+	}
 
 	h1 {
 		/* position: absolute; */
 		font-size: 1rem;
-		font-feature-settings: "case";
+		font-feature-settings: 'case';
 		font-weight: 600;
 		margin: 0;
 		text-transform: uppercase;
 		animation: shinyText 1.5s linear infinite;
 		animation-play-state: var(--animationState);
 	}
-	div { 
-		width: 100%; 
-		height: 100%; 
+	div {
+		width: 100%;
+		height: 100%;
 		overflow: hidden;
 		display: grid;
 		justify-content: center;
 		align-content: start;
 	}
-	
+
 	#menu-list {
 		list-style: none;
 		position: absolute;
@@ -310,11 +305,9 @@
 		transition: 0.25s opacity;
 		z-index: 1;
 	}
-	#menu-scrim.menuOpen{
+	#menu-scrim.menuOpen {
 		display: block;
 		opacity: 0.5;
 		pointer-events: all;
 	}
-
-    
 </style>

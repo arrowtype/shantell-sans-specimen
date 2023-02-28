@@ -2,8 +2,7 @@
 import adapter from '@sveltejs/adapter-static';
 
 // const dev = process.env.NODE_ENV === 'development';
-const dev = "production" === "development";
-
+const dev = 'production' === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -17,13 +16,13 @@ const config = {
 			precompress: false,
 			strict: true,
 			paths: {
-				base: dev ? '' : '/shantell-sans-specimen-2', // update repo name as needed
-			},
+				base: dev ? '' : '/shantell-sans-specimen-2' // update repo name as needed
+			}
 			// hydrate the <div id="svelte"> element in src/app.html
 			// target: "#svelte"
-		  })
-		},
-	extensions: [".svelte", ".md"], // <--
+		})
+	},
+	extensions: ['.svelte', '.md'] // <--
 };
 
 export default config;
