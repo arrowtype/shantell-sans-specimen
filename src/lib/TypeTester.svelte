@@ -3,22 +3,32 @@
 	import Slider from '$lib/Slider.svelte';
 	import { onMount } from 'svelte';
 
-	// basic font sizing & layout
-	export let initialSizeVmin;
 	// export let sizePx = 200; // comes from TypeTesterText component (?)
+	/**
+	 * @type {number}
+	 */
 	let sizePx;
 	export let sizePxMin = 4;
 	export let sizePxMax = 250;
 	export let maxVmin = 32;
 	export let minLineHeight = 1;
 	export let maxLineHeight = 1.5;
-	export let lineHeightSizeScalingMinPx = 32;
 	export let lineHeightSizeScalingCapPx = 160;
 	export let lineHeight = 1;
 
+	/**
+	 * @type {number}
+	 */
 	let updatedSizeVmin;
 
+	let sizeVmin;
+	/**
+	 * @type {number}
+	 */
 	let innerWidth;
+	/**
+	 * @type {number}
+	 */
 	let innerHeight;
 
 	// variable axes
@@ -43,6 +53,7 @@
 
 	export let spacMin = 0;
 	export let spacMax = 100;
+	
 
 	onMount(() => {
 		// adapted from https://svelte.dev/repl/30667c29ab92487597f7e845578f263a?version=3.55.1
@@ -64,12 +75,20 @@
 
 	// handle font scaling & layout
 
+	/**
+	 * @param {number} innerWidth
+	 * @param {number} innerHeight
+	 */
 	function oneVmin2px(innerWidth, innerHeight) {
 		let windowMin = innerWidth < innerHeight ? innerWidth : innerHeight;
 		let oneVmin = windowMin / 100;
 		return oneVmin;
 	}
 
+	/**
+	 * @param {number} innerWidth
+	 * @param {number} innerHeight
+	 */
 	function setInitialFontSize(innerWidth, innerHeight) {
 		let oneVmin = oneVmin2px(innerWidth, innerHeight);
 		sizePxMax = oneVmin * maxVmin;
@@ -81,6 +100,10 @@
 		setLineHeight();
 	}
 
+	/**
+	 * @param {number} innerWidth
+	 * @param {number} innerHeight
+	 */
 	function handleResize(innerWidth, innerHeight) {
 		let oneVmin = oneVmin2px(innerWidth, innerHeight);
 		sizePxMax = oneVmin * maxVmin;
@@ -118,39 +141,12 @@
 		}
 	}
 
-	// Font features
-
-	let showOptions = false;
-	let optionsState = 'hide-options';
-
-	// //JUST FOR DESIGN PHASE
-	// let showOptions = true
-	// let optionsState = "show-options"
-	// //JUST FOR DESIGN PHASE
-
-	function showOptionsDrawer() {
-		showOptions = true;
-		optionsState = 'show-options';
-	}
-	function hideOptionsDrawer() {
-		showOptions = false;
-		optionsState = 'hide-options';
-	}
-
-	let fontFeatures = '';
-
-	let feaState = [];
-
-	function handleFeatures(event) {
-		fontFeatures = `'${[...event.detail.active].join("','")}'`;
-		feaState = [...event.detail.active];
-	}
 </script>
 
 <svelte:window bind:innerWidth bind:innerHeight />
 
 <section>
-	<TypeTesterText {sizePx} {wght} {ital} {infm} {bnce} {spac} fontFea={fontFeatures} {lineHeight} />
+	<TypeTesterText {sizePx} {wght} {ital} {infm} {bnce} {spac} {lineHeight} />
 
 	<!-- type style sliders -->
 	<div id="control-container">

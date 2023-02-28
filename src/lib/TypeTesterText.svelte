@@ -24,7 +24,7 @@
 
 <div
 	id="type-area"
-	{sizePx}
+
 	{wght}
 	{ital}
 	{infm}

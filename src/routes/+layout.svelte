@@ -1,7 +1,4 @@
 <script>
-	import PlayPause from '$lib/PlayPause.svelte';
-	// import DropdownMenu from "$lib/DropdownMenu.svelte";
-	import { createEventDispatcher, onDestroy } from 'svelte';
 	import Footer from '$lib/Footer.svelte';
 
 	import { animationState, canAnimate } from '../stores.js';
@@ -108,7 +105,7 @@
 <nav bind:this={header} id="header">
 	<div>
 		<a href="./" class="button" tabindex="0" on:click={closeMenu}
-			>Shantell Sans<span class="trademark">™</span></a
+			><h1>Shantell Sans<span class="trademark">™</span></h1></a
 		>
 		<!-- <PlayPause /> -->
 	</div>

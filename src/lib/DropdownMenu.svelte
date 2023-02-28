@@ -17,9 +17,12 @@
 		window.scrollTo(0, parseInt(scrollY || '0') * -1);
 	}
 
+	/**
+	 * @type {HTMLDivElement}
+	 */
 	let modal;
 
-	const handle_keydown = (e) => {
+	const handle_keydown = (/** @type {{ key: string; shiftKey: any; preventDefault: () => void; }} */ e) => {
 		if (e.key === 'Escape') {
 			close();
 			return;

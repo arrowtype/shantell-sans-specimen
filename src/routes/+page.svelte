@@ -9,14 +9,26 @@
 	export const prerender = true;
 
 	// for intersection observer
+	/**
+	 * @type {HTMLDivElement}
+	 */
 	let node;
+	/**
+	 * @type {HTMLDivElement}
+	 */
 	let node1;
+	/**
+	 * @type {HTMLDivElement}
+	 */
 	let node2;
 
 	import { animationState } from '../stores.js';
 
 	let m = { x: 0, y: 0 };
 
+	/**
+	 * @type {HTMLDivElement}
+	 */
 	let wall;
 	let count = 0;
 
@@ -49,6 +61,9 @@
 		'May you always dream.'
 	];
 
+	/**
+	 * @type {string | any[]}
+	 */
 	let phrase = [];
 
 	function clearWall() {
@@ -186,73 +201,8 @@
 		header button:hover span {
 			animation-play-state: paused;
 		}
-		button.playPauseToggle {
-			opacity: 0;
-		}
+
 	}
 
-	#playPauseToggle {
-		position: fixed;
-		bottom: 2rem;
-		right: 2rem;
-		pointer-events: auto;
-		cursor: pointer;
-		font-size: 1rem;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 0.25rem;
-		/* width: 2.4em;
-		height: 2.4em; */
-		width: 3em;
-		height: 3em;
-		overflow-x: hidden;
-		transition: 0.25s width;
-		border: none;
-		background: var(--trackBg);
-		color: var(--text);
-		padding: 0.25rem 1.05rem;
-		border-radius: 999px;
-		font-weight: 700;
-		line-height: 1;
-		letter-spacing: 0.03em;
-		margin: 0;
-		transition: 0.25s background, 0.25s color, 0.25s width;
-		border: transparent solid 2px;
-		font-variation-settings: 'BNCE' 25, 'INFM' 75;
-	}
-	#playPauseToggle:hover {
-		border: var(--text) solid 2px;
-	}
-	#playPauseToggle.paused:hover {
-		/* width: 5.5em; */
-		width: 8em;
-	}
-	#playPauseToggle.running:hover {
-		/* width: 6.4em; */
-		width: 8em;
-	}
-
-	#playPauseToggle #pauseText,
-	#playPauseToggle #playText {
-		opacity: 0%;
-		transition: 0.25s opacity;
-		padding-left: 0.25rem;
-	}
-	#playPauseToggle:hover #pauseText,
-	#playPauseToggle:hover #playText {
-		opacity: 100%;
-		transform: scaleX(100%);
-		width: auto;
-	}
-
-	@media (max-width: 500px) {
-		#playPauseToggle:hover {
-			width: 2.4em !important;
-		}
-		#pauseText,
-		#playText {
-			display: none;
-		}
-	}
+	
 </style>

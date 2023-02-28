@@ -1,5 +1,8 @@
 <script>
-	export let animationState;
+	/**
+	 * @type {string}
+	 */
+	 export let animationState;
 </script>
 
 <article class="contents">

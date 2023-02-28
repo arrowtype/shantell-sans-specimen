@@ -8,8 +8,8 @@
 
 <figure>
     <img loading="lazy" src="assets/shantell-martin-portrait.jpg" alt="Shantell Martin drawing on a piece of paper" title="Shantell Martin, Photo credit Michelle Mosqueda">
+    <figcaption>Shantell Martin, Photo credit Michelle Mosqueda</figcaption>
 </figure>
-<figcaption>Shantell Martin, Photo credit Michelle Mosqueda</figcaption>
 
 One of my first relationships with words was back in elementary school. We did spelling tests every week. Since I never passed them, I had to sit in detention.
 
@@ -41,15 +41,15 @@ I have started to use Shantell Sans in some of my projects. I designed key tags 
 
 <figure>
     <img loading="lazy" src="assets/various-keytags-cleanup.jpg" alt="Shantell Martin Various Keytags for the Whitney Museum of Art" title="Shantell Martin Various Keytags for the Whitney Museum of Art">
+    <figcaption>Key tags for the Whitney Shop, by <a href="https://variouskeytags.com/">Various Keytags</a>, featuring artwork by Shantell Martin and text in Shantell Sans</figcaption>
 </figure>
-<figcaption>Key tags for the Whitney Shop, by <a href="https://variouskeytags.com/">Various Keytags</a>, featuring artwork by Shantell Martin and text in Shantell Sans</figcaption>
 
 Working with Cash App, a financial services platform, I helped create [a cash card](https://www.instagram.com/p/Cev757GgkN1/). The cash tag and the numbers and everything on the back of the card is in Shantell Sans.
 
 <figure>
     <img loading="lazy" src="assets/in_use-cashapp.png" alt="Shantell Sans in use for a Cash App card design" title="Shantell Sans in use for a Cash App card design">
+    <figcaption>Cash App used Shantell Sans to let users order a physical Cash Card, customized with their info.</figcaption>
 </figure>
-<figcaption>Cash App used Shantell Sans to let users order a physical Cash Card, customized with their info.</figcaption>
 
 Beyond that, a few other brands have started to find creative uses for Shantell Sans.
 
@@ -57,15 +57,15 @@ It’s been used by tldraw, a collaborative drawing app on the web, as the prima
 
 <figure>
     <img loading="lazy" src="assets/in_use-tldraw.png" alt="Shantell Sans in use by tldraw" title="Shantell Sans in use by tldraw">
+    <figcaption>Shantell Sans has been made the primary font of <a href="https://beta.tldraw.com/">tldraw</a></figcaption>
 </figure>
-<figcaption>Shantell Sans has been made the primary font of <a href="https://beta.tldraw.com/">tldraw</a></figcaption>
 
 It’s also been made into a web-building template by <a href="https://univer.se/">univer.se</a>, an app that lets users build websites on their phone.
 
 <figure>
     <img loading="lazy" src="assets/in_use-universe.png" alt="Shantell Sans in use by univer.se" title="Shantell Sans in use by univer.se">
+    <figcaption>Shantell Sans was used for a web-building template by <a href="https://univer.se/">univer.se</a></figcaption>
 </figure>
-<figcaption>Shantell Sans was used for a web-building template by <a href="https://univer.se/">univer.se</a></figcaption>
 
 These use cases only hint at what Shantell Sans might do in the future – I look forward to seeing what others create with it!
 
@@ -77,8 +77,8 @@ I felt both honored and keenly interested when Shantell first reached out to me 
 
 <figure>
     <img loading="lazy" src="assets/conversation-starter.png" alt="Dramatic recreation of the initial project conversation" title="Dramatic recreation of the initial project conversation">
+    <figcaption>The initial project conversation, paraphrased.</figcaption>
 </figure>
-<figcaption>The initial project conversation, paraphrased.</figcaption>
 
 We chatted a bit about what that typeface might be, but what truly caught my attention were four words: Shantell said she wanted to make “a new Comic Sans.”
 
@@ -86,7 +86,7 @@ _Heck_ yes – that was a prompt I could get into. Few typefaces have reached th
 
 Like most successful typefaces, Comic Sans was actually made for a very specific purpose, before gaining adoption far beyond that initial use case. Comic Sans was designed by Vincent Connare in 1994 as a font for Microsoft Bob, which was software intended to provide a more-approachable user interface for Windows. As described [on Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Bob):
 
-> Microsoft Bob presented screens showing a "house", with "rooms" that the user could go to containing familiar objects corresponding to computer applications—for instance, a desk with pen and paper, a checkbook, and other items. In this case, clicking on the pen and paper would open the word processor. … A cartoon dog named Rover and other cartoon characters provided guidance using speech balloons.
+> Microsoft Bob presented screens showing a "house," with "rooms" that the user could go to containing familiar objects corresponding to computer applications—for instance, a desk with pen and paper, a checkbook, and other items. In this case, clicking on the pen and paper would open the word processor. … A cartoon dog named Rover and other cartoon characters provided guidance using speech balloons.
 
 Microsoft Bob was released before Comic Sans could be completed, and Bob itself didn’t last long due to lukewarm reception by reviewers and users. However, Comic Sans went on to be pre-installed in both Windows and Mac operating systems, where its unique appearance has since endeared it to a vast amount of users, making it used in everything from the tags on Ty _Beanie Babies_ (from the 5th generation on) to [a 2012 CERN presentation](https://www.theverge.com/2012/7/4/3136652/cern-scientists-comic-sans-higgs-boson) on the Higgs Boson particle.
 
@@ -114,8 +114,8 @@ These decisions help make Shantell Sans easy to use in everyday scenarios like w
 
 <figure>
     <img loading="lazy" src="assets/average-metrics.png" alt="A comparison of the relative sizing between fonts Shantell Sans and Roboto" title="A comparison of the relative sizing between fonts Shantell Sans and Roboto">
+    <figcaption>A comparison of the relative sizing between fonts Shantell Sans and Roboto</figcaption>
 </figure>
-<figcaption>A comparison of the relative sizing between fonts Shantell Sans and Roboto</figcaption>
 
 ### 3. Usable and Available
 
@@ -123,8 +123,8 @@ For the font to be usable by a wide range of people, it should support a wide ra
 
 <figure>
     <img loading="lazy" src="assets/sample-languages.png" alt="All human beings are born free and equal in dignity and rights, in different languages on 14 lines" title="Text in some of the languages supported by Shantell Sans">
+    <figcaption>Text in some of the languages supported by Shantell Sans</figcaption>
 </figure>
-<figcaption>Text in some of the languages supported by Shantell Sans</figcaption>
 
 To make the font available to the widest range of people possible, we decided to release it as a free to use, open-source font. Releasing under an OFL license, with support from Google Fonts, helped make this possible.
 
@@ -136,15 +136,15 @@ The lowercase “n” and “u” are differentiated because the “n” has a t
 
 <figure>
     <img loading="lazy" src="assets/differentiated-letters-diagram.png" alt="Comparison of visual distinctions between potentially similar characters" title="Comparison of visual distinctions between potentially similar characters">
+    <figcaption>Carefully placed exit strokes, serifs, and flags help differentiate groups of characters that might otherwise have similar structures, such as <strong>I l 1</strong>, <strong>n u</strong>, and <strong>b d p q</strong>.</figcaption>
 </figure>
-<figcaption>Carefully placed exit strokes, serifs, and flags help differentiate groups of characters that might otherwise have similar structures, such as <strong>I l 1</strong>, <strong>n u</strong>, and <strong>b d p q</strong>.</figcaption>
 
 As you might expect in a handwritten font, the “a” and “g” use the single-story forms that kids tend to learn in school, keeping the font friendly and familiar.
 
 <figure>
     <img loading="lazy" src="assets/simple-a-g-diagram.png" alt="Single-story a and g in Shantell Sans" title="Single-story a and g in Shantell Sans">
+    <figcaption>Shantell Sans opts for single-story constructions of <strong>a</strong> and <strong>g</strong> to reflect Shantell’s handwriting.</figcaption>
 </figure>
-<figcaption>Shantell Sans opts for single-story constructions of <strong>a</strong> and <strong>g</strong> to reflect Shantell’s handwriting.</figcaption>
 
 ### 5. Do something new
 
@@ -157,8 +157,8 @@ To take the creative possibilities even further, I wanted to see how I might bri
     <video autoplay muted loop playsinline>
         <source src="assets/kinetic4.mp4" type="video/mp4" />
     </video>
+    <figcaption>Animation of all five variable axes of Shantell Sans: Weight, Italic, Informality, Bounce, and Spacing</figcaption>
 </figure>
-<figcaption>Animation of all five variable axes of Shantell Sans: Weight, Italic, Informality, Bounce, and Spacing</figcaption>
 
 And finally, to make sure the typeface would support the needs of detailed typography, it had to also include OpenType features like tabular vs proportional figures, fractions, and localized forms.
 
@@ -172,15 +172,15 @@ Shantell chose a favorite medium-sized felt tip marker (Staedtler Lumocolor M) a
 
 <figure>
     <img loading="lazy" src="assets/shantell-with-markers.jpg" alt="Shantell Martin holding Staedler markers, with handwriting samples in the background" title="Shantell Martin holding Staedler markers, with handwriting samples in the background">
+    <figcaption>To gather samples of her handwriting, Shantell wrote several pangrams and a collection of symbols with a favorite marker, the Staedtler Lumocolor M</figcaption>
 </figure>
-<figcaption>To gather samples of her handwriting, Shantell wrote several pangrams and a collection of symbols with a favorite marker, the Staedtler Lumocolor M</figcaption>
 
 She scanned these, and I set to work tracing them – starting with a centered line through the pen strokes, then expanding this into Light and ExtraBold strokes. Because Shantell’s original writing includes a lot more variation in sizing and rhythm than the fonts we are all used to reading, I subtly modified the character proportions to have somewhat-normalized, consistent heights, widths, and spacing. But, key aspects of letter shaping were retained, like the way the crossbars Shantell’s **t** and **f** don’t go left of the main stems, the way the **A** and **R** start from the top left but the **P** is a simple loop starting from the bottom left, and the way the **M** and **W** are continuous waves rather than separate diagonal strokes.
 
 <figure>
     <img loading="lazy" src="assets/select-letters-enlarged-80.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans" title="Key letters of Shantell’s handwriting compared to Shantell Sans">
+    <figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans SemiBold</figcaption>
 </figure>
-<figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans SemiBold</figcaption>
 
 We then explored which direction to go in, aesthetically: should the glyphs be truly monolinear, with circular endcaps – similar to Comic Sans – or should they retain more of the organic, sometimes sharp shaping of the felt-marker writing? Neither extreme felt quite right, so we opted to go for something in the middle: strokes are drawn with a little bit of the sharpness and contrast that helps make Shantell’s writing so engaging, but they are also made a little more uniform in thickness and given softened, semi-rounded endings. This strikes a balance, retaining a sense of marker writing while also being approachable and warm in their digital form.
 
@@ -193,8 +193,8 @@ Once we had a solid basis for the project, I worked backwards a little bit: I ma
     <video autoplay muted loop playsinline>
         <source src="assets/informality.mp4" type="video/mp4" />
     </video>
+    <figcaption>This animation shows the Weight and Informality axes. Both text blocks cycle between Light and ExtraBold weights. The bottom text also cycles between Informality 0 and 100.</figcaption>
 </figure>
-<figcaption>This animation shows the Weight and Informality axes. Both text blocks cycle between Light and ExtraBold weights. The bottom text also cycles between Informality 0 and 100.</figcaption>
 
 With these “main sources” created, I then entered another, somewhat more geeky phase of the project: using Python code to generate the sources I could build into the full set of working variable & static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for _Bounce_ and _Informality_, and these aren’t styles I drew entirely by hand. Instead, a script was used to **A)** make Bouncy styles in which glyphs are shifted up or down, and **B)** make Irregular styles in which glyphs are interpolated between the “normal” & “organic” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied to anything from a subtle or to an exaggerated degree.
 
@@ -203,8 +203,8 @@ With these “main sources” created, I then entered another, somewhat more gee
     <video autoplay muted loop playsinline>
         <source src="assets/bounce.mp4" type="video/mp4" />
     </video>
+    <figcaption>The animation shows the Weight and Bounce axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Bounce -100 and +100.</figcaption>
 </figure>
-<figcaption>The animation shows the Weight and Bounce axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Bounce -100 and +100.</figcaption>
 
 Was this last part necessary? Probably not. Was it easy? Nope. Is it cool? I think so! Aside from its obvious and fun possibilities of bouncy and/or irregular typography, these experimental styles enable animated type that doesn’t just sit still, but rather pulses and undulates in a familiar-yet-unfamiliar way. Sure, this type of animation could be achieved with any font with enough work in After Effects or through manipulation with JavaScript, but like many things in type, the value here is that it makes a new aesthetic available in a way that is not only easy to use but also deeply considered along with the design of a cohesive system.
 
@@ -219,8 +219,8 @@ With support from Google Fonts, we extended the stylistic range of the typeface,
     <video autoplay muted loop playsinline>
         <source src="assets/spacing.mp4" type="video/mp4" />
     </video>
+    <figcaption>The animation shows the Weight and Spacing axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Tracking 0 and 100.</figcaption>
 </figure>
-<figcaption>The animation shows the Weight and Spacing axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Tracking 0 and 100.</figcaption>
 
 Best of all, we also extended the fonts to include wider language support: the Latin script was expanded with Vietnamese characters and many more currency symbols, but even more notably, a whole new set of languages was given support through the addition of Cyrillics!
 
@@ -238,8 +238,8 @@ Cyrillic can be quite prolific with a variety of shapes. There can be upright (A
 
 <figure>
     <img loading="lazy" src="assets/cyr_1-styles.png" alt="Cyrillic characters а, б, в, д, ж, and ы in upright, italic and cursive styles of writing" title="Some examples of how Cyrillic letterforms can be different in upright, italic and cursive styles of writing">
+    <figcaption>Some examples of how Cyrillic letterforms can be different in upright, italic and cursive styles of writing</figcaption>
 </figure>
-<figcaption>Some examples of how Cyrillic letterforms can be different in upright, italic and cursive styles of writing</figcaption>
 
 Shantell’s handwriting is a mixture of cursive and printed shapes, which is a common thing: in the UK and in the US, children are taught first cursive shapes, then printed ones. My own handwriting is a mixture of two, as well. But, Shantell writes only in Latin, so I had to figure out how to translate her shapes into Cyrillic. Which letters would be cursive, and which ones printed?
 
@@ -247,15 +247,15 @@ We asked Shantell to write a couple of sentences in Russian, just to see her app
 
 <figure>
     <img loading="lazy" src="assets/cyr_2-scans.png" alt="Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow" title="Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow">
+    <figcaption>Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow</figcaption>
 </figure>
-<figcaption>Results of Shantell’s writing in Cyrillic, the different shapes of same letters were provided as examples to follow</figcaption>
 
 I tried these letterforms in the font. There were very few clear answers on what Cyrillic shapes should look like in Shantell Sans, so I explored many versions of characters to compare shapes in text and in different languages.
 
 <figure>
     <img loading="lazy" src="assets/cyr_3-style-tests.png" alt="Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans" title="Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans">
+    <figcaption>Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans</figcaption>
 </figure>
-<figcaption>Excerpt from a proof testing different versions of letters, to determine which felt most natural in Shantell Sans</figcaption>
 
 It was a matter of a feeling: some shapes felt right in this typeface, while others – even when they typically should be written in a different way – felt wrong. I had the pleasure of consulting with fellow Cyrillic type designers [Maria Doreuli](https://contrastfoundry.com/), [Krista Radoeva](https://www.instagram.com/kristaradoeva/), and [Alexei Vanyashin](http://www.110design.ru/), and most of the time “the feeling” of right and wrong shapes was the same for us.
 
@@ -263,15 +263,15 @@ In Bulgarian and Serbian languages, which usually have some conventional shapes 
 
 <figure>
     <img loading="lazy" src="assets/cyr_4-m.png" alt="Bulgarian “т” and “м” versus the “m” in Latin" title="Bulgarian “т” and “м” versus the “m” in Latin">
+    <figcaption>Bulgarian “т” and “м” versus the “m” in Latin</figcaption>
 </figure>
-<figcaption>Bulgarian “т” and “м” versus the “m” in Latin</figcaption>
 
 Usually, shapes that look similar in lowercase and uppercase have a similar approach, but in Shantell Sans, a lot of them are slightly different, in order to keep the lively handwriting feeling. With letters like the Serbian **nje**, I had to be sure both shapes would look natural to a native reader. That’s why I also consulted designer [Jovana Jocić](https://www.instagram.com/zacan_macan/) for the Serbian language.
 
 <figure>
     <img loading="lazy" src="assets/cyr_5-nje-colorshift.png" alt="Various possibilities of writing “nje” in Serbian" title="Various possibilities of writing “nje” in Serbian">
+    <figcaption>Testing various possibilities of the Serbian “nje.” The goal was to create slightly different shapes for capital and lowercase forms, where the lowercase shape would be done in one stroke and the uppercase shape would be done in two.</figcaption>
 </figure>
-<figcaption>Testing various possibilities of the Serbian “nje.” The goal was to create slightly different shapes for capital and lowercase forms, where the lowercase shape would be done in one stroke and the uppercase shape would be done in two.</figcaption>
 
 Overall, it was an incredible pleasure to work on this project, and its many design challenges only made working on Cyrillic more interesting.
 
