@@ -32,6 +32,7 @@
 	--animationState: running;
 	/* --uiAccent: rgb(44, 44, 255); */
 	--uiAccent: hsl(228, 100%, 50%);
+	--uiAccentBright: hsla(189, 80%, 80%,0.5);
 
 	--text-column: 800px;
 }
@@ -47,7 +48,9 @@
 		--altText: white;
 		--trackBg: hsl(230, 0%, 15%);
 		--accent: white;
-		--uiAccent: hsl(26, 100%, 65%);
+		/* --uiAccent: hsl(26, 100%, 65%); */
+		--uiAccent: hsl(4, 100%, 70%);
+		--uiAccentBright: hsl(0, 35%, 50%);
 	}
 }
 
@@ -172,7 +175,7 @@ header .button:hover,
 }
 
 *::selection {
-	background: var(--uiAccent);
+	background: var(--uiAccentBright);
 }
 
 .tnum {
