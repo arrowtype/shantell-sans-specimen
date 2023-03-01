@@ -69,7 +69,10 @@ It’s also been made into a web-building template by <a href="https://univer.se
     <figcaption>Shantell Sans was used for a web-building template by <a href="https://univer.se/">univer.se</a></figcaption>
 </figure>
 
-These use cases only hint at what Shantell Sans might do in the future – I look forward to seeing what others create with it!
+And now, Shantell Sans is available via [Google Fonts](https://fonts.google.com/specimen/Shantell+Sans), [Google Docs](https://docs.google.com/document/d/1StoSWKAkyDhHLeBe_2kVe-7EXfBcoSs6J7d-uW2vDsM/edit?usp=sharing), and as [a download from its open repo on GitHub](https://github.com/arrowtype/shantell-sans/releases/download/1.008/Shantell_Sans_1.008.zip) – so anyone can start creating with it.
+
+If you do make something with Shantell Sans and post it to social media, use the hashtag **#shantellsans** – I’d love to see what you create!
+
 
 <h2>Design Process</h2>
 
