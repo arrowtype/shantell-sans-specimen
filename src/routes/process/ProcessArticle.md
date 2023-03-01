@@ -1,6 +1,8 @@
 # The Story of Shantell Sans
 
-**_Shantell Sans mixes variable axes for Weight, Italic, Informality, and Bounce to deliver a wide array of font styles, from friendly, readable, everyday typographic workhorses to striking, high-energy, experimental styles meant especially for animation. This is the story behind its inspiration and creation._**
+*Shantell Sans mixes variable axes for Weight, Italic, Informality, and Bounce to deliver a wide array of font styles, from friendly, readable, everyday typographic workhorses to striking, high-energy, experimental styles meant especially for animation.*
+
+*This is the story behind its inspiration and creation.*
 
 <h2>Why make a new font?</h2>
 
@@ -53,7 +55,7 @@ Working with Cash App, a financial services platform, I helped create [a cash ca
 
 Beyond that, a few other brands have started to find creative uses for Shantell Sans.
 
-It’s been used by tldraw, a collaborative drawing app on the web, as the primary writing font.
+It’s been used by [tldraw](https://beta.tldraw.com), a collaborative drawing app on the web, as the primary font for writing.
 
 <figure>
     <img loading="lazy" src="assets/in_use-tldraw.png" alt="Shantell Sans in use by tldraw" title="Shantell Sans in use by tldraw">
@@ -130,16 +132,16 @@ To make the font available to the widest range of people possible, we decided to
 
 ### 4. Easy to Read
 
-To make sure the font met Shantell’s goals of making an easy-to-read font, I made sure that the characters could be distinguished from one another. Shantell naturally writes letters like “b”, “d”, “p”, “q” and “n” and “u” that are clearly differentiated from one another through a contrast of simple shapes and well-placed exit [strokes](https://fonts.google.com/knowledge/glossary/stroke). Shantell sometimes writes the uppercase “I” and numeral “1” as only straight lines. To keep these letters distinct, I added serifs to the uppercase “I” and a flag to “1.”
+To make sure the font met Shantell’s goals of making an easy-to-read font, I made sure that the characters could be distinguished from one another. Shantell naturally writes letters like **b**, **d**, **p**, **q** and **n** and **u** that are clearly differentiated from one another through a contrast of simple shapes and well-placed exit [strokes](https://fonts.google.com/knowledge/glossary/stroke). Shantell sometimes writes the uppercase **I** and numeral **1** as only straight lines. To keep these letters distinct, I added serifs to the uppercase **I** and a flag to **1**”
 
-The lowercase “n” and “u” are differentiated because the “n” has a typical, "zig-zag" form, while the u has a simplified form without a tail or exit stroke.
+The lowercase **n** and **u** are differentiated because the **n** has a typical, "zig-zag" form, while the **u** has a simplified form without a tail or exit stroke.
 
 <figure>
     <img loading="lazy" src="assets/differentiated-letters-diagram.png" alt="Comparison of visual distinctions between potentially similar characters" title="Comparison of visual distinctions between potentially similar characters">
     <figcaption>Carefully placed exit strokes, serifs, and flags help differentiate groups of characters that might otherwise have similar structures, such as <strong>I l 1</strong>, <strong>n u</strong>, and <strong>b d p q</strong>.</figcaption>
 </figure>
 
-As you might expect in a handwritten font, the “a” and “g” use the single-story forms that kids tend to learn in school, keeping the font friendly and familiar.
+As you might expect in a handwritten font, the **a** and **g** use the single-story forms that kids tend to learn in school, keeping the font friendly and familiar.
 
 <figure>
     <img loading="lazy" src="assets/simple-a-g-diagram.png" alt="Single-story a and g in Shantell Sans" title="Single-story a and g in Shantell Sans">
@@ -259,7 +261,7 @@ I tried these letterforms in the font. There were very few clear answers on what
 
 It was a matter of a feeling: some shapes felt right in this typeface, while others – even when they typically should be written in a different way – felt wrong. I had the pleasure of consulting with fellow Cyrillic type designers [Maria Doreuli](https://contrastfoundry.com/), [Krista Radoeva](https://www.instagram.com/kristaradoeva/), and [Alexei Vanyashin](http://www.110design.ru/), and most of the time “the feeling” of right and wrong shapes was the same for us.
 
-In Bulgarian and Serbian languages, which usually have some conventional shapes that differ from default Cyrillic, I had to give my attention to the unexpected ones: for example, the Bulgarian **t** that is usually the same shape as Latin **m**. I had to adjust it, as in this particular style and font it felt like it might be confused with Cyrillic “m”.
+In Bulgarian and Serbian languages, which usually have some conventional shapes that differ from default Cyrillic, I had to give my attention to the unexpected ones: for example, the Bulgarian **t** that is usually the same shape as the Latin **m**. I had to adjust it, as in this particular style and font it felt like it might be confused with the Cyrillic **m**.
 
 <figure>
     <img loading="lazy" src="assets/cyr_4-m.png" alt="Bulgarian “т” and “м” versus the “m” in Latin" title="Bulgarian “т” and “м” versus the “m” in Latin">
