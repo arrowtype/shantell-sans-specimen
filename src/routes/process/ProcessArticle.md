@@ -191,7 +191,14 @@ We then explored which direction to go in, aesthetically: should the glyphs be t
 
 ### New variable axes
 
-Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. Letters with more horizontal strokes (like the **E** and **e**) tended to be taller than others while letters with more vertical strokes (like the **M** and **W**) tended to be wider and shorter. Simple shapes (like the **P**) tended to be smaller, while horizontal bars (like on the **G**, **R**, and **t**) tended to extend in a quick, long exit stroke.
+Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. 
+
+<figure>
+    <img loading="lazy" src="assets/handwriting-vf-font-informal.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans Informal SemiBold" title="Key letters of Shantell’s handwriting compared to Shantell Sans Informal SemiBold">
+    <figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans Informal SemiBold</figcaption>
+</figure>
+
+Letters with more horizontal strokes (like the **E** and **e**) tended to be taller than others while letters with more vertical strokes (like the **M** and **W**) tended to be wider and shorter. Simple shapes (like the **P**) tended to be smaller, while horizontal bars (like on the **G**, **R**, and **t**) tended to extend in a quick, long exit stroke. I still didn’t want to make the font *too* chaotic to be useful, so it was a balancing act to pull in more personality, but still keep things “font-like.”
 
 <figure>
     <!-- <img loading="lazy" src="assets/informality.gif" alt="Shantell Sans includes an axis for Informality" title="Shantell Sans includes an axis for Informality"> -->
@@ -201,7 +208,7 @@ Once we had a solid basis for the project, I worked backwards a little bit: I ma
     <figcaption>This animation shows the Weight and Informality axes. Both text blocks cycle between Light and ExtraBold weights. The bottom text also cycles between Informality 0 and 100.</figcaption>
 </figure>
 
-With these “main sources” created, I then entered another, somewhat more geeky phase of the project: using Python code to generate the sources I could build into the full set of working variable & static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for _Bounce_ and _Informality_, and these aren’t styles I drew entirely by hand. Instead, a script was used to **A)** make Bouncy styles in which glyphs are shifted up or down, and **B)** make Irregular styles in which glyphs are interpolated between the “normal” & “organic” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied to anything from a subtle or to an exaggerated degree.
+With these “main sources” created, I then entered another, somewhat more nerdy phase of the project: using Python code to generate the sources I could build into the full set of working variable & static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for _Bounce_ and _Informality_, and these aren’t styles I drew entirely by hand. Instead, a script was used to **A)** make Bouncy styles in which glyphs are shifted up or down, and **B)** make Informal styles in which glyphs are interpolated between the “normalized” & “irregular” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied with a range from subtle to pronouced.
 
 <figure>
     <!-- <img loading="lazy" src="assets/bounce.gif" alt="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations" title="The Bounce axis shifts glyphs up and down to allow a bouncy baseline and bouncing animations"> -->
