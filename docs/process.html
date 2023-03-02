@@ -36,14 +36,14 @@
 		<meta http-equiv="content-security-policy" content=""><title>Shantell Sans → Arrow Type</title><meta name="description" content="A font for artist Shantell Martin" data-svelte="svelte-1lv2o5g">
 	<link href="./_app/immutable/assets/_layout-ebbd43c3.css" rel="stylesheet">
 	<link href="./_app/immutable/assets/_page-f8110df1.css" rel="stylesheet">
-	<link rel="modulepreload" href="./_app/immutable/start-4fb326a2.js">
+	<link rel="modulepreload" href="./_app/immutable/start-89330bc2.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/index-572d2c78.js">
-	<link rel="modulepreload" href="./_app/immutable/chunks/singletons-183c8242.js">
+	<link rel="modulepreload" href="./_app/immutable/chunks/singletons-8bd710e4.js">
 	<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-0682487d.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/stores-88b9f270.js">
 	<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-7b9cbfbc.js">
 	<link rel="modulepreload" href="./_app/immutable/chunks/_layout-8d2a742b.js">
-	<link rel="modulepreload" href="./_app/immutable/components/pages/process/_page.svelte-5ae1c1e4.js">
+	<link rel="modulepreload" href="./_app/immutable/components/pages/process/_page.svelte-1212ccdc.js">
 	</head>
 	<body>
 		<div id="svelte">
@@ -162,11 +162,14 @@
     <figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans SemiBold</figcaption></figure>
 <p>We then explored which direction to go in, aesthetically: should the glyphs be truly monolinear, with circular endcaps – similar to Comic Sans – or should they retain more of the organic, sometimes sharp shaping of the felt-marker writing? Neither extreme felt quite right, so we opted to go for something in the middle: strokes are drawn with a little bit of the sharpness and contrast that helps make Shantell’s writing so engaging, but they are also made a little more uniform in thickness and given softened, semi-rounded endings. This strikes a balance, retaining a sense of marker writing while also being approachable and warm in their digital form.</p>
 <h3>New variable axes</h3>
-<p>Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. Letters with more horizontal strokes (like the <strong>E</strong> and <strong>e</strong>) tended to be taller than others while letters with more vertical strokes (like the <strong>M</strong> and <strong>W</strong>) tended to be wider and shorter. Simple shapes (like the <strong>P</strong>) tended to be smaller, while horizontal bars (like on the <strong>G</strong>, <strong>R</strong>, and <strong>t</strong>) tended to extend in a quick, long exit stroke.</p>
+<p>Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits.</p>
+<figure><img loading="lazy" src="assets/handwriting-vf-font-informal.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans Informal SemiBold" title="Key letters of Shantell’s handwriting compared to Shantell Sans Informal SemiBold">
+    <figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans Informal SemiBold</figcaption></figure>
+<p>Letters with more horizontal strokes (like the <strong>E</strong> and <strong>e</strong>) tended to be taller than others while letters with more vertical strokes (like the <strong>M</strong> and <strong>W</strong>) tended to be wider and shorter. Simple shapes (like the <strong>P</strong>) tended to be smaller, while horizontal bars (like on the <strong>G</strong>, <strong>R</strong>, and <strong>t</strong>) tended to extend in a quick, long exit stroke. I still didn’t want to make the font <em>too</em> chaotic to be useful, so it was a balancing act to pull in more personality, but still keep things “font-like.”</p>
 <figure>
     <video autoplay muted loop playsinline><source src="assets/informality.mp4" type="video/mp4"></video>
     <figcaption>This animation shows the Weight and Informality axes. Both text blocks cycle between Light and ExtraBold weights. The bottom text also cycles between Informality 0 and 100.</figcaption></figure>
-<p>With these “main sources” created, I then entered another, somewhat more geeky phase of the project: using Python code to generate the sources I could build into the full set of working variable &amp; static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for <em>Bounce</em> and <em>Informality</em>, and these aren’t styles I drew entirely by hand. Instead, a script was used to <strong>A)</strong> make Bouncy styles in which glyphs are shifted up or down, and <strong>B)</strong> make Irregular styles in which glyphs are interpolated between the “normal” &amp; “organic” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied to anything from a subtle or to an exaggerated degree.</p>
+<p>With these “main sources” created, I then entered another, somewhat more nerdy phase of the project: using Python code to generate the sources I could build into the full set of working variable &amp; static fonts. Normally, there wouldn’t be any separation between the drawn sources and the buildable sources, but Shantell Sans is a little different. The final fonts include stylistic axes for <em>Bounce</em> and <em>Informality</em>, and these aren’t styles I drew entirely by hand. Instead, a script was used to <strong>A)</strong> make Bouncy styles in which glyphs are shifted up or down, and <strong>B)</strong> make Informal styles in which glyphs are interpolated between the “normalized” &amp; “irregular” main sources. All sources were given several alternates of letters, numerals, and key symbols, so that the final fonts could rotate between these alternates in a pseudo-random way, ultimately giving the appearance of energetic writing. As these are variable axes, this effect can be applied with a range from subtle to pronouced.</p>
 <figure>
     <video autoplay muted loop playsinline><source src="assets/bounce.mp4" type="video/mp4"></video>
     <figcaption>The animation shows the Weight and Bounce axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Bounce -100 and +100.</figcaption></figure>
@@ -224,8 +227,8 @@
 </footer>
 
 
-		<script type="module" data-sveltekit-hydrate="s1k4rz">
-		import { start } from "./_app/immutable/start-4fb326a2.js";
+		<script type="module" data-sveltekit-hydrate="yxiaap">
+		import { start } from "./_app/immutable/start-89330bc2.js";
 
 		start({
 			env: {},
@@ -239,7 +242,7 @@
 				errors: null
 			},
 			paths: {"base":"","assets":""},
-			target: document.querySelector('[data-sveltekit-hydrate="s1k4rz"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="yxiaap"]').parentNode,
 			trailing_slash: "never"
 		});
 	</script>
