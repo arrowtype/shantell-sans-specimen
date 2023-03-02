@@ -183,7 +183,7 @@ Shantell chose a favorite medium-sized felt tip marker (Staedtler Lumocolor M) a
 She scanned these, and I set to work tracing them – starting with a centered line through the pen strokes, then expanding this into Light and ExtraBold strokes. Because Shantell’s original writing includes a lot more variation in sizing and rhythm than the fonts we are all used to reading, I subtly modified the character proportions to have somewhat-normalized, consistent heights, widths, and spacing. But, key aspects of letter shaping were retained, like the way the crossbars Shantell’s **t** and **f** don’t go left of the main stems, the way the **A** and **R** start from the top left but the **P** is a simple loop starting from the bottom left, and the way the **M** and **W** are continuous waves rather than separate diagonal strokes.
 
 <figure>
-    <img loading="lazy" src="assets/select-letters-enlarged-80.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans" title="Key letters of Shantell’s handwriting compared to Shantell Sans">
+    <img loading="lazy" src="assets/handwriting-vs-font-normal.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans" title="Key letters of Shantell’s handwriting compared to Shantell Sans">
     <figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans SemiBold</figcaption>
 </figure>
 
@@ -194,7 +194,7 @@ We then explored which direction to go in, aesthetically: should the glyphs be t
 Once we had a solid basis for the project, I worked backwards a little bit: I made additional styles that took those “normalized” fonts and reintroduced some of the irregularity of the scanned handwriting samples. You might expect this irregularity to be totally random, but it actually had certain repeating traits. 
 
 <figure>
-    <img loading="lazy" src="assets/handwriting-vf-font-informal.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans Informal SemiBold" title="Key letters of Shantell’s handwriting compared to Shantell Sans Informal SemiBold">
+    <img loading="lazy" src="assets/handwriting-vs-font-informal.jpg" alt="Key letters of Shantell’s handwriting compared to Shantell Sans Informal SemiBold" title="Key letters of Shantell’s handwriting compared to Shantell Sans Informal SemiBold">
     <figcaption>Key letters of Shantell’s handwriting compared to the same characters in Shantell Sans Informal SemiBold</figcaption>
 </figure>
 
