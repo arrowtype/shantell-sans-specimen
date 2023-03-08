@@ -12,9 +12,7 @@
 
 	<div id="wght" class="axis">
 		<div class="axis-diagram">
-			<span class="min">HHH</span>
-			<span class="between gray">→</span>
-			<span class="max">HHH</span>
+			<span class="min">HHH</span><span class="between gray">→</span><span class="max">HHH</span>
 		</div>
 		<h3 class="axis-name">
 			Weight <span class="axis-range">(300 to 800)</span> <span class="axis-tag">wght</span>
@@ -27,9 +25,7 @@
 
 	<div id="ital" class="axis">
 		<div class="axis-diagram">
-			<span class="min">HHH</span>
-			<span class="between gray">→</span>
-			<span class="max">HHH</span>
+			<span class="min">HHH</span><span class="between gray">→</span><span class="max">HHH</span>
 		</div>
 		<h3 class="axis-name">
 			Italic <span class="axis-range">(0 to 1)</span> <span class="axis-tag">ital</span>
@@ -42,9 +38,7 @@
 
 	<div id="INFM" class="axis">
 		<div class="axis-diagram">
-			<span class="min">HHH</span>
-			<span class="between gray">→</span>
-			<span class="max">HHH</span>
+			<span class="min">HHH</span><span class="between gray">→</span><span class="max">HHH</span>
 		</div>
 		<h3 class="axis-name">
 			Informality <span class="axis-range">(0 to 100)</span> <span class="axis-tag">IFNM</span>
@@ -57,9 +51,7 @@
 
 	<div id="BNCE" class="axis">
 		<div class="axis-diagram">
-			<span class="min">HHH</span>
-			<span class="between gray">→</span>
-			<span class="max">HHH</span>
+			<span class="min">HHH</span><span class="between gray">→</span><span class="max">HHH</span>
 		</div>
 		<h3 class="axis-name">
 			Bounce <span class="axis-range">(-100 to 100)</span> <span class="axis-tag">BNCE</span>
@@ -72,9 +64,7 @@
 
 	<div id="SPAC" class="axis">
 		<div class="axis-diagram">
-			<span class="min">HHH</span>
-			<span class="between gray">→</span>
-			<span class="max">HHH</span>
+			<span class="min">HHH</span><span class="between gray">→</span><span class="max">HHH</span>
 		</div>
 		<h3 class="axis-name">
 			Spacing <span class="axis-range">(0 to 100)</span> <span class="axis-tag">SPAC</span>
@@ -171,12 +161,27 @@
 		font-size: 4rem;
 		margin: 0;
 		line-height: 1;
+		display: flex;
+		column-gap: 0.25em;
 	}
 	@media (max-width: 600px) {
 		.axis-diagram {
 			font-size: 3.5rem;
 		}
 	}
+	@media (max-width: 400px) {
+		.axis-diagram {
+			font-size: 3rem;
+		}
+	}
+	@media (max-width: 350px) {
+		.axis-diagram {
+			font-size: 2.5rem;
+		}
+	}
+	#SPAC .max {
+		margin-left: -0.2em;
+	} 
 
 	.axis-range {
 		font-weight: 400;
@@ -188,7 +193,7 @@
 		font-family: Courier, monospace;
 		letter-spacing: 0.05em;
 		font-weight: 700;
-		font-size: 0.825em;
+		font-size: 1em;
 		color: var(--gray);
 		text-transform: none;
 		background: var(--trackBg);
@@ -210,6 +215,8 @@
 	.between {
 		font-variation-settings: 'wght' 300;
 		font-feature-settings: 'case';
+		/* margin-left: 0.25em;
+		margin-right: 0.25em; */
 	}
 	#wght .min {
 		font-variation-settings: 'wght' 300;
@@ -246,10 +253,20 @@
 		font-variation-settings: 'wght' 550, 'SPAC' 100;
 	}
 
+
 	@media (max-width: 600px) {
 		#SPAC .max {
-			font-variation-settings: 'wght' 550, 'SPAC' 50;
+			font-variation-settings: 'wght' 550, 'SPAC' 75;
 		}
 	}
+
+	@media (max-width: 600px) {
+	.axis-range {
+			margin-left: 0.5rem;
+	}
+	.axis-tag {
+		margin-left: 0.5rem;
+	}
+}
 
 </style>
