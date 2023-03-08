@@ -248,7 +248,7 @@
 
 	@media (max-width: 600px) {
 		#SPAC .max {
-			font-variation-settings: 'wght' 550, 'SPAC' 150;
+			font-variation-settings: 'wght' 550, 'SPAC' 50;
 		}
 	}
 
