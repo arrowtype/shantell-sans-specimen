@@ -41,7 +41,7 @@
 			<span class="min">HHH</span><span class="between gray">→</span><span class="max">HHH</span>
 		</div>
 		<h3 class="axis-name">
-			Informality <span class="axis-range">(0 to 100)</span> <span class="axis-tag">IFNM</span>
+			Informality <span class="axis-range">(0 to 100)</span> <span class="axis-tag">INFM</span>
 		</h3>
 		<p>
 			Adjusts glyph shapes from normalized proportions (with consistent heights and proportions for
