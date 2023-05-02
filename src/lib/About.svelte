@@ -49,7 +49,7 @@
 				</p>
 				<p class="colophon">
 					Type design & font development by <a target="_blank" href="https://arrowtype.com"
-						>Arrow&nbsp;Type</a
+						>ArrowType</a
 					>.
 				</p>
 				<p class="colophon">
