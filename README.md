@@ -35,4 +35,6 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Deployment
+
+You must run `npm run build` before pushing to GitHub. GitHub will then deploy the latest site to GH Pages and shantellsans.com
