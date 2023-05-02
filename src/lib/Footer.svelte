@@ -2,7 +2,7 @@
 	<p>
 		“May you...” words by <a target="_blank" href="https://shantellmartin.art">Shantell Martin</a>.
 	</p>
-	<p>Website by <a target="_blank" href="https://arrowtype.com">Arrow Type</a>.</p>
+	<p>Website by <a target="_blank" href="https://arrowtype.com">ArrowType</a>.</p>
 	<p class="line">------------</p>
 	<p>
 		<a target="_blank" href="https://github.com/arrowtype/shantell-sans">Shantell Sans on GitHub</a>

@@ -76,7 +76,7 @@ If you do make something with Shantell Sans and post it to social media, use the
 
 <h2>Design Process</h2>
 
-#### Stephen Nixon, type designer & font developer (Arrow Type)
+#### Stephen Nixon, type designer & font developer (ArrowType)
 
 I felt both honored and keenly interested when Shantell first reached out to me asking for a custom font, saying that she was “looking to make a usable, visually pleasing, smart, creative typeface.” I first encountered Shantell’s work in the form of large-scale murals, which I love for their exploratory, semi-spontaneous, and playful line artwork, and I was so excited to learn about Shantell’s wider range of creative and technological work.
 

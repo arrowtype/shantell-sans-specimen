@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Shantell Sans → Arrow Type</title>
+	<title>Shantell Sans → ArrowType</title>
 	<meta name="description" content="A font for artist Shantell Martin" />
 </svelte:head>
 

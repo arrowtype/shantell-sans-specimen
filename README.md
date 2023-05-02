@@ -4,7 +4,7 @@ A web specimen for [Shantell Sans](http://github.com/arrowtype/shantell-sans).
 
 ### Credits
 
-Website design and developement by Stephen Nixon / [Arrow Type](https://arrowtype.com).
+Website design and developement by Stephen Nixon / [ArrowType](https://arrowtype.com).
 
 Poetry, design input, and some writing from [Shantell Martin](https://shantellmartin.art).
 
