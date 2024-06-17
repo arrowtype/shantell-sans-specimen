@@ -22,7 +22,9 @@
 	 */
 	let modal;
 
-	const handle_keydown = (/** @type {{ key: string; shiftKey: any; preventDefault: () => void; }} */ e) => {
+	const handle_keydown = (
+		/** @type {{ key: string; shiftKey: any; preventDefault: () => void; }} */ e
+	) => {
 		if (e.key === 'Escape') {
 			close();
 			return;
@@ -68,7 +70,7 @@
 			>
 			<a
 				class="button"
-				href="https://github.com/arrowtype/shantell-sans/releases/download/1.008/Shantell_Sans_1.008.zip"
+				href="https://github.com/arrowtype/shantell-sans/releases/download/1.011/Shantell_Sans_1.011.zip"
 				>Download latest release&nbsp;↓</a
 			>
 		</div>

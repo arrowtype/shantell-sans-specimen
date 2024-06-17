@@ -2,7 +2,7 @@
 	/**
 	 * @type {string}
 	 */
-	 export let animationState;
+	export let animationState;
 </script>
 
 <article class="contents">
@@ -62,7 +62,7 @@
 				<li>
 					<a
 						class="cta"
-						href="https://github.com/arrowtype/shantell-sans/releases/download/1.008/Shantell_Sans_1.008.zip"
+						href="https://github.com/arrowtype/shantell-sans/releases/download/1.011/Shantell_Sans_1.011.zip"
 						style="--animationState: {animationState};">Download latest release ↓</a
 					>
 				</li>
