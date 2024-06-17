@@ -303,4 +303,4 @@ You can also use Shantell Sans on Google Docs, Slides, and other Workspace produ
 2. In the pop-up panel that opens, search for "Shantell Sans”
 3. Click on the family to add it to your fonts menu
 
-_Note: The Google Fonts Blog has [a simplified version of this article](add link when available)._
+_Note: The Google Material Design Blog has [a simplified version of this article](https://material.io/blog/shantell-martin-variable-font)._
