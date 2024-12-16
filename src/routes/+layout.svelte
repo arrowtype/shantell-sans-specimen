@@ -105,7 +105,7 @@
 <nav bind:this={header} id="header">
 	<div>
 		<a href="./" class="button" tabindex="0" on:click={closeMenu}
-			><h1>Shantell Sans<span class="trademark">™</span></h1></a
+			><h1>Shantell Sans<span class="trademark">®</span></h1></a
 		>
 		<!-- <PlayPause /> -->
 	</div>
@@ -209,9 +209,8 @@
 
 	.trademark {
 		margin-left: 0.1em;
-		font-size: 1.125em;
-		font-weight: 475;
-		transform: translateY(0.05em);
+		font-size: 1.05em;
+		font-weight: 350;
 	}
 
 	#cta-caret {
